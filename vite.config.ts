@@ -16,7 +16,8 @@ export default defineConfig(({ mode }) => {
       },
       resolve: {
         alias: {
-          '@': path.resolve(__dirname, '.'),
+          /* Fixed: Use path.resolve() without process.cwd() as it defaults to current working directory in Node.js */
+          '@': path.resolve('.'),
         }
       }
     };

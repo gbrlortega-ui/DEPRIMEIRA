@@ -2,19 +2,19 @@
 import React from 'react';
 import { SummaryModule } from '../types';
 
+const specialtyModules: SummaryModule[] = [
+  { id: '1', title: 'Módulos - Clínica Médica', description: 'Cardio, Nefro, Gastro e muito mais filtrado para as bancas de SP.', price: 0, oldPrice: 0, icon: 'medical_services', color: 'bg-red-500/10' },
+  { id: '2', title: 'Módulos - Pediatria', description: 'Puericultura, Neonatologia e Urgências Pediátricas essenciais.', price: 0, oldPrice: 0, icon: 'child_care', color: 'bg-blue-500/10' },
+  { id: '3', title: 'Módulos - Ginecologia e Obstetrícia', description: 'Obstetrícia e Ginecologia esquematizadas para provas reais.', price: 0, oldPrice: 0, icon: 'pregnant_woman', color: 'bg-pink-500/10' },
+  { id: '4', title: 'Módulos - Cirurgia', description: 'Trauma, Abdome Agudo e Cirurgia Geral direta ao ponto.', price: 0, oldPrice: 0, icon: 'content_cut', color: 'bg-green-500/10' },
+  { id: '5', title: 'Módulos - Saúde Coletiva', description: 'SUS, Epidemiologia e Ética Médica sem enrolação.', price: 0, oldPrice: 0, icon: 'poll', color: 'bg-purple-500/10' },
+  { id: '6', title: 'Combo COMPLETO 2025', description: 'Todos os ebooks de todas as especialidades em um único pacote promocional.', price: 0, oldPrice: 0, icon: 'auto_stories', color: 'bg-secondary/10' },
+];
+
 interface LandingPageProps {
   onStartQuiz: (amount: number) => void;
   onViewSummaries: () => void;
 }
-
-const specialtyModules: SummaryModule[] = [
-  { id: '1', title: 'Módulos - Clínica Médica', description: 'Cardio, Nefro, Gastro e muito mais filtrado para as bancas de SP.', price: 99.90, oldPrice: 142.71, icon: 'medical_services', color: 'bg-red-500/10' },
-  { id: '2', title: 'Módulos - Pediatria', description: 'Puericultura, Neonatologia e Urgências Pediátricas essenciais.', price: 39.90, oldPrice: 57.00, icon: 'child_care', color: 'bg-blue-500/10' },
-  { id: '3', title: 'Módulos - Ginecologia e Obstetrícia', description: 'Obstetrícia e Ginecologia esquematizadas para provas reais.', price: 39.90, oldPrice: 57.00, icon: 'pregnant_woman', color: 'bg-pink-500/10' },
-  { id: '4', title: 'Módulos - Cirurgia', description: 'Trauma, Abdome Agudo e Cirurgia Geral direta ao ponto.', price: 39.90, oldPrice: 57.00, icon: 'content_cut', color: 'bg-green-500/10' },
-  { id: '5', title: 'Módulos - Saúde Coletiva', description: 'SUS, Epidemiologia e Ética Médica sem enrolação.', price: 9.90, oldPrice: 14.14, icon: 'poll', color: 'bg-purple-500/10' },
-  { id: '6', title: 'Combo COMPLETO 2025', description: 'Todos os ebooks de todas as especialidades em um único pacote promocional.', price: 499.90, oldPrice: 714.14, icon: 'auto_stories', color: 'bg-secondary/10' },
-];
 
 const LandingPage: React.FC<LandingPageProps> = ({ onStartQuiz, onViewSummaries }) => {
   const scrollToSection = (id: string) => {
@@ -24,8 +24,8 @@ const LandingPage: React.FC<LandingPageProps> = ({ onStartQuiz, onViewSummaries 
     }
   };
 
-  const handlePurchaseFull = () => {
-    window.open('https://pay.hotmart.com/A103592656F', '_blank');
+  const handleComingSoon = () => {
+    alert('Os materiais 2025 estarão disponíveis em breve!');
   };
 
   return (
@@ -35,7 +35,7 @@ const LandingPage: React.FC<LandingPageProps> = ({ onStartQuiz, onViewSummaries 
         <div className="absolute inset-0 bg-white/10 transform -skew-x-12 translate-x-1/2"></div>
         <span className="relative z-10 flex items-center justify-center gap-2">
           <span className="material-icons-round text-base">timer</span>
-          OFERTA RELÂMPAGO: 30% OFF em todos os planos até as 23:59!
+          LANÇAMENTO EM BREVE: Cadastre-se para garantir o lote promocional 2025!
         </span>
       </div>
 
@@ -87,18 +87,14 @@ const LandingPage: React.FC<LandingPageProps> = ({ onStartQuiz, onViewSummaries 
                 onClick={onViewSummaries}
                 className="bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-200 border border-slate-200 dark:border-slate-600 hover:bg-slate-50 dark:hover:bg-slate-700 px-8 py-4 rounded-xl font-semibold transition-all flex items-center justify-center gap-2 shadow-soft hover:-translate-y-1 active:scale-95"
               >
-                Ver Ebooks Premium
+                Ver Catálogo de Ebooks
               </button>
-            </div>
-            <div className="flex items-center justify-center lg:justify-start gap-6 pt-4 text-sm font-medium text-slate-500 dark:text-slate-400">
-              <div className="flex items-center gap-1"><span className="material-icons-round text-green-500 text-lg">check_circle</span> Provas 2025</div>
-              <div className="flex items-center gap-1"><span className="material-icons-round text-green-500 text-lg">check_circle</span> Comentários Integrados</div>
             </div>
           </div>
           <div className="lg:w-2/5 relative">
             <div className="relative bg-gradient-to-br from-primary to-blue-600 rounded-3xl p-8 shadow-2xl rotate-3 hover:rotate-0 transition-transform duration-500 border-4 border-white dark:border-slate-800">
               <div className="absolute -top-6 -right-6 bg-secondary text-white w-20 h-20 rounded-full flex items-center justify-center font-black text-xl shadow-lg rotate-12 z-20">
-                TOP#1
+                2025
               </div>
               <div className="space-y-4">
                 <div className="bg-white/20 backdrop-blur-sm rounded-xl p-4 border border-white/30">
@@ -108,11 +104,11 @@ const LandingPage: React.FC<LandingPageProps> = ({ onStartQuiz, onViewSummaries 
                 <div className="bg-white/20 backdrop-blur-sm rounded-xl p-4 border border-white/30">
                   <div className="h-3 w-1/2 bg-white/50 rounded mb-2"></div>
                   <div className="h-10 w-full bg-green-500/40 rounded flex items-center justify-center text-white font-bold text-xs uppercase tracking-widest">
-                    95% de Aprovação
+                    Aprovação Estratégica
                   </div>
                 </div>
                 <div className="bg-white text-primary rounded-xl p-4 font-black text-center shadow-lg transform scale-105 uppercase tracking-tighter">
-                  Material Inteligente
+                  Ebooks em Breve
                 </div>
               </div>
             </div>
@@ -152,7 +148,7 @@ const LandingPage: React.FC<LandingPageProps> = ({ onStartQuiz, onViewSummaries 
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20" id="catalogo">
         <div className="text-center mb-16">
           <h2 className="text-3xl lg:text-5xl font-black text-slate-900 dark:text-white mb-4 uppercase tracking-tighter">EBOOKS PREMIUM</h2>
-          <p className="text-lg text-slate-500 dark:text-slate-400 max-w-2xl mx-auto">Material filtrado com o que realmente é cobrado nas provas mais concorridas.</p>
+          <p className="text-lg text-slate-500 dark:text-slate-400 max-w-2xl mx-auto">Material filtrado com o que realmente é cobrado nas provas mais concorridas. Lote 2025 indisponível no momento.</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
@@ -164,7 +160,7 @@ const LandingPage: React.FC<LandingPageProps> = ({ onStartQuiz, onViewSummaries 
                   ? 'bg-gradient-to-br from-slate-900 to-slate-800 dark:from-primary dark:to-blue-700 border-transparent shadow-2xl text-white ring-4 ring-primary/20 scale-[1.02] lg:scale-[1.05]' 
                   : 'bg-surface-light dark:bg-surface-dark border-slate-100 dark:border-slate-700 shadow-soft hover:shadow-xl hover:-translate-y-2'
               }`}>
-                {isCombo && <div className="absolute top-0 right-0 bg-secondary text-white text-[10px] font-bold px-3 py-1 rounded-bl-xl z-20 uppercase animate-pulse shadow-sm">Melhor Oferta</div>}
+                {isCombo && <div className="absolute top-0 right-0 bg-secondary text-white text-[10px] font-bold px-3 py-1 rounded-bl-xl z-20 uppercase animate-pulse shadow-sm">Nova Versão 2025</div>}
                 <div>
                   <div className={`w-16 h-16 rounded-2xl flex items-center justify-center mb-6 transition-all ${
                     isCombo 
@@ -187,11 +183,11 @@ const LandingPage: React.FC<LandingPageProps> = ({ onStartQuiz, onViewSummaries 
                   </p>
                   <div className="flex flex-wrap gap-2 mb-6">
                      <span className={`text-[10px] px-2 py-1 rounded font-bold uppercase ${
-                       isCombo ? 'bg-white/10 text-white' : 'bg-green-100 text-green-700 dark:bg-green-900/30 dark:text-green-400'
-                     }`}>Ebooks + Questões</span>
+                       isCombo ? 'bg-white/10 text-white' : 'bg-amber-100 text-amber-700 dark:bg-amber-900/30 dark:text-amber-400'
+                     }`}>EM BREVE</span>
                      <span className={`text-[10px] px-2 py-1 rounded font-bold uppercase ${
                        isCombo ? 'bg-white/10 text-white' : 'bg-blue-100 text-blue-700 dark:bg-blue-900/30 dark:text-blue-400'
-                     }`}>Update 2025</span>
+                     }`}>UPDATE 2025</span>
                   </div>
                 </div>
                 <div className={`flex items-end justify-between border-t pt-5 mt-2 ${
@@ -200,21 +196,20 @@ const LandingPage: React.FC<LandingPageProps> = ({ onStartQuiz, onViewSummaries 
                   <div>
                     <p className={`text-[10px] mb-0.5 uppercase font-bold tracking-wide ${
                       isCombo ? 'text-slate-400' : 'text-slate-400'
-                    }`}>Preço de Lançamento</p>
+                    }`}>Status do Material</p>
                     <div className="flex items-center gap-2">
-                       <p className={`text-2xl font-black ${isCombo ? 'text-secondary' : 'text-primary'}`}>R$ {m.price.toFixed(2).replace('.', ',')}</p>
-                       <span className="text-slate-400 line-through text-xs font-bold">R$ {m.oldPrice.toFixed(2).replace('.', ',')}</span>
+                       <p className={`text-2xl font-black uppercase tracking-tighter ${isCombo ? 'text-secondary' : 'text-primary'}`}>Em Breve</p>
                     </div>
                   </div>
                   <button 
-                    onClick={isCombo ? handlePurchaseFull : onViewSummaries}
+                    onClick={onViewSummaries}
                     className={`px-6 py-2.5 rounded-xl font-semibold shadow-lg transition-all hover:scale-105 active:scale-95 ${
                       isCombo 
-                        ? 'bg-secondary hover:bg-secondary-hover text-white shadow-secondary/20' 
+                        ? 'bg-slate-700 text-white/50 cursor-not-allowed' 
                         : 'bg-primary hover:bg-primary-hover text-white shadow-blue-500/30'
                     }`}
                   >
-                    {isCombo ? 'Comprar' : 'Acessar'}
+                    Acessar
                   </button>
                 </div>
               </div>
@@ -228,7 +223,7 @@ const LandingPage: React.FC<LandingPageProps> = ({ onStartQuiz, onViewSummaries 
             className="group relative inline-flex items-center justify-center gap-3 bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-200 border-2 border-primary/20 hover:border-primary/50 px-12 py-5 rounded-2xl font-black text-xl transition-all shadow-xl hover:shadow-2xl hover:-translate-y-1 active:scale-95 uppercase tracking-tighter"
           >
             <span className="material-icons-round text-primary text-2xl">visibility</span>
-            Ver Catálogo Completo 2025
+            Ver Catálogo 2025
             <span className="material-icons-round text-primary group-hover:translate-x-1 transition-transform">arrow_forward</span>
           </button>
         </div>
