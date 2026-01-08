@@ -17,17 +17,6 @@ interface LandingPageProps {
 }
 
 const LandingPage: React.FC<LandingPageProps> = ({ onStartQuiz, onViewSummaries }) => {
-  const scrollToSection = (id: string) => {
-    const element = document.getElementById(id);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
-
-  const handleComingSoon = () => {
-    alert('Os materiais 2025 estarão disponíveis em breve!');
-  };
-
   return (
     <div className="relative flex min-h-screen w-full flex-col overflow-x-hidden bg-background-light dark:bg-background-dark scroll-smooth">
       {/* Urgency Banner */}
@@ -85,16 +74,17 @@ const LandingPage: React.FC<LandingPageProps> = ({ onStartQuiz, onViewSummaries 
               </button>
               <button 
                 onClick={onViewSummaries}
-                className="bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-200 border border-slate-200 dark:border-slate-600 hover:bg-slate-50 dark:hover:bg-slate-700 px-8 py-4 rounded-xl font-semibold transition-all flex items-center justify-center gap-2 shadow-soft hover:-translate-y-1 active:scale-95"
+                className="bg-amber-500 hover:bg-amber-600 text-white px-8 py-4 rounded-xl font-black transition-all flex items-center justify-center gap-2 shadow-glow-gold hover:-translate-y-1 active:scale-95 text-lg uppercase italic tracking-tighter"
               >
-                Ver Catálogo de Ebooks
+                <span className="material-icons-round animate-bounce">auto_stories</span>
+                Quero Ver o Material Premium
               </button>
             </div>
           </div>
           <div className="lg:w-2/5 relative">
             <div className="relative bg-gradient-to-br from-primary to-blue-600 rounded-3xl p-8 shadow-2xl rotate-3 hover:rotate-0 transition-transform duration-500 border-4 border-white dark:border-slate-800">
-              <div className="absolute -top-6 -right-6 bg-secondary text-white w-20 h-20 rounded-full flex items-center justify-center font-black text-xl shadow-lg rotate-12 z-20">
-                2025
+              <div className="absolute -top-6 -right-6 bg-secondary text-white w-20 h-20 rounded-full flex items-center justify-center font-black text-xl shadow-lg rotate-12 z-20 animate-pulse">
+                NOVO
               </div>
               <div className="space-y-4">
                 <div className="bg-white/20 backdrop-blur-sm rounded-xl p-4 border border-white/30">
@@ -107,8 +97,8 @@ const LandingPage: React.FC<LandingPageProps> = ({ onStartQuiz, onViewSummaries 
                     Aprovação Estratégica
                   </div>
                 </div>
-                <div className="bg-white text-primary rounded-xl p-4 font-black text-center shadow-lg transform scale-105 uppercase tracking-tighter">
-                  Ebooks em Breve
+                <div onClick={onViewSummaries} className="bg-white text-primary rounded-xl p-4 font-black text-center shadow-lg transform scale-105 cursor-pointer hover:bg-slate-50 transition-colors uppercase tracking-tighter">
+                  Ver Conteúdo 2025
                 </div>
               </div>
             </div>
@@ -145,72 +135,78 @@ const LandingPage: React.FC<LandingPageProps> = ({ onStartQuiz, onViewSummaries 
       </div>
 
       {/* Catalog Section */}
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20" id="catalogo">
-        <div className="text-center mb-16">
-          <h2 className="text-3xl lg:text-5xl font-black text-slate-900 dark:text-white mb-4 uppercase tracking-tighter">EBOOKS PREMIUM</h2>
-          <p className="text-lg text-slate-500 dark:text-slate-400 max-w-2xl mx-auto">Material filtrado com o que realmente é cobrado nas provas mais concorridas. Lote 2025 indisponível no momento.</p>
+      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24" id="catalogo">
+        <div className="text-center mb-20 relative">
+          <div className="absolute inset-x-0 -top-12 flex justify-center opacity-10">
+            <span className="text-9xl font-black uppercase tracking-tighter text-primary">PREMIUM</span>
+          </div>
+          <h2 className="text-4xl lg:text-6xl font-black text-slate-900 dark:text-white mb-6 uppercase tracking-tighter italic">Ebooks de Elite</h2>
+          <p className="text-xl text-slate-500 dark:text-slate-400 max-w-2xl mx-auto font-medium">O material que os aprovados escondem. Conteúdo 100% estratégico e atualizado para as provas de 2025.</p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-20">
           {specialtyModules.map((m) => {
             const isCombo = m.id === '6';
             return (
-              <div key={m.id} className={`group rounded-3xl p-6 border transition-all duration-300 flex flex-col justify-between h-full relative overflow-hidden ${
-                isCombo 
-                  ? 'bg-gradient-to-br from-slate-900 to-slate-800 dark:from-primary dark:to-blue-700 border-transparent shadow-2xl text-white ring-4 ring-primary/20 scale-[1.02] lg:scale-[1.05]' 
-                  : 'bg-surface-light dark:bg-surface-dark border-slate-100 dark:border-slate-700 shadow-soft hover:shadow-xl hover:-translate-y-2'
-              }`}>
-                {isCombo && <div className="absolute top-0 right-0 bg-secondary text-white text-[10px] font-bold px-3 py-1 rounded-bl-xl z-20 uppercase animate-pulse shadow-sm">Nova Versão 2025</div>}
+              <div 
+                key={m.id} 
+                onClick={onViewSummaries}
+                className={`group cursor-pointer rounded-[2.5rem] p-8 border transition-all duration-500 flex flex-col justify-between h-[420px] relative overflow-hidden ${
+                  isCombo 
+                    ? 'bg-slate-900 dark:bg-primary border-transparent shadow-2xl scale-[1.03] lg:scale-[1.08] z-20' 
+                    : 'bg-surface-light dark:bg-surface-dark border-slate-100 dark:border-slate-800 shadow-soft hover:shadow-2xl hover:-translate-y-3'
+                }`}
+              >
+                {isCombo && (
+                  <>
+                    <div className="absolute top-0 right-0 bg-secondary text-white text-xs font-black px-6 py-2 rounded-bl-3xl z-30 uppercase shadow-lg">🔥 Recomendado</div>
+                    <div className="absolute -bottom-10 -right-10 text-white/5 transform rotate-12">
+                      <span className="material-icons-round text-[200px]">diamond</span>
+                    </div>
+                  </>
+                )}
+                
                 <div>
-                  <div className={`w-16 h-16 rounded-2xl flex items-center justify-center mb-6 transition-all ${
+                  <div className={`w-20 h-20 rounded-3xl flex items-center justify-center mb-8 transition-all duration-500 shadow-lg ${
                     isCombo 
-                      ? 'bg-white/10 group-hover:bg-white/20' 
-                      : 'bg-blue-50 dark:bg-blue-900/30 group-hover:bg-primary'
+                      ? 'bg-white/20 group-hover:scale-110 group-hover:rotate-6' 
+                      : 'bg-primary/10 group-hover:bg-primary group-hover:scale-110 group-hover:-rotate-6'
                   }`}>
-                    <span className={`material-icons-round text-3xl transition-all ${
+                    <span className={`material-icons-round text-4xl transition-all duration-500 ${
                       isCombo ? 'text-white' : 'text-primary group-hover:text-white'
                     }`}>{m.icon}</span>
                   </div>
-                  <h3 className={`text-xl font-bold mb-3 leading-tight uppercase tracking-tight ${
-                    isCombo ? 'text-white' : 'text-slate-900 dark:text-white'
+                  
+                  <h3 className={`text-2xl font-black mb-4 leading-tight uppercase tracking-tight ${
+                    isCombo ? 'text-white' : 'text-slate-900 dark:text-white group-hover:text-primary'
                   }`}>
                     {m.title}
                   </h3>
-                  <p className={`text-sm mb-6 leading-relaxed ${
-                    isCombo ? 'text-slate-300' : 'text-slate-500 dark:text-slate-400'
+                  
+                  <p className={`text-base mb-6 leading-relaxed font-medium ${
+                    isCombo ? 'text-blue-100/80' : 'text-slate-500 dark:text-slate-400'
                   }`}>
                     {m.description}
                   </p>
-                  <div className="flex flex-wrap gap-2 mb-6">
-                     <span className={`text-[10px] px-2 py-1 rounded font-bold uppercase ${
-                       isCombo ? 'bg-white/10 text-white' : 'bg-amber-100 text-amber-700 dark:bg-amber-900/30 dark:text-amber-400'
-                     }`}>EM BREVE</span>
-                     <span className={`text-[10px] px-2 py-1 rounded font-bold uppercase ${
-                       isCombo ? 'bg-white/10 text-white' : 'bg-blue-100 text-blue-700 dark:bg-blue-900/30 dark:text-blue-400'
-                     }`}>UPDATE 2025</span>
-                  </div>
                 </div>
-                <div className={`flex items-end justify-between border-t pt-5 mt-2 ${
-                  isCombo ? 'border-white/10' : 'border-slate-100 dark:border-slate-700'
+
+                <div className={`mt-auto pt-6 border-t flex items-center justify-between ${
+                  isCombo ? 'border-white/10' : 'border-slate-100 dark:border-slate-800'
                 }`}>
-                  <div>
-                    <p className={`text-[10px] mb-0.5 uppercase font-bold tracking-wide ${
-                      isCombo ? 'text-slate-400' : 'text-slate-400'
-                    }`}>Status do Material</p>
-                    <div className="flex items-center gap-2">
-                       <p className={`text-2xl font-black uppercase tracking-tighter ${isCombo ? 'text-secondary' : 'text-primary'}`}>Em Breve</p>
-                    </div>
+                  <div className="flex flex-col">
+                    <span className={`text-[11px] font-black uppercase tracking-widest mb-1 ${
+                      isCombo ? 'text-white/60' : 'text-slate-400'
+                    }`}>Status 2025</span>
+                    <span className={`text-xl font-black uppercase italic ${
+                      isCombo ? 'text-secondary' : 'text-primary'
+                    }`}>Em Breve</span>
                   </div>
-                  <button 
-                    onClick={onViewSummaries}
-                    className={`px-6 py-2.5 rounded-xl font-semibold shadow-lg transition-all hover:scale-105 active:scale-95 ${
-                      isCombo 
-                        ? 'bg-slate-700 text-white/50 cursor-not-allowed' 
-                        : 'bg-primary hover:bg-primary-hover text-white shadow-blue-500/30'
-                    }`}
-                  >
-                    Acessar
-                  </button>
+                  
+                  <div className={`size-12 rounded-2xl flex items-center justify-center transition-all ${
+                    isCombo ? 'bg-white text-primary' : 'bg-slate-900 text-white group-hover:bg-primary'
+                  }`}>
+                    <span className="material-icons-round">chevron_right</span>
+                  </div>
                 </div>
               </div>
             );
@@ -220,80 +216,88 @@ const LandingPage: React.FC<LandingPageProps> = ({ onStartQuiz, onViewSummaries 
         <div className="flex justify-center">
           <button 
             onClick={onViewSummaries}
-            className="group relative inline-flex items-center justify-center gap-3 bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-200 border-2 border-primary/20 hover:border-primary/50 px-12 py-5 rounded-2xl font-black text-xl transition-all shadow-xl hover:shadow-2xl hover:-translate-y-1 active:scale-95 uppercase tracking-tighter"
+            className="group relative inline-flex items-center justify-center gap-4 bg-gradient-to-r from-primary to-blue-600 text-white px-16 py-6 rounded-[2rem] font-black text-2xl transition-all shadow-glow hover:shadow-2xl hover:-translate-y-2 active:scale-95 uppercase tracking-tighter italic"
           >
-            <span className="material-icons-round text-primary text-2xl">visibility</span>
-            Ver Catálogo 2025
-            <span className="material-icons-round text-primary group-hover:translate-x-1 transition-transform">arrow_forward</span>
+            <span className="material-icons-round text-3xl">rocket_launch</span>
+            Acessar Catálogo Completo
+            <span className="material-icons-round text-3xl group-hover:translate-x-2 transition-transform">arrow_forward</span>
           </button>
         </div>
       </main>
 
       {/* Testimonials */}
-      <section className="bg-white dark:bg-slate-800 py-24 border-t border-slate-200 dark:border-slate-700" id="depoimentos">
+      <section className="bg-slate-50 dark:bg-slate-900/50 py-24 border-y border-slate-200 dark:border-slate-800" id="depoimentos">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-black text-slate-900 dark:text-white mb-4 uppercase tracking-tighter">Quem usou, passou.</h2>
-            <p className="text-lg text-slate-500 dark:text-slate-400">Junte-se aos aprovados que usaram a nossa base estratégica.</p>
+          <div className="text-center mb-20">
+            <span className="bg-primary/10 text-primary px-4 py-1.5 rounded-full text-xs font-black uppercase tracking-widest mb-4 inline-block">Histórias de Sucesso</span>
+            <h2 className="text-4xl lg:text-5xl font-black text-slate-900 dark:text-white mb-6 uppercase tracking-tighter italic">Quem usou, passou.</h2>
+            <p className="text-xl text-slate-500 dark:text-slate-400 max-w-2xl mx-auto font-medium">Junte-se aos aprovados que usaram a nossa base estratégica para vencer a concorrência.</p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-background-light dark:bg-slate-900/50 p-8 rounded-3xl relative shadow-soft">
-              <span className="material-icons-round text-6xl text-blue-100 dark:text-blue-900/30 absolute -top-4 -left-2 transform -rotate-12">format_quote</span>
-              <div className="flex items-center gap-1 text-yellow-400 mb-4">
-                {[1,2,3,4,5].map(i => <span key={i} className="material-icons-round text-sm">star</span>)}
-              </div>
-              <p className="text-slate-700 dark:text-slate-300 italic mb-6 text-sm leading-relaxed">"Os ebooks de Clínica são surreais. Consegui revisar Cardiologia inteira em um final de semana e gabaritei a área na prova do SUS."</p>
-              <div className="flex items-center gap-4">
-                <div className="w-10 h-10 rounded-full bg-primary/20 flex items-center justify-center font-bold text-primary text-xs uppercase">AS</div>
-                <div>
-                  <p className="font-bold text-slate-900 dark:text-white text-sm">Dra. Amanda Silva</p>
-                  <p className="text-[10px] text-slate-500 uppercase font-bold tracking-widest">Residente Pediatria</p>
+          
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
+            {[
+              {
+                name: "DRa. Amanda",
+                role: "Residente Pediatria USP",
+                text: "O material é mto tpop! Consegui revisar Cardio inteira num fds e gabaritei a área na prova do SUS. Se vc quer passar, esse é le caminho!",
+                initials: "AM",
+                color: "bg-blue-500"
+              },
+              {
+                name: "DR. Lucas",
+                role: "Residente Clínica UNIFESP",
+                text: "Melhor custo-benefício disparado. Materiais diretos, sem aquela enrolação teórica chata. Foco total em acertar questão no padrão SP, recomendo dms!",
+                initials: "LU",
+                color: "bg-red-500"
+              },
+              {
+                name: "DRa. Mari",
+                role: "Residente G.O. UNESP",
+                text: "As questões comentadas da UNESP no simulado salvam d+! Ajudam vc a entender a pegada da banca de verdade. Mto tpop msm!",
+                initials: "MA",
+                color: "bg-pink-500"
+              }
+            ].map((test, i) => (
+              <div key={i} className="bg-white dark:bg-slate-800 p-10 rounded-[3rem] relative shadow-xl border border-slate-100 dark:border-slate-700 group hover:-translate-y-2 transition-all duration-500">
+                <div className="absolute -top-6 left-10 size-16 bg-slate-900 text-white rounded-3xl flex items-center justify-center shadow-lg group-hover:bg-primary transition-colors">
+                  <span className="material-icons-round text-3xl">format_quote</span>
+                </div>
+                
+                <div className="flex items-center gap-1 text-amber-400 mb-8 mt-4">
+                  {[1,2,3,4,5].map(star => <span key={star} className="material-icons-round text-lg">star</span>)}
+                </div>
+                
+                <p className="text-slate-700 dark:text-slate-300 font-bold italic mb-10 text-lg leading-relaxed">"{test.text}"</p>
+                
+                <div className="flex items-center gap-5 pt-8 border-t border-slate-100 dark:border-slate-700">
+                  <div className={`size-14 rounded-2xl ${test.color} flex items-center justify-center font-black text-white text-xl shadow-lg shadow-inherit/30`}>
+                    {test.initials}
+                  </div>
+                  <div>
+                    <p className="font-black text-slate-900 dark:text-white text-base uppercase tracking-tight">{test.name}</p>
+                    <p className="text-[11px] text-primary uppercase font-black tracking-widest">{test.role}</p>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div className="bg-background-light dark:bg-slate-900/50 p-8 rounded-3xl relative shadow-soft">
-              <span className="material-icons-round text-6xl text-blue-100 dark:text-blue-900/30 absolute -top-4 -left-2 transform -rotate-12">format_quote</span>
-              <div className="flex items-center gap-1 text-yellow-400 mb-4">
-                {[1,2,3,4,5].map(i => <span key={i} className="material-icons-round text-sm">star</span>)}
-              </div>
-              <p className="text-slate-700 dark:text-slate-300 italic mb-6 text-sm leading-relaxed">"O melhor custo-benefício disparado. Materiais diretos, sem enrolação teórica desnecessária. Foco total em acerto de questões."</p>
-              <div className="flex items-center gap-4">
-                <div className="w-10 h-10 rounded-full bg-primary/20 flex items-center justify-center font-bold text-primary text-xs uppercase">LF</div>
-                <div>
-                  <p className="font-bold text-slate-900 dark:text-white text-sm">Dr. Lucas Ferreira</p>
-                  <p className="text-[10px] text-slate-500 uppercase font-bold tracking-widest">Residente Clínica Médica</p>
-                </div>
-              </div>
-            </div>
-            <div className="bg-background-light dark:bg-slate-900/50 p-8 rounded-3xl relative shadow-soft">
-              <span className="material-icons-round text-6xl text-blue-100 dark:text-blue-900/30 absolute -top-4 -left-2 transform -rotate-12">format_quote</span>
-              <div className="flex items-center gap-1 text-yellow-400 mb-4">
-                {[1,2,3,4,5].map(i => <span key={i} className="material-icons-round text-sm">star</span>)}
-              </div>
-              <p className="text-slate-700 dark:text-slate-300 italic mb-6 text-sm leading-relaxed">"As questões comentadas da UNESP no simulado são o diferencial. Ajudam a entender a pegada da banca de verdade. Recomendo muito!"</p>
-              <div className="flex items-center gap-4">
-                <div className="w-10 h-10 rounded-full bg-primary/20 flex items-center justify-center font-bold text-primary text-xs uppercase">MC</div>
-                <div>
-                  <p className="font-bold text-slate-900 dark:text-white text-sm">Dra. Mariana Costa</p>
-                  <p className="text-[10px] text-slate-500 uppercase font-bold tracking-widest">Residente G.O.</p>
-                </div>
-              </div>
-            </div>
+            ))}
           </div>
         </div>
       </section>
 
       {/* Footer */}
-      <footer className="bg-slate-900 text-slate-400 py-16 border-t border-slate-800">
+      <footer className="bg-slate-900 text-slate-400 py-20 border-t border-slate-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <div className="flex flex-col items-center gap-2 text-white mb-6">
-            <div className="flex items-center gap-2">
-              <span className="material-icons-round text-primary text-3xl">menu_book</span>
-              <span className="font-black text-2xl uppercase tracking-tighter">DEPRIMEIRA!</span>
+          <div className="flex flex-col items-center gap-2 text-white mb-8">
+            <div className="flex items-center gap-3">
+              <div className="size-12 bg-primary rounded-2xl flex items-center justify-center">
+                <span className="material-icons-round text-3xl">menu_book</span>
+              </div>
+              <span className="font-black text-3xl uppercase tracking-tighter italic">DEPRIMEIRA!</span>
             </div>
-            <p className="text-sm max-w-sm mx-auto">A plataforma estratégica de simulados e ebooks para Residência Médica focada no estado de São Paulo.</p>
+            <p className="text-base max-w-sm mx-auto mt-4 font-medium">A plataforma estratégica definitiva para aprovação em Residência Médica em São Paulo.</p>
           </div>
-          <div className="text-center text-[10px] mt-16 pt-8 border-t border-slate-800 uppercase tracking-widest opacity-50">
+          
+          <div className="text-center text-[11px] pt-12 border-t border-white/5 uppercase tracking-[0.3em] font-black opacity-30">
             © 2024 DEPRIMEIRA! - TODOS OS DIREITOS RESERVADOS.
           </div>
         </div>
@@ -302,11 +306,11 @@ const LandingPage: React.FC<LandingPageProps> = ({ onStartQuiz, onViewSummaries 
       {/* Float Dark Mode */}
       <button 
         aria-label="Toggle Theme" 
-        className="fixed bottom-6 right-6 bg-slate-900 dark:bg-white text-white dark:text-slate-900 p-3 rounded-full shadow-lg z-50 hover:scale-110 transition-transform" 
+        className="fixed bottom-8 right-8 bg-slate-900 dark:bg-white text-white dark:text-slate-900 size-14 rounded-3xl shadow-2xl z-50 hover:scale-110 transition-all border-4 border-white/10 dark:border-slate-200 flex items-center justify-center" 
         onClick={() => document.documentElement.classList.toggle('dark')}
       >
-        <span className="material-icons-round text-xl dark:hidden">dark_mode</span>
-        <span className="material-icons-round text-xl hidden dark:block">light_mode</span>
+        <span className="material-icons-round text-2xl dark:hidden">dark_mode</span>
+        <span className="material-icons-round text-2xl hidden dark:block">light_mode</span>
       </button>
     </div>
   );
