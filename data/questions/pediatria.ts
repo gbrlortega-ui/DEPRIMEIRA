@@ -1,4 +1,3 @@
-
 import { Question } from '../../types';
 
 export const pediatriaQuestions: Question[] = [
@@ -22,7 +21,7 @@ export const pediatriaQuestions: Question[] = [
     institution: "Simulado",
     year: 2024,
     specialty: "Pediatria",
-    text: "Menina de 3 anos de idade dá entrada em Serviço de Emergência Pediátrica com história de dor em membro superior esquerdo, após queda da própria altura há aproximadamente 6 horas. A criança apresenta lesões de impetigo em vários estágios de evolução, dermatite amoniacal, hematomas em partes internas dos braços e laterais do tórax, além de sinais flogísticos em antebraço esquerdo e posição antálgica do membro afetado. Após o tratamento específico da lenção ortopédica e encaminhamento da questão vacinal, qual medida deve ser tomada?",
+    text: "Menina de 3 anos de idade dá entrada em Serviço de Emergência Pediátrica com história de dor em membro superior esquerdo, após queda da própria altura há aproximadamente 6 horas. A criança apresenta lesões de impetigo em vários estágios de evolução, dermatite amoniacal, hematomas em partes internas dos braços e laterais do tórax, além de sinais flogísticos em antebraço esquerdo e posição antálgica do membro afetado. Após o tratamento específico da lesão ortopédica e encaminhamento da questão vacinal, qual medida deve ser tomada?",
     options: [
       'Encaminhar ao neuropediatra; suspeita de hiperatividade.',
       'Agendar ambulatório para orientação sobre cuidados e prevenção de acidentes.',
@@ -99,12 +98,12 @@ export const pediatriaQuestions: Question[] = [
     specialty: "Pediatria",
     text: "Menina de 1 ano de idade é levada pela mãe à consulta de puericultura. Na avaliação antropométrica observa-se escore Z peso para a idade = +2,5 DP, escore Z estatura para a idade = -1,5 DP, escore Z para o IMC = +2,3 DP. De acordo com a classificação da Organização Mundial de Saúde (OMS), qual o diagnóstico antropométrico dessa criança?",
     options: [
-      'Peso elevado para a idade, estatura adequada para a idade e obesidade.',
       'Peso elevado para a idade, estatura adequada para a idade e sobrepeso.',
+      'Peso elevado para a idade, estatura adequada para a idade e obesidade.',
       'Peso adequado para a idade, baixa estatura para a idade e risco de sobrepeso.',
       'Peso adequado para a idade, baixa estatura para a idade e obesidade grave.'
     ],
-    correctAnswer: 1,
+    correctAnswer: 0,
     explanation: "Peso para idade acima de +2 DP indica peso elevado. IMC para idade entre +2 e +3 DP indica sobrepeso. Estatura para a idade entre -2 e +2 DP é considerada adequada. Portanto: peso elevado, estatura adequada e sobrepeso."
   },
   {
@@ -540,7 +539,7 @@ export const pediatriaQuestions: Question[] = [
       'Realizar endoscopia digestiva alta entre 12 e 24 horas da ingestão.'
     ],
     correctAnswer: 3,
-    explanation: "A ingestão de substância cáustica requer avaliação endoscópica entre 12 e 24 horas para determinar a extensão da lenção e orientar o manejo. Não se deve induzir vômitos, nem administrar carvão ativado ou realizar sondagem às cegas devido ao risco de perfuração."
+    explanation: "A ingestão de substância cáustica requer avaliação endoscópica entre 12 e 24 horas para determinar a extensão da lesão e orientar o manejo. Não se deve induzir vômitos, nem administrar carvão ativado ou realizar sondagem às cegas devido ao risco de perfuração."
   },
   {
     id: "pe37",
@@ -699,7 +698,13 @@ export const pediatriaQuestions: Question[] = [
     year: 2025,
     specialty: "Pediatria",
     text: "Você atende em seu consultório um menino de 10 anos. Ele apresenta o testículo e o escroto levemente aumentados (volume testicular > 3 mL) e pênis sem aumento. Seus pelos pubianos são finos, longos e lisos, com predomínio na base do pênis. O estadiamento é:",
-    options: ["G1P1.", "G1P2.", "G2P1.", "G2P2.", "G3P2."],
+    options: [
+      "G1P1.",
+      "G1P2.",
+      "G2P1.",
+      "G2P2.",
+      "G3P2."
+    ],
     correctAnswer: 3,
     explanation: "Aumento testicular marca G2. Pelos finos e longos na base marcam P2. Portanto, o estadiamento é G2P2."
   },
@@ -741,7 +746,13 @@ export const pediatriaQuestions: Question[] = [
     year: 2025,
     specialty: "Pediatria",
     text: "Que vacina abaixo não poderá ser aplicada em uma criança que utiliza corticoterapia sistêmica em dose imunossupressora (≥ 2 mg/kg/dia por mais de 14 dias)?",
-    options: ["Meningocócica C.", "Hepatite B.", "Hepatite A.", "Dengue.", "Influenza."],
+    options: [
+      "Meningocócica C.",
+      "Hepatite B.",
+      "Hepatite A.",
+      "Dengue.",
+      "Influenza."
+    ],
     correctAnswer: 3,
     explanation: "Imunossupressão contraindica vacinas de vírus vivos atenuados. A vacina da dengue (Qdenga) é a única atenuada da lista."
   },
@@ -815,7 +826,13 @@ export const pediatriaQuestions: Question[] = [
     year: 2025,
     specialty: "Pediatria",
     text: "Menina de 8 anos tem altura atual de 115 cm. Seu pai tem 182 cm e sua mãe 170 cm. Qual é o alvo genético dessa menina?",
-    options: ["170,5 cm.", "169,5 cm.", "175,5 cm.", "178,5 cm.", "182,5 cm."],
+    options: [
+      "170,5 cm.",
+      "169,5 cm.",
+      "175,5 cm.",
+      "178,5 cm.",
+      "182,5 cm."
+    ],
     correctAnswer: 1,
     explanation: "Alvo (meninas) = [(Pai - 13) + Mãe] / 2. [(182 - 13) + 170] / 2 = [169 + 170] / 2 = 169,5 cm."
   },
@@ -1084,7 +1101,12 @@ export const pediatriaQuestions: Question[] = [
     year: 2025,
     specialty: "Pediatria",
     text: "Menino, 13a6m. EF: pelos escuros na raiz (P3); pênis aumentado com glande definida e testículos de 10mL (G4). Estágio:",
-    options: ["P2G2.", "P3G4.", "P3G3.", "P2G3."],
+    options: [
+      "P2G2.",
+      "P3G4.",
+      "P3G3.",
+      "P2G3."
+    ],
     correctAnswer: 1,
     explanation: "P3 define-se por pelos escuros e encaracolados. G4 define-se pelo aumento peniano com glande individualizada."
   },
@@ -1184,7 +1206,12 @@ export const pediatriaQuestions: Question[] = [
     year: 2025,
     specialty: "Pediatria",
     text: "Menina de 2 meses com pneumonia, gasping e FC 55. Mantém FC < 60 após VPP. Indicado:",
-    options: ["intubação.", "massagem cardíaca.", "atropina.", "amiodarona."],
+    options: [
+      "intubação.",
+      "massagem cardíaca.",
+      "atropina.",
+      "amiodarona."
+    ],
     correctAnswer: 1,
     explanation: "No PALS, FC < 60 bpm com má perfusão mesmo após ventilação adequada é indicação de massagem cardíaca."
   },
@@ -1496,8 +1523,313 @@ export const pediatriaQuestions: Question[] = [
     year: 2025,
     specialty: "Pediatria",
     text: "Sobre conjuntivite por Clamídia no RN: I) 50% têm infecção de nasofaringe. III) Tratamento sistêmico (macrolídeos) é preferido. Está(ão) correta(s):",
-    options: ["I e III.", "II e III.", "I.", "II."],
+    options: [
+      "I e III.",
+      "II e III.",
+      "I.",
+      "II."
+    ],
     correctAnswer: 0,
     explanation: "O tratamento sistêmico é mandatório para erradicar o reservatório na nasofaringe e prevenir pneumonia."
   },
+  {
+    id: "pe101",
+    institution: "ENAMED",
+    year: 2025,
+    specialty: "Pediatria",
+    text: "Lactente de 4 meses é levado ao serviço de emergência com história de vômitos, poliúria, episódios de fraqueza intensa e febre. Ao exame físico, apresenta-se com desidratação grave e déficit de crescimento significativo. Encontram-se, ainda, sinais radiológicos de osteopenia e raquitismo resistente à vitamina D. Com base na principal hipótese diagnóstica, o distúrbio ácido básico relacionado ao caso é:",
+    options: [
+      "alcalose respiratória hipoclorêmica.",
+      "acidose metabólica hiperclorêmica.",
+      "alcalose respiratória hipocalêmica.",
+      "acidose metabólica hipercalêmica."
+    ],
+    correctAnswer: null,
+    explanation: "Questão Excluída. De acordo com o gabarito definitivo, esta questão foi excluída do cálculo dos resultados por desajuste ao modelo estatístico."
+  },
+  {
+    id: "pe102",
+    institution: "ENAMED",
+    year: 2025,
+    specialty: "Pediatria",
+    text: "Paciente de 7 anos, na 4ª semana de tratamento quimioterápico para leucemia linfocítica aguda, é admitido em hospital terciário com história de febre há 12 horas (temperatura axilar de 39 °C), tosse e dispneia. Após 24 horas da admissão, segue febril, apesar de ter usado dipirona há 1 hora, e mantém diurese de 2 mL/kg/h. Exame físico: hidratado; pálido; orientado no tempo e no espaço; frequência cardíaca de 130 bpm; temperatura axilar de 39 °C; frequência respiratória de 36 irpm; pressão arterial de 90 x 60 mmHg; boa perfusão periférica; murmúrio vesicular diminuído em base de hemitórax à direita, com crepitações; bulhas taquicárdicas; fígado a 4 cm do rebordo costal direito e 5 cm do apêndice xifoide; baço a 4 cm do rebordo costal esquerdo. Os exames laboratoriais evidenciam lactato aumentado, acidose metabólica e hemograma com leucocitose com desvio à esquerda. Com base no quadro descrito, o diagnóstico é:",
+    options: [
+      "sepse.",
+      "choque séptico.",
+      "disfunção de múltiplos órgãos.",
+      "síndrome da resposta inflamatória sistêmica."
+    ],
+    correctAnswer: null,
+    explanation: "Questão Anulada. Conforme o gabarito definitivo, esta questão foi anulada."
+  },
+  {
+    id: "pe103",
+    institution: "ENAMED",
+    year: 2025,
+    specialty: "Pediatria",
+    text: "Pais de um menino de 10 anos levam a criança para avaliação médica em Unidade Básica de Saúde (UBS). Relatam que seu filho se dá bem com a família até que não lhe seja permitido fazer algo que deseja. Quando isso ocorre, ele fica irritado, impulsivamente agressivo e agitado por várias horas. Assim que se acalma ou consegue o que quer, fica feliz e agradável novamente. Os pais entendem que o filho parece agir deliberadamente para aborrecer os outros e nunca assume a culpa por seus próprios erros ou mau comportamento. Relatam ainda que ele discute com adultos ou figuras de autoridade e em várias situações não aceita as regras de boa convivência com os familiares. Considerando o caso descrito, qual é o diagnóstico mais provável?",
+    options: [
+      "Transtorno afetivo bipolar.",
+      "Transtorno de oposição desafiante.",
+      "Transtorno disruptivo da desregulação do humor.",
+      "Transtorno do déficit de atenção e hiperatividade."
+    ],
+    correctAnswer: 1,
+    explanation: "Alternativa (B). O padrão persistente de humor irritável, comportamento desafiante e vingatividade direcionado a figuras de autoridade, associado à recusa em assumir responsabilidade pelos próprios atos, caracteriza o Transtorno de Oposição Desafiante (TOD)."
+  },
+  {
+    id: "pe104",
+    institution: "ENAMED",
+    year: 2025,
+    specialty: "Pediatria",
+    text: "Recém-nascido de 15 dias, a termo, Apgar 8/9, peso e comprimento ao nascer de 2.600 g e 46 cm, respectivamente, com síndrome de Down, e cuja gestação não apresentou outras intercorrências. Está na consulta de puericultura com peso e comprimento atuais de 2.900 g e 47 cm, respectivamente. Para o acompanhamento pôndero-estatural, os dados devem ser plotados nas:",
+    options: [
+      "curvas de crescimento da OMS desde o nascimento até a adolescência.",
+      "curvas de crescimento específicas para síndrome de Down desde o nascimento.",
+      "curvas de crescimento da OMS, corrigindo o peso e o comprimento para síndrome de Down.",
+      "curvas de crescimento da OMS até os dois anos e, a partir daí, em curvas específicas para síndrome de Down."
+    ],
+    correctAnswer: 1,
+    explanation: "Alternativa (B). Crianças com síndrome de Down possuem padrões de crescimento e desenvolvimento distintos da população geral. Por isso, o Ministério da Saúde recomenda o uso de curvas de crescimento específicas para a condição desde o nascimento, garantindo uma avaliação nutricional e estatural fidedigna."
+  },
+  {
+    id: "pe105",
+    institution: "ENAMED",
+    year: 2025,
+    specialty: "Pediatria",
+    text: "Paciente de 16 anos comparece ao ambulatório para mostrar os resultados dos exames complementares solicitados na consulta anterior. Está preocupada porque todas as colegas da mesma idade já menstruaram e ela não. O fenótipo é feminino, com pelos pubianos e axilares esparsos. Os exames complementares evidenciam ausência do útero à ultrassonografia pélvica, dosagem sérica do hormônio folículo estimulante (FSH) normal, dosagem de testosterona sérica compatível com níveis do sexo masculino e cariótipo 46 XY. Com base no quadro clínico e nos dados apresentados, a principal hipótese diagnóstica dessa paciente é:",
+    options: [
+      "disgenesia gonadal.",
+      "malformação Mulleriana.",
+      "obstrução do trato genital.",
+      "insensibilidade androgênica."
+    ],
+    correctAnswer: 3,
+    explanation: "Alternativa (D). A Síndrome de Insensibilidade Androgênica Completa manifesta-se em pacientes com genótipo 46,XY e fenótipo feminino. A presença de testículos (que produzem hormônio antimülleriano) causa a ausência de útero, enquanto a resistência periférica à testosterona impede a masculinização, resultando em amenorreia primária e pelos esparsos."
+  },
+  {
+    id: "pe106",
+    institution: "ENAMED",
+    year: 2025,
+    specialty: "Pediatria",
+    text: "A violência contra adolescentes pode ter várias causas e atores. Os sinais que demonstram essas ações podem ser indiretos, mas devem ser observados pelos profissionais da saúde. Assinale a alternativa com a situação em que se deve notificar o Conselho Tutelar.",
+    options: [
+      "Manuel (15 anos): abandonado, apresenta febre, vômitos, púrpuras e rigidez de nuca (sugestivo de meningite).",
+      "Michele (13 anos): morando com tios, apresenta equimoses em face e membros em vários estágios de evolução e evita falar sobre o fato.",
+      "Felipe (11 anos): em abrigo, apresenta febre, dor retro-orbitária, sangramento gengival e petéquias (sugestivo de dengue).",
+      "Edilene (16 anos): em instituição estatal, apresenta equimoses, suores noturnos, febre e linfonodomegalia generalizada (sugestivo de linfoma)."
+    ],
+    correctAnswer: 1,
+    explanation: "Alternativa (B). A identificação de equimoses em múltiplos estágios de cicatrização e em locais visíveis, associada ao comportamento esquivo da adolescente, são sinais clássicos de maus-tratos físicos. Nesses casos, a notificação ao Conselho Tutelar é obrigatória e imediata."
+  },
+  {
+    id: "pe107",
+    institution: "ENAMED",
+    year: 2025,
+    specialty: "Pediatria",
+    text: "Menino de 6 anos é levado à Unidade Básica de Saúde (UBS) com queixa de fimose. Mãe relata balanopostites frequentes, sendo o primeiro episódio com 1 ano de vida. Nega infecções do trato urinário. Ao exame físico, apresenta prepúcio cobrindo toda a glande que, quando tracionado, expõe meato uretral e anel fibrótico prepucial. Sobre o caso, assinale a alternativa correta.",
+    options: [
+      "Trata-se de fimose fisiológica, necessitando de exercícios de redução e higiene do prepúcio.",
+      "Há indicação cirúrgica na adolescência, pois já está apresentando exposição de meato uretral.",
+      "Há indicação cirúrgica, pois a criança apresenta balanopostites recorrentes com fibrose prepucial.",
+      "Indica-se uso de creme de betametasona e hialuronidase por 4 semanas."
+    ],
+    correctAnswer: 2,
+    explanation: "Alternativa (C). A presença de balanopostites de repetição e a formação de um anel fibrótico caracterizam a fimose patológica. Diferente da forma fisiológica, esta condição tem indicação formal de correção cirúrgica (postectomia) para evitar novas infecções e complicações."
+  },
+  {
+    id: "pe108",
+    institution: "ENAMED",
+    year: 2025,
+    specialty: "Pediatria",
+    text: "Menino, 10 anos, morador de área urbana, está em avaliação no pronto-atendimento por apresentar dor em cotovelo direito há 1 dia. Há 1 semana, iniciou quadro de febre de 38,5 °C associada à dificuldade de deambular devido ao joelho direito apresentar-se “doloroso e inchado”. Após 4 dias, percebeu melhora da dor no joelho, porém o tornozelo direito começou a ficar “inchado e um pouco avermelhado”. Há 3 semanas, havia se queixado de dor de garganta. No momento apresenta sopro sistólico de 3+/6+. O agente etiológico e o tratamento de escolha são:",
+    options: [
+      "Borrelia burgdorferi; doxiciclina.",
+      "Staphylococcus aureus; oxacilina.",
+      "Treponema pallidum; penicilina G benzatina.",
+      "Streptococcus pyogenes; penicilina G benzatina."
+    ],
+    correctAnswer: 3,
+    explanation: "Alternativa (D). O quadro de poliartrite migratória (joelho, tornozelo, cotovelo) associado à evidência de cardite (sopro sistólico) após uma faringite é o diagnóstico de Febre Reumática. O agente causador é o Streptococcus pyogenes (Estreptococo do grupo A) e o tratamento/profilaxia é feito com penicilina G benzatina."
+  },
+  {
+    id: "pe109",
+    institution: "ENAMED",
+    year: 2025,
+    specialty: "Pediatria",
+    text: "Recém-nascido de 14 dias, hipoativo e com desconforto respiratório. Exame clínico: cianótico, 70 irpm com tiragem subcostal, pulsos débeis, tempo de perfusão capilar de 5 segundos e frequência cardíaca de 160 bpm. Abdome com fígado a 2,5 cm do rebordo costal direito, presença de halo de hiperemia e edema em torno do coto umbilical. O diagnóstico e as condutas adequadas são:",
+    options: [
+      "choque cardiogênico; administrar fármacos vasoativos e prostaglandina E1.",
+      "choque neurogênico; hidratação venosa e corticoide.",
+      "choque obstrutivo; descompressão torácica com agulha.",
+      "choque distributivo; hidratação venosa, administrar antibióticos e fármacos vasoativos."
+    ],
+    correctAnswer: 3,
+    explanation: "Alternativa (D). A onfalite (infecção do coto umbilical) é a porta de entrada para uma infecção sistêmica que evoluiu para choque séptico (distributivo). O manejo prioritário envolve estabilização respiratória, expansão volêmica rápida com cristaloides e início imediato de antibioticoterapia."
+  },
+  {
+    id: "pe110",
+    institution: "ENAMED",
+    year: 2025,
+    specialty: "Pediatria",
+    text: "Adolescente de 12 anos, sexo feminino, comparece à UBS para verificar vacinas. Até os 8 anos, todas as vacinas foram feitas, tendo tomado 1 dose contra febre amarela aos 9 meses. Nesse momento, deve receber as vacinas:",
+    options: [
+      "HPV, reforço da hepatite B e dT.",
+      "reforço da hepatite B, dT e SCR.",
+      "HPV, meningocócica ACWY e febre amarela.",
+      "SCR, meningocócica ACWY e febre amarela."
+    ],
+    correctAnswer: 2,
+    explanation: "Alternativa (C). Pelo calendário nacional de vacinação (2024-2025), adolescentes de 11 e 12 anos devem receber a vacina contra o HPV e a Meningocócica ACWY. Como a paciente recebeu apenas uma dose de febre amarela antes dos 5 anos, ela necessita da dose de reforço aos 12 anos."
+  },
+  {
+    id: "pe111",
+    institution: "ENAMED",
+    year: 2025,
+    specialty: "Pediatria",
+    text: "Mãe de menina de 11 meses em consulta de puericultura, refere que a criança está começando a trocar passos de maneira independente. O reflexo primitivo usualmente presente nessa faixa etária é o:",
+    options: [
+      "reflexo plantar.",
+      "reflexo de Moro.",
+      "reflexo de procura.",
+      "reflexo tônico cervical."
+    ],
+    correctAnswer: 0,
+    explanation: "Alternativa (A). Enquanto reflexos como o de Moro e de procura desaparecem nos primeiros 6 meses, o reflexo de preensão plantar persiste por mais tempo, desaparecendo geralmente entre os 10 e 12 meses de vida, fase em que a criança inicia a deambulação independente."
+  },
+  {
+    id: "pe112",
+    institution: "ENAMED",
+    year: 2025,
+    specialty: "Pediatria",
+    text: "Criança de 9 anos com diagnóstico de transtorno de déficit de atenção e hiperatividade (TDAH) faz uso de metilfenidato há 1 ano com grande melhora escolar. Quais estratégias de monitoramento devem ser utilizadas?",
+    options: [
+      "acompanhar aumento de peso e possível dislipidemia.",
+      "acompanhar com testes psicodinâmicos parâmetros de atenção.",
+      "coletar hemograma e hormônios tireoidianos anuais.",
+      "consultas periódicas para verificação da estatura, peso e pressão arterial, com nova avaliação para retirada após 1 ano."
+    ],
+    correctAnswer: 3,
+    explanation: "Alternativa (D). O uso prolongado de estimulantes (metilfenidato) exige o monitoramento rigoroso do crescimento (curva de peso e estatura) devido ao risco de hiporexia, além da pressão arterial. Também é indicada uma reavaliação anual para considerar períodos de \"férias medicamentosas\" e verificar a necessidade contínua da droga."
+  },
+  {
+    id: "pe113",
+    institution: "ENAMED",
+    year: 2025,
+    specialty: "Pediatria",
+    text: "Lactente de 9 meses com crises epilépticas (espasmos em flexão) há 3 meses. Apresenta várias manchas hipomelanóticas nos membros inferiores e no tronco. Ressonância magnética de crânio revelou áreas compatíveis com astrocitomas de células gigantes subependimárias. A principal hipótese diagnóstica é:",
+    options: [
+      "neurofibromatose.",
+      "esclerose tuberosa.",
+      "síndrome de Sturge-Weber.",
+      "doença de von Hippel-Lindau."
+    ],
+    correctAnswer: 1,
+    explanation: "Alternativa (B). A associação da Síndrome de West (espasmos infantis) com manchas hipocrômicas e os astrocitomas subependimários é a apresentação clássica da Esclerose Tuberosa. É uma síndrome neurocutânea autossômica dominante com múltiplos hamartomas em órgãos distintos."
+  },
+  {
+    id: "pe114",
+    institution: "ENAMED",
+    year: 2025,
+    specialty: "Pediatria",
+    text: "Menina de 11 anos foi trazida à UPA com queda do estado geral, náuseas, dor abdominal, desidratação e hálito cetótico. Glicemia de 410 mg/dL; pH 7,15 e bicarbonato de 13 mEq/L; cetonúria presente. Além da fluidoterapia, o próximo passo é:",
+    options: [
+      "reposição de potássio.",
+      "correção imediata da glicemia.",
+      "reposição de bicarbonato de sódio.",
+      "administração imediata de manitol."
+    ],
+    correctAnswer: 0,
+    explanation: "Alternativa (A). No tratamento da cetoacidose diabética, a insulinoterapia promove o deslocamento do potássio para o meio intracelular. Por isso, a reposição precoce de potássio é obrigatória, mesmo com níveis séricos normais ou limítrofes, para prevenir arritmias graves por hipocalemia."
+  },
+  {
+    id: "pe115",
+    institution: "ENAMED",
+    year: 2025,
+    specialty: "Pediatria",
+    text: "Criança de 2 anos com história de ter apresentado há 7 dias uma crise tônico-clônica generalizada associada a temperatura de 39,3 °C, com duração de 2 minutos e sem recorrência. Exame físico e neurológico normais. A conduta adequada é:",
+    options: [
+      "solicitar eletroencefalograma.",
+      "indicar profilaxia com barbitúricos.",
+      "tranquilizar e orientar puericultura de rotina.",
+      "solicitar exames laboratoriais e de imagem."
+    ],
+    correctAnswer: 2,
+    explanation: "Alternativa (C). O quadro descreve uma crise febril simples, comum entre os 6 meses e 5 anos de idade. Por ser um evento benigno e isolado, não requer exames de neuroimagem ou tratamento anticonvulsivante profilático, bastando a orientação familiar sobre o manejo da febre."
+  },
+  {
+    id: "pe116",
+    institution: "ENAMED",
+    year: 2025,
+    specialty: "Pediatria",
+    text: "Recém-nascido apresenta, no 1° minuto de vida, apneia e bradicardia, desvio do ictus à direita, abdome escavado e presença de ruídos hidroaéreos no hemitórax esquerdo. Os procedimentos adequados em sala de parto são:",
+    options: [
+      "intubação traqueal e massagem cardíaca externa.",
+      "cateterismo umbilical e drenagem de hemitórax esquerdo.",
+      "ventilação com óxido nítrico e administração de surfactante.",
+      "ventilação com balão autoinflável com pressão expiratória final positiva."
+    ],
+    correctAnswer: 0,
+    explanation: "Alternativa (A). Os achados sugerem hérnia diafragmática congênita. Nessas situações, a ventilação por máscara e balão deve ser evitada para não insuflar o estômago e comprimir ainda mais o pulmão; a conduta é a intubação traqueal imediata para suporte ventilatório seguro."
+  },
+  {
+    id: "pe117",
+    institution: "ENAMED",
+    year: 2025,
+    specialty: "Pediatria",
+    text: "Adolescente de 13 anos apresenta manchas escurecidas no pescoço, axilas e virilhas. IMC está no Z escore entre +2 e +3 e relação da circunferência abdominal/estatura aumentada. Além de prescrever mudança de hábitos e atividade física, deve-se:",
+    options: [
+      "solicitar biópsia das lesões e hemoglobina glicada.",
+      "solicitar perfil lipídico e ultrassonografia de abdome.",
+      "indicar corticoide tópico nas lesões e evitar exposição solar.",
+      "indicar antifúngico nas lesões e solicitar teste de tolerância à glicose."
+    ],
+    correctAnswer: 1,
+    explanation: "Alternativa (B). A acantose nigricans associada à obesidade é um marcador cutâneo de hiperinsulinismo e resistência à insulina. A investigação laboratorial deve focar na identificação de dislipidemias e esteatose hepática (ultrassonografia de abdome), que compõem a síndrome metabólica infantojuvenil."
+  },
+  {
+    id: "pe118",
+    institution: "ENAMED",
+    year: 2025,
+    specialty: "Pediatria",
+    text: "Menina de 1 ano e 10 meses com tosse e dispneia há 4 dias, com piora importante há 6 horas. Relata exacerbações frequentes de asma. Ao exame: sonolenta, taquidispneica, saturação 94% e retração de musculatura acessória. Além da internação, a conduta adequada é:",
+    options: [
+      "metilprednisolona endovenoso.",
+      "ventilação não invasiva (VNI) com sedação.",
+      "salbutamol endovenoso em infusão contínua.",
+      "sulfato de magnésio em infusão intravenosa contínua."
+    ],
+    correctAnswer: 0,
+    explanation: "Alternativa (A). Na crise de asma grave que apresenta sinais de exaustão respiratória (sonolência), o uso de corticoide endovenoso é fundamental para reduzir o processo inflamatório brônquico agudo e evitar a progressão para insuficiência respiratória iminente."
+  },
+  {
+    id: "pe119",
+    institution: "ENAMED",
+    year: 2025,
+    specialty: "Pediatria",
+    text: "Menina de 11 anos com cansaço e palidez nos últimos 3 meses. Hemograma: Hb 8,4 g/dL; VCM 62 fL (baixo); HCM 24 pg (baixo); RDW 22% (alto); Eosinófilos 10% e Plaquetas 480.000. Assinale a alternativa mais adequada.",
+    options: [
+      "deve-se dosar o ferro sérico por ser exame sensível e específico.",
+      "pode-se iniciar tratamento com 4 mg/kg/dia de ferro elementar; espera-se aumento de reticulócitos em 4 a 7 dias.",
+      "a anemia é classificada como normocítica com base no HCM.",
+      "a eosinofilia e a trombocitose justificam encaminhamento imediato ao hematologista."
+    ],
+    correctAnswer: 1,
+    explanation: "Alternativa (B). O padrão microcítico (VCM baixo) e hipocrômico (HCM baixo) com anisocitose (RDW elevado) é típico da anemia ferropriva. O tratamento padrão é a reposição de ferro elementar, sendo o aumento dos reticulócitos na primeira semana o marcador laboratorial de resposta terapêutica eficaz."
+  },
+  {
+    id: "pe120",
+    institution: "ENAMED",
+    year: 2025,
+    specialty: "Pediatria",
+    text: "Menina de 7 anos apresenta estatura de 1,07 m (-3 < z < -2) com alvo genético familiar de 1,50 m. Idade óssea compatível com 5 anos e 10 meses (atrasada em relação à cronológica). A hipótese diagnóstica adequada é:",
+    options: [
+      "acondroplasia.",
+      "síndrome de Turner.",
+      "baixa estatura familiar.",
+      "atraso constitucional do crescimento."
+    ],
+    correctAnswer: 2,
+    explanation: "Alternativa (C). Quando a criança possui baixa estatura populacional, mas sua altura é compatível com a estatura dos pais (alvo genético familiar), o diagnóstico é de baixa estatura familiar. O atraso da idade óssea pode sugerir atraso constitucional, mas a convergência com o canal familiar prioriza essa hipótese."
+  }
 ];

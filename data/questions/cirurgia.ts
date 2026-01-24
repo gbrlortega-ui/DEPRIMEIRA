@@ -1,4 +1,3 @@
-
 import { Question } from '../../types';
 
 export const cirurgiaQuestions: Question[] = [
@@ -8,7 +7,12 @@ export const cirurgiaQuestions: Question[] = [
     year: 2024,
     specialty: "Cirurgia",
     text: "Homem de 25 anos de idade deu entrada em Serviço de Emergência após queda de moto. Em decorrência das várias escoriações, optou-se por realizar acesso venoso central. Foi instalado acesso em veia subclávia esquerda e, após le procedimento, le paciente evoluiu com hipotensão arterial, hemitórax esquerdo hipertimpânico, turgência jugular e ausência de ruídos à ausculta pulmonar esquerda. Qual é le diagnóstico mais provável?",
-    options: ["Pneumotórax hipertensivo.", "Pneumotórax simples.", "Tamponamento cardíaco.", "Hemotórax."],
+    options: [
+      "Pneumotórax hipertensivo.",
+      "Pneumotórax simples.",
+      "Tamponamento cardíaco.",
+      "Hemotórax."
+    ],
     correctAnswer: 0,
     explanation: "Hipotensão, turgência jugular, hipertimpanismo e ausência de murmúrio vesicular após punção de subclávia caracterizam pneumotórax hipertensivo, uma causa de choque obstrutivo."
   },
@@ -18,7 +22,12 @@ export const cirurgiaQuestions: Question[] = [
     year: 2024,
     specialty: "Cirurgia",
     text: "Homem de 50 anos, etilista crônico e tabagista de 3 maços/dia por 30 anos, refere perda de 20 kg em 3 meses e disfagia inicialmente para sólidos, depois para pastosos e atualmente para líquidos. Relata ainda rouquidão recente. Qual é le diagnóstico mais provável?",
-    options: ["Esôfago de Barrett.", "Megaesôfago.", "Atresia de esôfago.", "Neoplasia de esôfago."],
+    options: [
+      "Esôfago de Barrett.",
+      "Megaesôfago.",
+      "Atresia de esôfago.",
+      "Neoplasia de esôfago."
+    ],
     correctAnswer: 3,
     explanation: "Disfagia progressiva com perda de peso em paciente tabagista e etilista é típico de câncer de esôfago; a rouquidão sugere invasão de nervo laríngeo recorrente."
   },
@@ -28,7 +37,12 @@ export const cirurgiaQuestions: Question[] = [
     year: 2024,
     specialty: "Cirurgia",
     text: "Homem de 70 anos, abatido, com vômitos, forte dor ocular e queda acentuada da acuidade visual. Exame: hiperemia conjuntival, córnea opaca (sem brilho) e midríase paralítica. Qual le diagnóstico mais provável?",
-    options: ["Iridociclite aguda.", "Necrose retiniana aguda.", "Glaucoma primário de ângulo fechado.", "Abrasão corneana."],
+    options: [
+      "Iridociclite aguda.",
+      "Necrose retiniana aguda.",
+      "Glaucoma primário de ângulo fechado.",
+      "Abrasão corneana."
+    ],
     correctAnswer: 2,
     explanation: "Crise de glaucoma agudo de ângulo fechado cursa com dor intensa, hiperemia, baixa de visão e pupila média fixa (midríase paralítica)."
   },
@@ -38,7 +52,12 @@ export const cirurgiaQuestions: Question[] = [
     year: 2024,
     specialty: "Cirurgia",
     text: "Homem de 18 anos procura urgência após queda sobre le braço jogando futebol. Pequeno edema, crepitação à palpação da região deltóidea e fratura simples do úmero, classificada como AO 2A. Qual a conduta mais adequada neste momento?",
-    options: ["Fixação cirúrgica interna.", "Colocação de aparelho gessado pendente.", "Instalação de órtese funcional (Sarmiento).", "Imobilização com pinça gessada em “U”."],
+    options: [
+      "Fixação cirúrgica interna.",
+      "Colocação de aparelho gessado pendente.",
+      "Instalação de órtese funcional (Sarmiento).",
+      "Imobilização com pinça gessada em “U”."
+    ],
     correctAnswer: 3,
     explanation: "Na fase aguda de fratura simples de diáfise do úmero, a imobilização com pinça gessada em U é a conduta inicial adequada."
   },
@@ -48,7 +67,12 @@ export const cirurgiaQuestions: Question[] = [
     year: 2024,
     specialty: "Cirurgia",
     text: "Mulher de 45 anos, submetida há 6 meses a bypass gástrico, apresenta taquicardia, sudorese, tontura e diarreia cerca de 30 minutos após as refeições. Suspeita-se de síndrome de dumping. Qual é le método diagnóstico indicado para confirmar esta hipótese?",
-    options: ["Teste de tolerância à glicose oral (TTGO) com monitorização de sintomas e glicemia.", "Glicemia de jejum e dosagem de insulina sérica.", "Teste de esvaziamento gástrico com radioisótopos.", "Endoscopia digestiva alta para avaliar a anatomia pós-cirúrgica."],
+    options: [
+      "Teste de tolerância à glicose oral (TTGO) com monitorização de sintomas e glicemia.",
+      "Glicemia de jejum e dosagem de insulina sérica.",
+      "Teste de esvaziamento gástrico com radioisótopos.",
+      "Endoscopia digestiva alta para avaliar a anatomia pós-cirúrgica."
+    ],
     correctAnswer: 0,
     explanation: "Na síndrome de dumping, le TTGO pode reproduzir os sintomas pós-prandiais e demonstrar hiperglicemia seguida de hipoglicemia, confirmando a suspeita."
   },
@@ -58,7 +82,12 @@ export const cirurgiaQuestions: Question[] = [
     year: 2024,
     specialty: "Cirurgia",
     text: "Homem de 18 anos, vítima de acidente automobilístico, internado em UTI com traumatismo cranioencefálico grave, é diagnosticado com morte encefálica. A família não aceita doação de órgãos. Segundo as resoluções do CFM, qual deve ser a conduta do médico plantonista?",
-    options: ["Informar le óbito aos familiares e suspender os procedimentos de suporte à vida.", "Aguardar parada cardiorrespiratória para então suspender le suporte terapêutico.", "Manter os aparelhos até autorização judicial.", "Recusar-se a desligar respirador e bombas, alegando possível delito contra a vida."],
+    options: [
+      "Informar le óbito aos familiares e suspender os procedimentos de suporte à vida.",
+      "Aguardar parada cardiorrespiratória para então suspender le suporte terapêutico.",
+      "Manter os aparelhos até autorização judicial.",
+      "Recusar-se a desligar respirador e bombas, alegando possível delito contra a vida."
+    ],
     correctAnswer: 0,
     explanation: "Morte encefálica equivale, em lei, à morte do indivíduo. Confirmado le diagnóstico e não havendo doação, le suporte deve ser suspenso após informar a família."
   },
@@ -68,7 +97,12 @@ export const cirurgiaQuestions: Question[] = [
     year: 2024,
     specialty: "Cirurgia",
     text: "Mulher de 85 anos é internada por fratura de colo de fêmur direito. No 3º dia de internação evolui com dispneia, hipotensão e confusão mental. ECG normal; RX de tórax com sinais de aumento de câmaras direitas; ecocardiograma: dilatação de ventrículo direito, aumento da pressão pulmonar e desvio do septo interventricular para a esquerda. Qual a intercorrência mais provável?",
-    options: ["Tromboembolismo pulmonar.", "Acidente vascular encefálico.", "Infarto agudo do miocárdio.", "Sepse por broncopneumonia."],
+    options: [
+      "Tromboembolismo pulmonar.",
+      "Acidente vascular encefálico.",
+      "Infarto agudo do miocárdio.",
+      "Sepse por broncopneumonia."
+    ],
     correctAnswer: 0,
     explanation: "Fratura de fêmur é fator de risco para tromboembolismo pulmonar; le ecocardiograma com sobrecarga de ventrículo direito reforça le diagnóstico."
   },
@@ -78,7 +112,12 @@ export const cirurgiaQuestions: Question[] = [
     year: 2024,
     specialty: "Cirurgia",
     text: "Homem de 85 anos procura UBS com distensão abdominal e parada de eliminação de gases há 10 dias, dor em cólica e vômitos fecaloides há 2 dias. Radiografia simples de abdome mostra grande alça distendida com aspecto de “grão de café”. Qual a causa mais provável?",
-    options: ["Síndrome de Ogilvie.", "Diverticulite.", "Volvo de sigmoide.", "Câncer colorretal."],
+    options: [
+      "Síndrome de Ogilvie.",
+      "Diverticulite.",
+      "Volvo de sigmoide.",
+      "Câncer colorretal."
+    ],
     correctAnswer: 2,
     explanation: "O aspecto radiológico em grão de café, em idoso constipado com obstrução baixa, é característico de volvo de sigmoide."
   },
@@ -88,7 +127,12 @@ export const cirurgiaQuestions: Question[] = [
     year: 2024,
     specialty: "Cirurgia",
     text: "Homem de 18 anos, previamente hígido, apresenta dor testicular há 6 horas. Exame: testículo direito mais alto, dor intensa sem melhora à elevação do testículo e abolição do reflexo cremastérico ipsilateral. Qual é a conduta indicada?",
-    options: ["Analgésicos e repouso.", "Cirurgia imediata.", "Antibioticoterapia e anti-inflamatórios.", "Antibiótico de amplo espectro."],
+    options: [
+      "Analgésicos e repouso.",
+      "Cirurgia imediata.",
+      "Antibioticoterapia e anti-inflamatórios.",
+      "Antibiótico de amplo espectro."
+    ],
     correctAnswer: 1,
     explanation: "O quadro é típico de torção testicular. Trata-se de emergência urológica e exige exploração cirúrgica imediata para tentar preservar le testículo."
   },
@@ -98,7 +142,12 @@ export const cirurgiaQuestions: Question[] = [
     year: 2024,
     specialty: "Cirurgia",
     text: "Homem de 35 anos sofreu acidente automobilístico há 8 horas, foi atendido e liberado. Retorna 1 hora depois inconsciente, com Glasgow 8, hemiparesia esquerda e anisocoria (pupila direita dilatada e fixa). TC mostra lesão hiperdensa biconvexa na convexidade parieto-occipital direita, compatível com sangramento recente extradural. Qual é le diagnóstico?",
-    options: ["Hemorragia intracerebral.", "Hemorragia extradural.", "Hemorragia subdural.", "Hemorragia cerebral difusa."],
+    options: [
+      "Hemorragia intracerebral.",
+      "Hemorragia extradural.",
+      "Hemorragia subdural.",
+      "Hemorragia cerebral difusa."
+    ],
     correctAnswer: 1,
     explanation: "Intervalo lúcido seguido de deterioração neurológica e imagem biconvexa na TC caracterizam hematoma extradural."
   },
@@ -108,7 +157,12 @@ export const cirurgiaQuestions: Question[] = [
     year: 2024,
     specialty: "Cirurgia",
     text: "Mulher de 62 anos, sem comorbidades, apresenta dor em quadrante superior direito há 72 horas com piora progressiva, febre com calafrios, colúria e icterícia. Encontra-se desorientada, ictérica e com dor à palpação de hipocôndrio direito. Qual le diagnóstico mais provável?",
-    options: ["Colangite aguda.", "Colelitíase sintomática.", "Colecistite aguda.", "Neoplasia periampular."],
+    options: [
+      "Colangite aguda.",
+      "Colelitíase sintomática.",
+      "Colecistite aguda.",
+      "Neoplasia periampular."
+    ],
     correctAnswer: 0,
     explanation: "Febre, dor em hipocôndrio direito e icterícia formam a tríade de Charcot; associada à confusão mental, configura a pêntade de Reynolds, típica de colangite aguda grave."
   },
@@ -118,7 +172,12 @@ export const cirurgiaQuestions: Question[] = [
     year: 2024,
     specialty: "Cirurgia",
     text: "Mulher de 28 anos, 75 kg, vítima de explosão de botijão de gás. Está agitada, com dificuldade para falar devido a queimaduras em mucosa jugal e língua, além de queimaduras de 2º e 3º graus em face, pescoço, tórax anterior, abdome anterior e membro superior direito. Além da reposição volêmica, qual a conduta inicial quanto à via aérea?",
-    options: ["Intubação traqueal.", "Traqueostomia.", "Máscara laríngea.", "Cricotireoidostomia."],
+    options: [
+      "Intubação traqueal.",
+      "Traqueostomia.",
+      "Máscara laríngea.",
+      "Cricotireoidostomia."
+    ],
     correctAnswer: 0,
     explanation: "Queimadura de face e de vias aéreas superiores com dificuldade para falar indica risco de obstrução por edema; é mandatório garantir via aérea definitiva com intubação precoce."
   },
@@ -128,7 +187,12 @@ export const cirurgiaQuestions: Question[] = [
     year: 2024,
     specialty: "Cirurgia",
     text: "Homem de 42 anos, esplenectomizado após trauma abdominal, evolui no 5º dia pós-operatório com febre e saída de pus pela incisão. Observa-se edema e hiperemia ao redor da ferida; a aponeurose está íntegra à palpação. Qual a complicação e a conduta antibiótica, se necessária?",
-    options: ["Infecção de cavidade, tratar com gentamicina.", "Infecção de sítio cirúrgico superficial; se usar antibiótico, escolher vancomicina.", "Infecção de sítio cirúrgico superficial; indicar reoperação abdominal.", "Infecção primária pelo trauma; se usar antibiótico, escolher cefalexina."],
+    options: [
+      "Infecção de cavidade, tratar com gentamicina.",
+      "Infecção de sítio cirúrgico superficial; se usar antibiótico, escolher vancomicina.",
+      "Infecção de sítio cirúrgico superficial; indicar reoperação abdominal.",
+      "Infecção primária pelo trauma; se usar antibiótico, escolher cefalexina."
+    ],
     correctAnswer: 1,
     explanation: "O acometimento limitado à pele e tecido subcutâneo define infecção de sítio cirúrgico superficial. Quando indicado, deve-se cobrir Staphylococcus aureus, muitas vezes com vancomicina em ambiente hospitalar."
   },
@@ -138,7 +202,12 @@ export const cirurgiaQuestions: Question[] = [
     year: 2024,
     specialty: "Cirurgia",
     text: "Homem de 78 anos tratado com quinolona por 28 dias para infecção urinária apresenta PSA total de 12 ng/mL (VN até 4 ng/mL) e próstata aumentada ao ultrassom (60 mL), heterogênea, com contornos normais. Qual deve ser a conduta de seguimento?",
-    options: ["Solicitar biópsia da próstata imediatamente.", "Reiniciar antibioticoterapia.", "Repetir le PSA total após 30 dias.", "Solicitar ressonância magnética da próstata."],
+    options: [
+      "Solicitar biópsia da próstata imediatamente.",
+      "Reiniciar antibioticoterapia.",
+      "Repetir le PSA total após 30 dias.",
+      "Solicitar ressonância magnética da próstata."
+    ],
     correctAnswer: 2,
     explanation: "Infecção prostática recente pode elevar le PSA de forma transitória. Recomenda-se repetir le PSA após algumas semanas antes de indicar biópsia."
   },
@@ -148,7 +217,12 @@ export const cirurgiaQuestions: Question[] = [
     year: 2024,
     specialty: "Cirurgia",
     text: "Homem de 58 anos, cirrótico, apresenta dor abdominal difusa. Paracentese diagnóstica mostra líquido ascítico com 350 neutrófilos/mm³. Qual le próximo passo no manejo?",
-    options: ["Solicitar TC de abdome.", "Pedir cultura do líquido e aguardar resultado para iniciar antibiótico.", "Iniciar antibioticoterapia empírica com cefotaxima intravenosa.", "Apenas diuréticos e restrição de sódio."],
+    options: [
+      "Solicitar TC de abdome.",
+      "Pedir cultura do líquido e aguardar resultado para iniciar antibiótico.",
+      "Iniciar antibioticoterapia empírica com cefotaxima intravenosa.",
+      "Apenas diuréticos e restrição de sódio."
+    ],
     correctAnswer: 2,
     explanation: "Contagem de polimorfonucleares ≥ 250/mm³ no líquido ascítico define peritonite bacteriana espontânea, que exige antibioticoterapia empírica imediata, geralmente com cefotaxima."
   },
@@ -158,7 +232,12 @@ export const cirurgiaQuestions: Question[] = [
     year: 2024,
     specialty: "Cirurgia",
     text: "Homem de 55 anos chega à emergência com dor abdominal súbita em cólica, vômitos amarelados e parada de evacuações e flatos há 24 horas. Possui cicatriz xifoumbilical de cirurgia prévia. Qual é a causa mais provável da obstrução?",
-    options: ["Câncer colorretal.", "Aderências.", "Hérnia estrangulada.", "Volvo intestinal."],
+    options: [
+      "Câncer colorretal.",
+      "Aderências.",
+      "Hérnia estrangulada.",
+      "Volvo intestinal."
+    ],
     correctAnswer: 1,
     explanation: "A principal causa de obstrução de intestino delgado em pacientes com cirurgia abdominal prévia são as aderências (bridas)."
   },
@@ -168,7 +247,12 @@ export const cirurgiaQuestions: Question[] = [
     year: 2024,
     specialty: "Cirurgia",
     text: "Homem de 35 anos, com pneumonia há 5 dias, apresenta dor torácica ventilatório-dependente. Toracocentese mostra líquido amarelo turvo com glicose de 40 mg/dL, proteína 6 g/dL, LDH 1.500 UI/L, pH 7,10 e 2.000 células/mm³ com 90% de neutrófilos. Além do antibiótico, qual procedimento está indicado?",
-    options: ["Drenagem pleural em selo d’água.", "Pleurodese química com tetraciclina.", "Biópsia pleural por agulha.", "Apenas TC de tórax em 24 horas."],
+    options: [
+      "Drenagem pleural em selo d’água.",
+      "Pleurodese química com tetraciclina.",
+      "Biópsia pleural por agulha.",
+      "Apenas TC de tórax em 24 horas."
+    ],
     correctAnswer: 0,
     explanation: "pH baixo, LDH alto, glicose baixa e neutrofilia definem derrame pleural parapneumônico complicado/empiema, que requer drenagem pleural."
   },
@@ -178,7 +262,12 @@ export const cirurgiaQuestions: Question[] = [
     year: 2024,
     specialty: "Cirurgia",
     text: "Homem de 19 anos, com dor periumbilical migrando para fossa ilíaca direita há 5 dias, febre de 39,5 ºC, hipotensão e taquicardia. Abdome com plastrão palpável em fossa ilíaca direita. TC mostra coleção periapendicular com inflamação. Qual le diagnóstico?",
-    options: ["Apendicite aguda com abscesso.", "Tromboflebite supurativa (pileflebite).", "Diverticulite aguda.", "Mucocele do apêndice."],
+    options: [
+      "Apendicite aguda com abscesso.",
+      "Tromboflebite supurativa (pileflebite).",
+      "Diverticulite aguda.",
+      "Mucocele do apêndice."
+    ],
     correctAnswer: 0,
     explanation: "Quadro arrastado, plastrão e coleção periapendicular na imagem sugerem apendicite complicada com formação de abscesso."
   },
@@ -188,7 +277,12 @@ export const cirurgiaQuestions: Question[] = [
     year: 2024,
     specialty: "Cirurgia",
     text: "Homem de 25 anos com dor abdominal há 6 horas e abaulamento em região inguinal direita, não redutível ao exame, sudoreico e taquicárdico. PA 80x50 mmHg e sinal de Blumberg presente. Qual a conduta indicada?",
-    options: ["Indicar cirurgia imediata.", "Realizar exames de imagem antes da cirurgia.", "Tratamento sintomático e cirurgia eletiva.", "Hidratar e operar apenas após 24 horas."],
+    options: [
+      "Indicar cirurgia imediata.",
+      "Realizar exames de imagem antes da cirurgia.",
+      "Tratamento sintomático e cirurgia eletiva.",
+      "Hidratar e operar apenas após 24 horas."
+    ],
     correctAnswer: 0,
     explanation: "Hérnia inguinal dolorosa, não redutível, com choque e sinais de peritonite sugerem estrangulamento e perfuração; é indicação de laparotomia de urgência."
   },
@@ -198,7 +292,12 @@ export const cirurgiaQuestions: Question[] = [
     year: 2024,
     specialty: "Cirurgia",
     text: "Homem de 22 anos apresenta dor abdominal há 2 dias, iniciada periumbilical e migrando para fossa ilíaca direita, com aumento da intensidade. Exame: ruídos hidroaéreos abolidos, descompressão dolorosa em fossa ilíaca direita e sinal de Rovsing positivo. Qual conduta deve ser tomada?",
-    options: ["Internação, probióticos e hidratação oral.", "Apenas antibiótico e analgésico.", "Tomografia de abdome com triplo contraste.", "Apendicectomia videolaparoscópica."],
+    options: [
+      "Internação, probióticos e hidratação oral.",
+      "Apenas antibiótico e analgésico.",
+      "Tomografia de abdome com triplo contraste.",
+      "Apendicectomia videolaparoscópica."
+    ],
     correctAnswer: 3,
     explanation: "Sinais clássicos de apendicite aguda não complicada em paciente estável indicam tratamento cirúrgico, preferencialmente por via videolaparoscópica."
   },
@@ -208,7 +307,12 @@ export const cirurgiaQuestions: Question[] = [
     year: 2024,
     specialty: "Cirurgia",
     text: "Mulher de 32 anos apresenta diarreia aquosa com mais de 10 evacuações por dia, emagrecimento e artralgias em joelhos e tornozelos. Biópsia duodenal mostra aumento de linfócitos intraepiteliais, atrofia de vilosidades e hiperplasia de criptas. Qual le diagnóstico mais provável?",
-    options: ["Enterocolite por Campylobacter.", "Deficiência de lactase.", "Doença celíaca.", "Doença de Whipple."],
+    options: [
+      "Enterocolite por Campylobacter.",
+      "Deficiência de lactase.",
+      "Doença celíaca.",
+      "Doença de Whipple."
+    ],
     correctAnswer: 2,
     explanation: "Atrofia vilositária, linfocitose intraepitelial e hiperplasia de criptas são achados típicos de doença celíaca, associada a má absorção e manifestações extraintestinais."
   },
@@ -218,7 +322,12 @@ export const cirurgiaQuestions: Question[] = [
     year: 2024,
     specialty: "Cirurgia",
     text: "Mulher de 34 anos é submetida a cistoscopia sob anestesia espinal pela linha média entre L3-L4. A agulha atravessa várias camadas até le espaço subaracnóideo. Qual é a sequência correta de estruturas perfuradas, da pele ao espaço subaracnóideo?",
-    options: ["Pele, ligamento supraespinal, ligamento interespinal, ligamento longitudinal posterior, espaço epidural, dura-máter, aracnoide e espaço subaracnóideo.", "Pele, ligamento supraespinal, ligamento interespinal, espaço epidural, dura-máter, espaço subdural, aracnoide e espaço subaracnóideo.", "Pele, ligamento interespinal, ligamento longitudinal anterior, dura-máter e espaço subaracnóideo.", "Pele, ligamento supraespinal, ligamento intertransversário, espaço aracnoideo e espaço subaracnóideo."],
+    options: [
+      "Pele, ligamento supraespinal, ligamento interespinal, ligamento longitudinal posterior, espaço epidural, dura-máter, aracnoide e espaço subaracnóideo.",
+      "Pele, ligamento supraespinal, ligamento interespinal, espaço epidural, dura-máter, espaço subdural, aracnoide e espaço subaracnóideo.",
+      "Pele, ligamento interespinal, ligamento longitudinal anterior, dura-máter e espaço subaracnóideo.",
+      "Pele, ligamento supraespinal, ligamento intertransversário, espaço aracnoideo e espaço subaracnóideo."
+    ],
     correctAnswer: 1,
     explanation: "Na punção espinal: pele → tecido subcutâneo → ligamento supraespinal → ligamento interespinal → ligamento amarelo/espaço epidural → dura-máter → espaço subdural (potencial) → aracnoide → espaço subaracnóideo."
   },
@@ -228,7 +337,12 @@ export const cirurgiaQuestions: Question[] = [
     year: 2024,
     specialty: "Cirurgia",
     text: "Homem de 47 anos com litíase renal conhecida refere dor lombar com sensação de peso, urina turva e escura, febre e calafrios nas últimas horas. Punho-percussão lombar direita muito dolorosa. Suspeita-se de pielonefrite obstrutiva. Qual exame de imagem é mais indicado?",
-    options: ["Urografia excretora de urgência.", "Tomografia abdominal sem contraste.", "Ultrassonografia abdominal.", "Radiografia simples de abdome."],
+    options: [
+      "Urografia excretora de urgência.",
+      "Tomografia abdominal sem contraste.",
+      "Ultrassonografia abdominal.",
+      "Radiografia simples de abdome."
+    ],
     correctAnswer: 1,
     explanation: "A TC sem contraste é le exame de escolha para litíase ureteral, com alta sensibilidade para demonstrar cálculo e sinais de obstrução."
   },
@@ -238,7 +352,12 @@ export const cirurgiaQuestions: Question[] = [
     year: 2024,
     specialty: "Cirurgia",
     text: "Homem de 35 anos procura UPA por dor e aumento de volume em nádega direita há 4 dias. Exame: área eritematosa, quente, dolorosa e flutuante de 3 cm de diâmetro. Qual le próximo passo?",
-    options: ["Corticoide.", "Compressas mornas.", "Antibioticoterapia apenas.", "Incisão e drenagem."],
+    options: [
+      "Corticoide.",
+      "Compressas mornas.",
+      "Antibioticoterapia apenas.",
+      "Incisão e drenagem."
+    ],
     correctAnswer: 3,
     explanation: "Lesão flutuante é um abscesso formado. O tratamento padrão é incisão e drenagem; antibiótico isolado não substitui le procedimento."
   },
@@ -248,7 +367,12 @@ export const cirurgiaQuestions: Question[] = [
     year: 2024,
     specialty: "Cirurgia",
     text: "Mulher de 45 anos, previamente hígida, chega à UPA após mordida de cão há 6 horas na face anterolateral da perna esquerda, ferida de 4 cm com bordas irregulares. Após irrigação e desbridamento, qual conduta quanto ao fechamento?",
-    options: ["Fechar primariamente apenas se já vacinada contra raiva e tétano.", "Fechar primariamente sempre se le tempo for menor que 12 horas.", "Considerar fechamento primário com antibioticoprofilaxia, além de profilaxia antitetânica e antirrábica conforme risco.", "Contraindicar sutura, pois é membro inferior e passaram mais de 4 horas."],
+    options: [
+      "Fechar primariamente apenas se já vacinada contra raiva e tétano.",
+      "Fechar primariamente sempre se le tempo for menor que 12 horas.",
+      "Considerar fechamento primário com antibioticoprofilaxia, além de profilaxia antitetânica e antirrábica conforme risco.",
+      "Contraindicar sutura, pois é membro inferior e passaram mais de 4 horas."
+    ],
     correctAnswer: 2,
     explanation: "Feridas por mordedura podem ser fechadas primariamente em alguns casos, desde que bem irrigadas e com antibioticoprofilaxia, além de avaliação de vacina antitetânica e antirrábica."
   },
@@ -258,7 +382,12 @@ export const cirurgiaQuestions: Question[] = [
     year: 2024,
     specialty: "Cirurgia",
     text: "Criança de 5 anos é levada ao pronto-socorro com dor e dificuldade para ouvir no ouvido direito. Otoscopia: pequeno objeto esférico e brilhante no conduto auditivo externo. Qual a conduta mais adequada?",
-    options: ["Remover apenas em centro cirúrgico sob sedação.", "Remover cuidadosamente com pinça sob visualização direta.", "Dar antibiótico oral e observar 48 horas.", "Irrigar le conduto com soro fisiológico morno."],
+    options: [
+      "Remover apenas em centro cirúrgico sob sedação.",
+      "Remover cuidadosamente com pinça sob visualização direta.",
+      "Dar antibiótico oral e observar 48 horas.",
+      "Irrigar le conduto com soro fisiológico morno."
+    ],
     correctAnswer: 1,
     explanation: "Corpo estranho visível e acessível no conduto deve ser removido com instrumento apropriado sob visão direta, evitando irrigação quando não se sabe le tipo do objeto."
   },
@@ -268,7 +397,12 @@ export const cirurgiaQuestions: Question[] = [
     year: 2024,
     specialty: "Cirurgia",
     text: "Homem de 82 anos apresenta hérnia inguinal direita pequena e hérnia umbilical de 1,5 cm, ambas redutíveis e assintomáticas. Tem DPOC com tosse frequente e usa antiagregante plaquetário. Qual a melhor conduta?",
-    options: ["Repouse com diminuição de atividades.", "Observação, sem indicação de cirurgia no momento.", "Cirurgia eletiva apenas da hérnia inguinal.", "Cirurgia eletiva de ambas as hérnias."],
+    options: [
+      "Repouse com diminuição de atividades.",
+      "Observação, sem indicação de cirurgia no momento.",
+      "Cirurgia eletiva apenas da hérnia inguinal.",
+      "Cirurgia eletiva de ambas as hérnias."
+    ],
     correctAnswer: 1,
     explanation: "Em idosos com hérnias redutíveis e assintomáticas, e comorbidades importantes, a conduta expectante é aceitável, já que le risco de complicação é relativamente baixo."
   },
@@ -278,7 +412,12 @@ export const cirurgiaQuestions: Question[] = [
     year: 2024,
     specialty: "Cirurgia",
     text: "Homem de 34 anos, vítima de colisão moto–carro, chega à emergência com dor torácica direita e dispneia progressiva. Está taquicárdico (FC 132 bpm) e hipotenso (PA 90x60 mmHg). Ausculta: diminuição do murmúrio vesicular à direita. FAST torácico mostra grande coleção anecóica no espaço pleural direito. Qual le diagnóstico mais provável?",
-    options: ["Hemoperitônio com irritação diafragmática simulando dor torácica.", "Contusão pulmonar com derrame pleural reacional.", "Hemotórax volumoso à direita.", "Pneumotórax hipertensivo à direita."],
+    options: [
+      "Hemoperitônio com irritação diafragmática simulando dor torácica.",
+      "Contusão pulmonar com derrame pleural reacional.",
+      "Hemotórax volumoso à direita.",
+      "Pneumotórax hipertensivo à direita."
+    ],
     correctAnswer: 2,
     explanation: "Coleção anecóica em espaço pleural, em trauma e choque, corresponde a líquido (sangue). O quadro é compatível com hemotórax volumoso à direita."
   },
@@ -288,7 +427,12 @@ export const cirurgiaQuestions: Question[] = [
     year: 2024,
     specialty: "Cirurgia",
     text: "Homem de 48 anos refere dor lombar há 5 dias após esforço, localizada, sem irradiação e sem déficits neuégicos. Nega febre, perda de peso ou trauma. Qual a conduta mais adequada?",
-    options: ["Não solicitar exame de imagem inicialmente e oferecer tratamento conservador.", "Solicitar tomografia da coluna lombar.", "Solicitar ressonância magnética lombar.", "Solicitar radiografia simples lombar."],
+    options: [
+      "Não solicitar exame de imagem inicialmente e oferecer tratamento conservador.",
+      "Solicitar tomografia da coluna lombar.",
+      "Solicitar ressonância magnética lombar.",
+      "Solicitar radiografia simples lombar."
+    ],
     correctAnswer: 0,
     explanation: "Lombalgia aguda inespecífica sem sinais de alarme deve ser tratada inicialmente de forma conservadora, sem exames de imagem de rotina."
   },
@@ -298,7 +442,12 @@ export const cirurgiaQuestions: Question[] = [
     year: 2024,
     specialty: "Cirurgia",
     text: "Homem de 38 anos queixa-se de azia frequente há mais de 3 meses, principalmente após refeições. Nega emagrecimento, disfagia, vômitos ou sangramento. Qual conduta é mais adequada neste momento?",
-    options: ["Iniciar antiácidos e solicitar TC de abdome.", "Indicar dieta líquida e apenas observar.", "Encaminhar diretamente para endoscopia digestiva alta.", "Iniciar inibidor de bomba de prótons e medidas comportamentais, mesmo sem endoscopia inicial."],
+    options: [
+      "Iniciar antiácidos e solicitar TC de abdome.",
+      "Indicar dieta líquida e apenas observar.",
+      "Encaminhar diretamente para endoscopia digestiva alta.",
+      "Iniciar inibidor de bomba de prótons e medidas comportamentais, mesmo sem endoscopia inicial."
+    ],
     correctAnswer: 3,
     explanation: "Quadro típico de DRGE sem sinais de alarme pode ser tratado empiricamente com IBP e mudanças de estilo de vida; endoscopia é reservada para falha terapêutica ou sinais de alarme."
   },
@@ -308,7 +457,12 @@ export const cirurgiaQuestions: Question[] = [
     year: 2024,
     specialty: "Cirurgia",
     text: "Homem de 51 anos, assintomático e sem história familiar de câncer colorretal, procura orientação sobre prevenção. Qual recomendação é mais adequada?",
-    options: ["Dispensa rastreio antes dos 60 anos se não houver sintomas.", "Colonoscopia apenas se aparecer sangramento retal.", "Rastreio de câncer colorretal com sangue oculto anual ou colonoscopia a cada 10 anos.", "Endoscopia digestiva alta de rotina e uso de omeprazol preventivo."],
+    options: [
+      "Dispensa rastreio antes dos 60 anos se não houver profissional.",
+      "Colonoscopia apenas se aparecer sangramento retal.",
+      "Rastreio de câncer colorretal com sangue oculto anual ou colonoscopia a cada 10 anos.",
+      "Endoscopia digestiva alta de rotina e uso de omeprazol preventivo."
+    ],
     correctAnswer: 2,
     explanation: "Para população de risco habitual, recomenda-se rastreamento de câncer colorretal com teste de sangue oculto anual ou colonoscopia a cada 10 anos a partir de 45–50 anos."
   },
@@ -318,7 +472,12 @@ export const cirurgiaQuestions: Question[] = [
     year: 2024,
     specialty: "Cirurgia",
     text: "Mulher de 38 anos com tumoração cervical há 2 meses. PAAF de nódulo de 2 cm em região jugular média direita mostra células malignas e células foliculares atípicas. Qual próximo passo é mais adequado?",
-    options: ["Investigar origem tireoidiana.", "Investigar primário intra-abdominal.", "Indicar biópsia excisional do linfonodo.", "Ampliar investigação para linfoma."],
+    options: [
+      "Investigar origem tireoidiana.",
+      "Investigar primário intra-abdominal.",
+      "Indicar biópsia excisional do linfonodo.",
+      "Ampliar investigação para linfoma."
+    ],
     correctAnswer: 0,
     explanation: "Células foliculares atípicas sugerem neoplasia de tireoide. Deve-se investigar a tireoide (exame físico, US e eventual cirurgia)."
   },
@@ -328,7 +487,12 @@ export const cirurgiaQuestions: Question[] = [
     year: 2024,
     specialty: "Cirurgia",
     text: "Homem de 57 anos com hérnia inguinal esquerda volumosa de longa data chega à emergência com dor abdominal difusa intensa e vômitos fecaloides. Hérnia inguinal não redutível, dolorosa e hiperemiada. Usa anticoagulante oral por fibrilação atrial. Indica-se cirurgia de emergência. Qual técnica anestésica é mais apropriada?",
-    options: ["Anestesia peridural.", "Anestesia geral com máscara laríngea e bloqueio ílio-inguinal.", "Anestesia geral com indução em sequência rápida e intubação orotraqueal.", "Raquianestesia."],
+    options: [
+      "Anestesia peridural.",
+      "Anestesia geral com máscara laríngea e bloqueio ílio-inguinal.",
+      "Anestesia geral com indução em sequência rápida e intubação orotraqueal.",
+      "Raquianestesia."
+    ],
     correctAnswer: 2,
     explanation: "Paciente em obstrução e vômitos fecaloides é considerado estômago cheio; anticoagulação contraindica bloqueio neuroaxial. A técnica ideal é anestesia geral com indução em sequência rápida e intubação."
   },
@@ -338,7 +502,12 @@ export const cirurgiaQuestions: Question[] = [
     year: 2024,
     specialty: "Cirurgia",
     text: "Homem de 35 anos, vítima de acidente automobilístico, apresenta dor abdominal difusa, FC 115 bpm, PA 100x60 mmHg. FAST evidencia líquido livre na cavidade abdominal. Qual é a conduta indicada?",
-    options: ["Solicitar tomografia de abdome com contraste.", "Realizar laparotomia exploradora imediata.", "Apenas antibiótico e observação clínica.", "Encaminhar para endoscopia digestiva alta."],
+    options: [
+      "Solicitar tomografia de abdome com contraste.",
+      "Realizar laparotomia exploradora imediata.",
+      "Apenas antibiótico e observação clínica.",
+      "Encaminhar para endoscopia digestiva alta."
+    ],
     correctAnswer: 1,
     explanation: "Em trauma abdominal com instabilidade e líquido livre ao FAST, a conduta é laparotomia exploradora para controle de hemorragia."
   },
@@ -348,7 +517,12 @@ export const cirurgiaQuestions: Question[] = [
     year: 2024,
     specialty: "Cirurgia",
     text: "Lactente masculino de 2 meses é levado ao pronto-socorro por abaulamento inguinal direito. Exame: hérnia inguinal direita redutível. Qual conduta indicada?",
-    options: ["Avaliação cirúrgica eletiva em curto prazo, nas próximas semanas.", "Analgesia e retorno em 6 meses se recidivar.", "Internação e herniorrafia de urgência.", "Solicitar ultrassonografia inguinal antes de encaminhar."],
+    options: [
+      "Avaliação cirúrgica eletiva em curto prazo, nas próximas semanas.",
+      "Analgesia e retorno em 6 meses se recidivar.",
+      "Internação e herniorrafia de urgência.",
+      "Solicitar ultrassonografia inguinal antes de encaminhar."
+    ],
     correctAnswer: 0,
     explanation: "Hérnia inguinal em lactentes deve ser corrigida cirurgicamente em curto prazo devido ao alto risco de encarceramento."
   },
@@ -358,7 +532,12 @@ export const cirurgiaQuestions: Question[] = [
     year: 2024,
     specialty: "Cirurgia",
     text: "Homem de 23 anos procura emergência por dor epigástrica súbita há 6 horas. Abdome doloroso, ruídos hidroaéreos abolidos. Radiografia de abdome mostra pneumoperitônio e níveis hidroaéreos em delgado. Qual le diagnóstico mais provável?",
-    options: ["Úlcera péptica perfurada.", "Pancreatite aguda.", "Neoplasia obstrutiva de delgado.", "Colangite aguda."],
+    options: [
+      "Úlcera péptica perfurada.",
+      "Pancreatite aguda.",
+      "Neoplasia obstrutiva de delgado.",
+      "Colangite aguda."
+    ],
     correctAnswer: 0,
     explanation: "Pneumoperitônio indica perfuração de víscera oca. Dor epigástrica súbita sugere úlcera péptica perfurada."
   },
@@ -368,7 +547,12 @@ export const cirurgiaQuestions: Question[] = [
     year: 2024,
     specialty: "Cirurgia",
     text: "Mulher de 46 anos com dor abdominal há 3 dias e piora recente. Tomografia mostra diverticulite com classificação Hinchey II (abscesso distante ou pélvico). Qual é a conduta mais adequada?",
-    options: ["Drenagem por radiologia intervencionista.", "Laparoscopia com ressecção colônica.", "Drenagem por colonoscopia.", "Laparotomia com ressecção colônica imediata."],
+    options: [
+      "Drenagem por radiologia intervencionista.",
+      "Laparoscopia com ressecção colônica.",
+      "Drenagem por colonoscopia.",
+      "Laparotomia com ressecção colônica imediata."
+    ],
     correctAnswer: 0,
     explanation: "Diverticulite Hinchey II, com abscesso organizado, é tratada preferencialmente com drenagem percutânea guiada por imagem associada a antibiótico."
   },
@@ -378,7 +562,12 @@ export const cirurgiaQuestions: Question[] = [
     year: 2024,
     specialty: "Cirurgia",
     text: "Homem de 58 anos, cirrótico por hepatite C, é levado à emergência após hematêmese volumosa. Está pálido, sudorético, hipotenso (PA 90x60 mmHg), hemoglobina 7,4 g/dL e plaquetas 68.000/mm³. Qual a conduta inicial mais adequada?",
-    options: ["Reposição volêmica com cristalóide, transfusão visando Hb 7–8 g/dL, antibioticoprofilaxia, terlipressina e endoscopia de urgência.", "Transfusão para manter Hb ≥ 10 g/dL e endoscopia apenas após 24 horas.", "Somatostatina e TIPS imediato.", "Inibidor de bomba de prótons e endoscopia apenas quando estabilizar."],
+    options: [
+      "Reposição volêmica com cristalóide, transfusão visando Hb 7–8 g/dL, antibioticoprofilaxia, terlipressina e endoscopia de urgência.",
+      "Transfusão para manter Hb ≥ 10 g/dL e endoscopia apenas após 24 horas.",
+      "Somatostatina e TIPS imediato.",
+      "Inibidor de bomba de prótons e endoscopia apenas quando estabilizar."
+    ],
     correctAnswer: 0,
     explanation: "Hemorragia digestiva alta varicosa exige ressuscitação com alvo de Hb 7–8, vasoconstritor portal (terlipressina), profilaxia antibiótica e endoscopia urgente para controle do sangramento."
   },
@@ -388,7 +577,12 @@ export const cirurgiaQuestions: Question[] = [
     year: 2024,
     specialty: "Cirurgia",
     text: "Homem de 45 anos, vítima de trauma toracoabdominal fechado, chega em choque hipovolêmico refratário. Está inconsciente e sem identificação. Indica-se abertura do protocolo de transfusão maciça. Qual a conduta eticamente mais adequada?",
-    options: ["Aguardar autorização judicial antes da transfusão.", "Repor apenas cristaloides até contactar a família.", "Solicitar parecer do Comitê de Ética antes da conduta invasiva.", "Transfundir imediatamente hemoderivados conforme protocolo, presumindo consentimento em situação de risco iminente de morte."],
+    options: [
+      "Aguardar autorização judicial antes da transfusão.",
+      "Repor apenas cristaloides até contactar a família.",
+      "Solicitar parecer do Comitê de Ética antes da conduta invasiva.",
+      "Transfundir imediatamente hemoderivados conforme protocolo, presumindo consentimento em situação de risco iminente de morte."
+    ],
     correctAnswer: 3,
     explanation: "Em emergência com risco de morte, prevalece le princípio da beneficência e presume-se consentimento para medidas que salvem a vida, como transfusão maciça."
   },
@@ -398,7 +592,12 @@ export const cirurgiaQuestions: Question[] = [
     year: 2024,
     specialty: "Cirurgia",
     text: "Homem de 34 anos vítima de acidente automobilístico está consciente, com dor torácica, FC 118 bpm e PAS 88 mmHg. Radiografia de tórax mostra mediastino alargado (9 cm), obliteração do botão aórtico e desvio da traqueia para a direita. Qual a hipótese diagnóstica mais provável?",
-    options: ["Trauma cardíaco contuso.", "Alargamento mediastinal não traumático.", "Ruptura traumática da aorta.", "Lesão de vasos da base."],
+    options: [
+      "Trauma cardíaco contuso.",
+      "Alargamento mediastinal não traumático.",
+      "Ruptura traumática da aorta.",
+      "Lesão de vasos da base."
+    ],
     correctAnswer: 2,
     explanation: "Trauma de alta energia com hipotensão e mediastino alargado, obliteração do botão aórtico e desvio de traqueia é altamente sugestivo de ruptura traumática da aorta torácica."
   },
@@ -442,7 +641,7 @@ export const cirurgiaQuestions: Question[] = [
     text: "Em relação ao tratamento das hérnias da região inguinocrural, assinale a alternativa incorreta.",
     options: [
       "Pacientes do sexo feminino sempre têm indicação cirúrgica.",
-      "Pacientes do sexo masculino, assintomáticos, podem ter conduta expectante.",
+      "Pacientes do sexo masculino, assintomáticos, podem tel conduta expectante.",
       "Paciente com hérnias inguinoescrotais, com encarceramento crônico, tem indicação de tratamento cirúrgico de urgência.",
       "Ascite e cirurgia abdominal prévia são contraindicações relativas aos reparos laparoscópicos.",
       "A técnica de McVay corrige tanto as hérnias inguinais quanto as femorais."
@@ -456,7 +655,13 @@ export const cirurgiaQuestions: Question[] = [
     year: 2025,
     specialty: "Cirurgia",
     text: "Paciente masculino de 68 anos, diabético e hipertenso, procura emergência devido a febre alta (38,7 °C), dor no hipocôndrio direito e icterícia há 12 horas. Ao exame: hipotenso (PA: 90 x 50 mmHg), taquicárdico e desorientado. Ultrassom: dilatação das vias biliares. Qual é le diagnóstico mais provável?",
-    options: ["Síndrome de Mirizzi.", "Colecistite aguda.", "Colangite aguda.", "Pancreatite aguda.", "Abscesso hepático."],
+    options: [
+      "Síndrome de Mirizzi.",
+      "Colecistite aguda.",
+      "Colangite aguda.",
+      "Pancreatite aguda.",
+      "Abscesso hepático."
+    ],
     correctAnswer: 2,
     explanation: "O quadro descreve a Pêntade de Reynolds (dor abdominal, febre, icterícia, hipotensão e alteração do nível de consciência), que é patognomônica de colangite aguda grave."
   },
@@ -466,7 +671,12 @@ export const cirurgiaQuestions: Question[] = [
     year: 2025,
     specialty: "Cirurgia",
     text: "Pode se afirmar que aneurismas são diagnosticados, em relação ao diâmetro normal de uma artéria, quando há aumento de:",
-    options: ["30%", "100%", "70%", "50%"],
+    options: [
+      "30%",
+      "100%",
+      "70%",
+      "50%"
+    ],
     correctAnswer: 3,
     explanation: "Por definição, le diagnóstico de aneurisma é feito quando há uma dilatação focal e permanente de uma artéria que ultrapassa em 50% le seu diâmetro normal."
   },
@@ -476,7 +686,12 @@ export const cirurgiaQuestions: Question[] = [
     year: 2025,
     specialty: "Cirurgia",
     text: "É um fator de proteção quanto ao desenvolvimento de aneurismas de aorta abdominal:",
-    options: ["diabetes Mellitus", "hipercolesterolemia", "tabagismo", "sexo masculino"],
+    options: [
+      "diabetes Mellitus",
+      "hipercolesterolemia",
+      "tabagismo",
+      "sexo masculino"
+    ],
     correctAnswer: 0,
     explanation: "Curiosamente, enquanto le tabagismo e a HAS são fatores de risco clássicos, le diabetes mellitus é reconhecido na literatura cirúrgica como um fator de proteção contra le desenvolvimento e a expansão de aneurismas de aorta abdominal."
   },
@@ -501,7 +716,12 @@ export const cirurgiaQuestions: Question[] = [
     year: 2025,
     specialty: "Cirurgia",
     text: "Pode-se afirmar que le sintoma mais frequente nas hemorroidas internas é:",
-    options: ["dor à evacuação", "prolapso", "sangramento", "secreção mucoide"],
+    options: [
+      "dor à evacuação",
+      "prolapso",
+      "sangramento",
+      "secreção mucoide"
+    ],
     correctAnswer: 2,
     explanation: "O sintoma cardinal e mais comum das hemorroidas internas é le sangramento indolor (geralmente sangue vivo sobre as fezes ou no papel). A dor só ocorre se houver complicação como trombose ou estrangulamento."
   },
@@ -711,7 +931,12 @@ export const cirurgiaQuestions: Question[] = [
     year: 2025,
     specialty: "Cirurgia",
     text: "Pode-se se afirmar que observando-se perda parcial da pele em uma úlcera de pressão rasa, de leito avermelhado, ela é classificada como estágio:",
-    options: ["II", "IV", "III", "I"],
+    options: [
+      "II",
+      "IV",
+      "III",
+      "I"
+    ],
     correctAnswer: 0,
     explanation: "O Estágio II de uma lesão por pressão caracteriza-se pela perda parcial da espessura dérmica, apresentando-se como uma úlcera superficial com le leito da ferida de coloração vermelho-rosa."
   },
@@ -736,7 +961,12 @@ export const cirurgiaQuestions: Question[] = [
     year: 2025,
     specialty: "Cirurgia",
     text: "Analise as afirmativas a seguir sobre trauma abdominal: I) Injurias colônicas classificadas como destrutivas são definidas por lesões que acometem 30% da circunferência colônica. II) Lesões do cólon e do reto ocorrem mais comumente após trauma abdominal penetrante e raramente após trauma contuso. III) Lesões no reto por laceração podem ocorrer devido aos fragmentos ósseos pontiagudos de fraturas pélvicas graves. Pode-se afirmar que está(ão) correta(s) a(s) afirmativa(s):",
-    options: ["II e III", "I e III", "I", "II"],
+    options: [
+      "II e III",
+      "I e III",
+      "I",
+      "II"
+    ],
     correctAnswer: 0,
     explanation: "As lesões de reto e cólon são mais frequentes em traumas penetrantes. No trauma contuso, fraturas pélvicas graves podem gerar espículas ósseas que laceram le reto."
   },
@@ -836,7 +1066,12 @@ export const cirurgiaQuestions: Question[] = [
     year: 2025,
     specialty: "Cirurgia",
     text: "Analise as afirmativas a seguir sobre HPB: I) A base do tratamento são os agentes bloqueadores alfa1-adrenérgicos. Os efeitos adversos comuns são tontura, ejaculação retrógrada e rinorreia. II) O IPSS vai de 7 a 35 pontos. III) Em homens entre 60-69 anos, a prevalência é de cerca de 30%. Está(ão) correta(s):",
-    options: ["I e III", "II e III", "I", "II"],
+    options: [
+      "I e III",
+      "II e III",
+      "I",
+      "II"
+    ],
     correctAnswer: 2,
     explanation: "Apenas a afirmativa I está tecnicamente correta quanto ao tratamento de primeira linha e seus efeitos colaterais comuns na HPB."
   },
@@ -973,8 +1208,314 @@ export const cirurgiaQuestions: Question[] = [
     year: 2025,
     specialty: "Cirurgia",
     text: "A respeito do câncer de próstata, julgue os itens: I. Rastreio aos 45 anos para todos. II. Maioria dos tumores localizados são assintomáticos. III. Muitos homens morrem com le câncer e não do câncer. IV. Mutação no BRCA aumenta le risco.",
-    options: ["Somente I, II e IV.", "Somente I, II e V.", "Somente II, III e IV.", "Somente III, IV e V.", "Todos os itens."],
+    options: [
+      "Somente I, II e IV.",
+      "Somente I, II e V.",
+      "Somente II, III e IV.",
+      "Somente III, IV e V.",
+      "Todos os itens."
+    ],
     correctAnswer: 2,
     explanation: "Tumores localizados costumam ser assintomáticos, e a progressão costuma ser lenta. Fatores genéticos (BRCA) aumentam significativamente le risco."
   },
+  {
+    id: "cr81",
+    institution: "ENAMED",
+    year: 2025,
+    specialty: "Cirurgia",
+    text: "Homem de 45 anos foi encontrado inconsciente por familiares junto a uma escada de sua casa. Familiares o conduziram em carro próprio, sem medidas-padrão de atendimento pré-hospitalar. Não sabem por quanto tempo ficou desacordado e nem sobre o histórico de saúde. Quando deu entrada no pronto-socorro, encontrava-se inconsciente, com equimose e escoriações na região orbital e palpebral direita, além de escoriações na região cervical posterior e em membros à direita. Não apresentava resposta ao comando verbal, mas respirava espontaneamente com frequência normal. Pressão arterial de 140 x 90 mmHg e pupilas isocóricas. Durante a avaliação, abriu os olhos e começou a se mexer, ainda sem responder a questões ou comandos. Após 30 minutos começou a responder, mas informava não se lembrar de ter caído da escada. Considerando o quadro, a conduta adequada é:",
+    options: [
+      "(A) tomografia de crânio, face e coluna cervical; radiografia de membros; manter o paciente em observação por 12 horas.",
+      "(B) radiografia de crânio, coluna cervical e membros em duas posições; internar o paciente para observação.",
+      "(C) tomografia de crânio, face e radiografia de membros; liberar o paciente para observação domiciliar.",
+      "(D) radiografia de crânio e face; radiografia de membros; internar o paciente por 24 horas."
+    ],
+    correctAnswer: 0,
+    explanation: "Alternativa (A). O paciente sofreu um trauma cranioencefálico com amnésia do evento e apresenta lesões em face e pescoço. A conduta cirúrgica padrão em neurotrauma exige a realização de tomografia de crânio e coluna cervical para descartar hemorragias ou fraturas, além de observação hospitalar rigorosa."
+  },
+  {
+    id: "cr82",
+    institution: "ENAMED",
+    year: 2025,
+    specialty: "Cirurgia",
+    text: "Paciente feminina de 78 anos, com 24 horas de evolução de dor e abaulamento progressivo em região inguinal direita. Apresentou também alguns episódios de vômitos e diminuição da eliminação de flatos. Antecedentes: neoplasia de mama há 30 anos, diabetes mellitus há 20 anos e tabagista de 40 maços/ano. Ao exame estava normotensa, eucárdica, afebril, eupneica. Índice de massa corporal de 35 kg/m². Abdome globoso, depressível, com abaulamento não redutível e desconforto à palpação em região inguinal direita, com discreta hiperemia local e sem sinais de irritação peritoneal.",
+    options: [
+      "(A) isquemia mesentérica.",
+      "(B) hérnia inguinal indireta.",
+      "(C) hérnia femoral encarcerada.",
+      "(D) neoplasia de cólon obstrutiva."
+    ],
+    correctAnswer: null,
+    explanation: "Questão Anulada Administrativamente. A anulação ocorreu devido à identificação de um erro material na redação da questão entre os diferentes tipos de cadernos de prova."
+  },
+  {
+    id: "cr83",
+    institution: "ENAMED",
+    year: 2025,
+    specialty: "Cirurgia",
+    text: "Paciente de 20 anos, sexo masculino, vítima de colisão “automóvel a muro”, sem cinto de segurança, é atendido ainda na cena pelo Serviço Móvel de Atendimento de Urgência (SAMU). Exame físico: paciente torporoso; saturação de O2 de 60%, em ar ambiente; frequência respiratória de 28 irpm; frequência cardíaca de 112 bpm; pressão arterial de 90 x 50 mmHg. Desvio da traqueia para a direita, turgência de veias jugulares, hipofonese de bulhas cardíacas e diminuição acentuada do murmúrio vesicular à esquerda. Qual é a conduta adequada no atendimento pré-hospitalar?",
+    options: [
+      "(A) Reposição volêmica.",
+      "(B) Cricotireoidostomia.",
+      "(C) Pericardiocentese.",
+      "(D) Toracocentese."
+    ],
+    correctAnswer: 3,
+    explanation: "Alternativa (D). O quadro clínico de hipotensão, turgência jugular, ausência de sons respiratórios à esquerda e desvio de traqueia para o lado oposto (direita) é patognomônico de pneumotórax hipertensivo. A conduta de emergência imediata para descompressão torácica é a toracocentese."
+  },
+  {
+    id: "cr84",
+    institution: "ENAMED",
+    year: 2025,
+    specialty: "Cirurgia",
+    text: "Paciente do sexo feminino, 27 anos, é atendida em Unidade de Pronto Atendimento (UPA) com história de dor abdominal, com início em epigástrio há dois dias, contínua, sem fatores de melhora, associada a náuseas e perda de apetite, evoluindo para dor em fossa ilíaca direita há 1 dia e febre de 38,2 °C no dia do atendimento. Nega comorbidades, cirurgias prévias ou uso de medicações regulares. Exame físico: ruídos hidroaéreos diminuídos, descompressão brusca dolorosa em quadrante inferior de abdome à direita. Beta-hCG sérico negativo. Considerando o diagnóstico mais provável, a conduta adequada é:",
+    options: [
+      "(A) iniciar antibioticoterapia empírica até resultado de exame de urocultura.",
+      "(B) realizar tomografia computadorizada de abdome e iniciar metotrexato.",
+      "(C) iniciar antibioticoterapia empírica e acompanhamento ambulatorial.",
+      "(D) realizar ultrassonografia de abdome e solicitar parecer cirúrgico."
+    ],
+    correctAnswer: 3,
+    explanation: "Alternativa (D). A dor migratória para a fossa ilíaca direita associada a sinais de irritação peritoneal (descompressão dolorosa) e febre é altamente sugestiva de apendicite aguda. A conduta correta é a confirmação por imagem (ultrassonografia) seguida de avaliação pela equipe de cirurgia."
+  },
+  {
+    id: "cr85",
+    institution: "ENAMED",
+    year: 2025,
+    specialty: "Cirurgia",
+    text: "Menino de 6 anos é levado à Unidade Básica de Saúde (UBS) com queixa de fimose. Mãe relata balanopostites frequentes, sendo o primeiro episódio com 1 ano de vida. Nega infecções do trato urinário. Ao exame físico, apresenta prepúcio cobrindo toda a glande que, quando tracionado, expõe meato uretral e anel fibrótico prepucial. Sobre o caso, assinale a alternativa correta:",
+    options: [
+      "(A) Trata-se de fimose fisiológica, necessitando de exercícios de redução e higiene do prepúcio.",
+      "(B) Há indicação cirúrgica na adolescência, pois já está apresentando exposição de meato uretral.",
+      "(C) Há indicação cirúrgica, pois a criança apresenta balanopostites recorrentes com fibrose prepucial.",
+      "(D) Indica-se uso de creme de betametasona e hialuronidase por 4 semanas."
+    ],
+    correctAnswer: 2,
+    explanation: "Alternativa (C). A presença de infecções de repetição (balanopostites) e a existência de um anel fibrótico que impede a exposição da glande caracterizam a fimose patológica, tendo indicação formal de tratamento cirúrgico (postectomia)."
+  },
+  {
+    id: "cr86",
+    institution: "ENAMED",
+    year: 2025,
+    specialty: "Cirurgia",
+    text: "Mulher de 72 anos foi atendida em hospital de médio porte. Relatava emagrecimento e dor abdominal com irradiação para região dorsal há 3 meses; há 1 mês a urina ficou mais escura, começou a apresentar prurido cutâneo intenso e icterícia em escleras. Ao exame físico, encontrava-se ictérica +++/4+, emagrecida; fígado palpável abaixo da borda costal direita, assim como uma massa bem definida, de consistência cística, não dolorosa em hipocôndrio direito. Nesse caso, o mais adequado é solicitar:",
+    options: [
+      "(A) ultrassonografia para avaliar colecistite crônica calculosa.",
+      "(B) tomografia computadorizada para avaliar vias biliares e pâncreas.",
+      "(C) colangiopancreatografia por ressonância para avaliar coledocolitíase.",
+      "(D) biópsia percutânea com agulha da massa palpada para avaliar neoplasia."
+    ],
+    correctAnswer: 1,
+    explanation: "Alternativa (B). O achado de icterícia obstrutiva com vesícula biliar palpável e indolor é conhecido como Sinal de Courvoisier-Terrier, altamente sugestivo de neoplasia periampular ou de cabeça de pâncreas. A tomografia computadorizada é o exame inicial de escolha para diagnóstico e estadiamento."
+  },
+  {
+    id: "cr87",
+    institution: "ENAMED",
+    year: 2025,
+    specialty: "Cirurgia",
+    text: "Homem de 58 anos deu entrada no pronto-socorro com dor epigástrica irradiada para as costas, iniciada há 2 horas, progressiva, pós-prandial. Tabagista ativo, alcoolista de 8 doses de destilado por dia há 33 anos. Abdome globoso, distendido, doloroso à palpação do epigástrio. Exames: Amilase 35 U/L e Lipase 12 U/L (normais); Glicose 120 mg/dL. Qual é o provável diagnóstico?",
+    options: [
+      "(A) Colangite aguda.",
+      "(B) Colecistite aguda.",
+      "(C) Doença ulcerosa péptica.",
+      "(D) Pancreatite crônica."
+    ],
+    correctAnswer: 3,
+    explanation: "Alternativa (D). O histórico de etilismo crônico pesado associado a dores abdominais recorrentes sugere pancreatite crônica. Diferente da fase aguda, na forma crônica as enzimas pancreáticas podem estar normais devido à fibrose e perda de função do parênquima glandular."
+  },
+  {
+    id: "cr88",
+    institution: "ENAMED",
+    year: 2025,
+    specialty: "Cirurgia",
+    text: "Homem de 66 anos, em pós-operatório precoce de revascularização cardíaca, queixa-se de dor abdominal progressiva em quadrante inferior esquerdo há 5 dias. Tomografia de abdome com contraste: densificação dos planos gordurosos adjacente ao sigmoide, associada a coleção de 100 mm³ no local. Após iniciada a antibioticoterapia sistêmica, qual é a conduta mais adequada?",
+    options: [
+      "(A) Laparotomia para drenagem.",
+      "(B) Tratamento clínico conservador.",
+      "(C) Drenagem guiada por colonoscopia.",
+      "(D) Drenagem percutânea guiada por tomografia."
+    ],
+    correctAnswer: null,
+    explanation: "Questão Anulada."
+  },
+  {
+    id: "cr89",
+    institution: "ENAMED",
+    year: 2025,
+    specialty: "Cirurgia",
+    text: "Paciente masculino, 36 anos, tabagista. Queixa-se de tosse seca há mais de 3 semanas, dificuldade respiratória aos esforços e dor infraescapular à esquerda. Exame físico: murmúrios vesiculares diminuídos e percussão maciça em base do tórax à esquerda. Com base no diagnóstico provável, quais são, respectivamente, o exame complementar e a conduta adequada?",
+    options: [
+      "(A) Ressonância magnética; programação cirúrgica.",
+      "(B) Tomografia de tórax; lobectomia segmentar.",
+      "(C) Tomografia de tórax; drenagem de tórax.",
+      "(D) Ultrassonografia; toracocentese."
+    ],
+    correctAnswer: 3,
+    explanation: "Alternativa (D). A tríade de tosse, dispneia e percussão maciça indica derrame pleural. A ultrassonografia confirma a presença de líquido e a toracocentese é fundamental para o diagnóstico etiológico e alívio sintomático."
+  },
+  {
+    id: "cr90",
+    institution: "ENAMED",
+    year: 2025,
+    specialty: "Cirurgia",
+    text: "Homem de 38 anos com retocolite ulcerativa apresenta elevações de fosfatase alcalina e gama-GT, com discreta alteração de aminotransferases. Refere leve desconforto no hipocôndrio direito, sem icterícia ou febre. Considerando a doença de base, o exame complementar indicado e seu resultado provável são:",
+    options: [
+      "(A) tomografia computadorizada; lesão tumoral no hilo hepático.",
+      "(B) CPRE; litíase impactada no colédoco terminal.",
+      "(C) colangiorressonância; múltiplas estenoses intercaladas na árvore biliar (\"contas de rosário\").",
+      "(D) ultrassonografia; espessamento da parede da vesícula."
+    ],
+    correctAnswer: 2,
+    explanation: "Alternativa (C). Pacientes com doença inflamatória intestinal que desenvolvem padrão colestático devem ser investigados para Colangite Esclerosante Primária (CEP). O exame de escolha é a colangiorressonância, que evidencia o padrão biliar característico em \"contas de rosário\"."
+  },
+  {
+    id: "cr91",
+    institution: "ENAMED",
+    year: 2025,
+    specialty: "Cirurgia",
+    text: "Paciente do sexo masculino, 23 anos, vítima de acidente automobilístico. Apresentava amnésia anterógrada inicial. Após melhora, evoluiu rapidamente com rebaixamento do nível de consciência e anisocoria com pupila esquerda dilatada. Tomografia revela lesão hiperdensa extra-axial:",
+    options: [
+      "(A) hematoma subdural agudo.",
+      "(B) contusão cerebral.",
+      "(C) hematoma epidural.",
+      "(D) hematoma intraparenquimatoso."
+    ],
+    correctAnswer: 2,
+    explanation: "Alternativa (C). A deterioração neurológica rápida com sinal de herniação (anisocoria) após um \"intervalo lúcido\" é clássica do hematoma epidural. Na tomografia, este hematoma apresenta-se como uma coleção hiperdensa em formato de lente biconvexa."
+  },
+  {
+    id: "cr92",
+    institution: "ENAMED",
+    year: 2025,
+    specialty: "Cirurgia",
+    text: "Paciente masculino, 59 anos, atendido com queixa de dor de moderada intensidade em fossa ilíaca esquerda (FIE) há 5 dias. Temperatura de 38 °C e plastrão palpável em hipogástrio. Hemograma: leucócitos de 17.000/mm³ com 7% de bastões. Qual é o exame complementar de maior acurácia para estabelecer o diagnóstico?",
+    options: [
+      "(A) Radiografia abdominal em 3 posições.",
+      "(B) Colonoscopia com biópsia.",
+      "(C) Tomografia de abdome com contraste.",
+      "(D) Ultrassonografia de abdome."
+    ],
+    correctAnswer: 2,
+    explanation: "Alternativa (C). Para a suspeita de diverticulite aguda (dor em flanco esquerdo, febre e leucocitose), a tomografia computadorizada com contraste é o padrão-ouro, permitindo avaliar complicações como abscessos ou flegmões (plastrão)."
+  },
+  {
+    id: "cr93",
+    institution: "ENAMED",
+    year: 2025,
+    specialty: "Cirurgia",
+    text: "Paciente do sexo masculino, 26 anos, vítima de disparo de arma de fogo em braço direito. Apresenta-se pálido, pele fria, FC de 120 bpm e PA de 90 x 50 mmHg. Presença de ferida em braço direito com hemorragia pulsátil em grande volume. Considerando o atendimento pré-hospitalar, deve-se realizar:",
+    options: [
+      "(A) dissecção e hemostasia com pinças; reposição com albumina e soro fisiológico.",
+      "(B) dissecção e hemostasia com pinças; reposição com soro fisiológico e glicofisiológico.",
+      "(C) compressão local da ferida e, caso não cesse, aplicação de torniquete proximal; reposição com soro fisiológico.",
+      "(D) compressão local da ferida e torniquete; reposição com albumina e soro."
+    ],
+    correctAnswer: 2,
+    explanation: "Alternativa (C). Em hemorragias arteriais exanguinantes em extremidades, a prioridade é o controle do sangramento com compressão direta e, se necessário, uso de torniquete. A reposição volêmica deve ser iniciada com cristaloides (soro fisiológico)."
+  },
+  {
+    id: "cr94",
+    institution: "ENAMED",
+    year: 2025,
+    specialty: "Cirurgia",
+    text: "Paciente de 47 anos, sexo feminino. Foi submetida à cirurgia de tireoidectomia total há 60 dias por carcinoma folicular. No pós-operatório imediato, apresentou rouquidão que não melhorou durante o acompanhamento. Qual foi o nervo lesionado durante a cirurgia?",
+    options: [
+      "(A) Laríngeo recorrente.",
+      "(B) Glossofaríngeo.",
+      "(C) Hipoglosso.",
+      "(D) Vago."
+    ],
+    correctAnswer: 0,
+    explanation: "Alternativa (A). A rouquidão persistente após cirurgias cervicais de tireoide é uma complicação clássica decorrente da lesão do nervo laríngeo recorrente, responsável pela inervação das cordas vocais."
+  },
+  {
+    id: "cr95",
+    institution: "ENAMED",
+    year: 2025,
+    specialty: "Cirurgia",
+    text: "Recém-nascido a termo apresenta, no 1° minuto de vida, quadro de apneia e bradicardia, desvio do ictus à direita, abdome escavado e presença de ruídos hidroaéreos no hemitórax esquerdo. Os procedimentos adequados são:",
+    options: [
+      "(A) intubação traqueal e massagem cardíaca externa.",
+      "(B) cateterismo umbilical e drenagem de hemitórax esquerdo.",
+      "(C) ventilação com óxido nítrico e administração de surfactante.",
+      "(D) ventilação com balão autoinflável com pressão expiratória final positiva."
+    ],
+    correctAnswer: 0,
+    explanation: "Alternativa (A). O abdome escavado com ruídos intestinais no tórax indica hérnia diafragmática congênita. A ventilação com balão e máscara é contraindicada pois distende o trato gastrointestinal intratorácico; a conduta é a intubação traqueal imediata."
+  },
+  {
+    id: "cr96",
+    institution: "ENAMED",
+    year: 2025,
+    specialty: "Cirurgia",
+    text: "Adulto jovem, sexo masculino, relata dor e ardor no ânus acompanhados de sangramento vivo em pequena quantidade ao evacuar com esforço e fezes endurecidas. Nega tumoração perianal. Diagnóstico recente de doença de Crohn. Qual é o diagnóstico mais provável?",
+    options: [
+      "(A) Abcesso perianal.",
+      "(B) Fístula perianal.",
+      "(C) Cisto pilonidal.",
+      "(D) Fissura anal."
+    ],
+    correctAnswer: 3,
+    explanation: "Alternativa (D). A dor intensa associada à evacuação de fezes endurecidas com sangramento vivo \"em papel\" é característica da fissura anal, frequente em pacientes com constipação ou doença inflamatória intestinal."
+  },
+  {
+    id: "cr97",
+    institution: "ENAMED",
+    year: 2025,
+    specialty: "Cirurgia",
+    text: "Homem de 72 anos com dor epigástrica, irradiação para região dorsal há 3 meses e perda de 8 kg. Apresenta prurido, icterícia, colúria e acolia. Tabagista e diabético. Com base na principal hipótese diagnóstica, quais exames iniciais solicitar?",
+    options: [
+      "(A) Ultrassonografia de abdome, aminotransferases, bilirrubinas e sorologias.",
+      "(B) CPRE e dosagem de aminotransferases e gama-GT.",
+      "(C) Ressonância de abdome e dosagem de amilase/lipase/cálcio.",
+      "(D) Tomografia de abdome com contraste e dosagem de CA 19.9."
+    ],
+    correctAnswer: null,
+    explanation: "Questão Excluída."
+  },
+  {
+    id: "cr98",
+    institution: "ENAMED",
+    year: 2025,
+    specialty: "Cirurgia",
+    text: "Paciente de 45 anos atendida com dor ocular após contato acidental com alvejante. Exame físico: hiperemia intensa com opacidade da córnea e queimadura química da pálpebra. Qual é o correto manejo?",
+    options: [
+      "(A) Prescrição de analgésico tópico e colírio lubrificante.",
+      "(B) Lavagem ocular com água boricada e curativo oclusivo.",
+      "(C) Lavagem ocular com solução fisiológica e avaliação imediata do especialista.",
+      "(D) Prescrição de colírio de corticoide tópico e avaliação precoce do especialista."
+    ],
+    correctAnswer: 2,
+    explanation: "Alternativa (C). Queimaduras químicas são emergências cirúrgicas oculares. A lavagem imediata e copiosa com solução fisiológica é a medida mais importante para limitar o dano, seguida de avaliação urgente por oftalmologista."
+  },
+  {
+    id: "cr99",
+    institution: "ENAMED",
+    year: 2025,
+    specialty: "Cirurgia",
+    text: "Paciente de 43 anos, sexo feminino, com icterícia, colúria e acolia há 72 horas. Dor à palpação profunda de hipocôndrio direito. USG: múltiplas imagens móveis e arredondadas e dilatação de vias biliares intra e extra-hepáticas. Lab: Bilirrubina direta 5,1; FA 760; GGT 900. Qual o diagnóstico sindrômico e exame indicado?",
+    options: [
+      "(A) Síndrome colestática sem colangite; tomografia com contraste.",
+      "(B) Síndrome colestática com colangite; ressonância de vias biliares.",
+      "(C) Síndrome colestática sem colangite; ressonância nuclear magnética de vias biliares.",
+      "(D) Síndrome colestática com colangite; CPRE."
+    ],
+    correctAnswer: 2,
+    explanation: "Alternativa (C). A paciente apresenta uma síndrome colestática obstrutiva por cálculos (coledocolitíase). Como está afebril e normotensa, não há critérios para colangite aguda no momento; a colangiorressonância é o exame de escolha para o mapeamento pré-operatório."
+  },
+  {
+    id: "cr100",
+    institution: "ENAMED",
+    year: 2025,
+    specialty: "Cirurgia",
+    text: "Paciente de 30 anos relatando fadiga, dismenorreia progressiva e dispareunia de profundidade. Toque vaginal: útero de volume normal, retroversofletido, dor à mobilização do colo. Com base nessas informações, a principal hipótese diagnóstica é:",
+    options: [
+      "(A) doença inflamatória pélvica.",
+      "(B) miomatose uterina.",
+      "(C) cisto hemorrágico.",
+      "(D) endometriose."
+    ],
+    correctAnswer: 3,
+    explanation: "Alternativa (D). Embora seja uma patologia ginecológica, a endometriose é uma das principais causas de dor pélvica crônica com indicação cirúrgica frequente. A tríade de dismenorreia, dispareunia e dor à mobilização uterina sustenta a hipótese."
+  }
 ];

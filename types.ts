@@ -8,7 +8,7 @@ export interface Question {
   specialty: Specialty;
   text: string;
   options: string[];
-  correctAnswer: number;
+  correctAnswer: number | null;
   explanation: string;
 }
 
