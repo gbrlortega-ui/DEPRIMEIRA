@@ -976,7 +976,7 @@ export const cirurgiaQuestions: Question[] = [
     options: ["Somente I, II e IV.", "Somente I, II e V.", "Somente II, III e IV.", "Somente III, IV e V.", "Todos os itens."],
     correctAnswer: 2,
     explanation: "Tumores localizados costumam ser assintomáticos, e a progressão costuma ser lenta. Fatores genéticos (BRCA) aumentam significativamente o risco."
-  }
+  },
   {
   id: "cr81",
   institution: "ENAMED",
