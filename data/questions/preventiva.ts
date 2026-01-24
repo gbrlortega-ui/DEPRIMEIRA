@@ -1100,7 +1100,7 @@ export const preventivaQuestions: Question[] = [
     ],
     correctAnswer: 1,
     explanation: "O Acesso é o atributo que garante que a APS seja o primeiro contato do usuário com o sistema de saúde, devendo ser geograficamente e organizacionalmente acessível."
-  }
+  },
   {
   id: "pr81",
   institution: "ENAMED",
