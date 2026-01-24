@@ -1499,7 +1499,7 @@ export const pediatriaQuestions: Question[] = [
     options: ["I e III.", "II e III.", "I.", "II."],
     correctAnswer: 0,
     explanation: "O tratamento sistêmico é mandatório para erradicar o reservatório na nasofaringe e prevenir pneumonia."
-  }
+  },
   {
   id: "pe101",
   institution: "ENAMED",
