@@ -13,6 +13,7 @@ const QuizEngine: React.FC<QuizEngineProps> = ({ questions, onFinish, onGoToSumm
   const [answers, setAnswers] = useState<(number | null)[]>(new Array(questions.length).fill(null));
   const [showExplanation, setShowExplanation] = useState(false);
   const [showResults, setShowResults] = useState(false);
+  const [showMidQuizOffer, setShowMidQuizOffer] = useState(false);
 
   const currentQuestion = questions[currentIndex];
   const isAnswered = answers[currentIndex] !== null;
@@ -27,6 +28,12 @@ const QuizEngine: React.FC<QuizEngineProps> = ({ questions, onFinish, onGoToSumm
     newAnswers[currentIndex] = optionIndex;
     setAnswers(newAnswers);
     setShowExplanation(true);
+
+    // Oferta a cada 20 questões respondidas
+    const currentAnsweredCount = newAnswers.filter(a => a !== null).length;
+    if (currentAnsweredCount > 0 && currentAnsweredCount % 20 === 0) {
+      setTimeout(() => setShowMidQuizOffer(true), 1500);
+    }
   };
 
   const nextQuestion = () => {
@@ -123,6 +130,39 @@ const QuizEngine: React.FC<QuizEngineProps> = ({ questions, onFinish, onGoToSumm
 
   return (
     <div className="min-h-screen bg-background-light dark:bg-background-dark flex flex-col font-display transition-colors duration-300">
+      {/* Mid-Quiz Offer Modal */}
+      {showMidQuizOffer && (
+        <div className="fixed inset-0 z-[110] flex items-center justify-center p-4 bg-black/80 backdrop-blur-md animate-in fade-in duration-300">
+          <div className="max-w-md w-full bg-white dark:bg-slate-900 rounded-[2.5rem] p-8 text-center shadow-2xl border border-amber-200/50 dark:border-amber-900/30 animate-in zoom-in-95 duration-300">
+            <div className="size-20 bg-amber-100 dark:bg-amber-900/30 rounded-3xl flex items-center justify-center mx-auto mb-6">
+              <span className="material-icons-round text-amber-500 text-4xl animate-bounce">auto_stories</span>
+            </div>
+            <h3 className="text-2xl font-black text-slate-900 dark:text-white mb-4 uppercase tracking-tighter italic">Mandando Bem! 🚀</h3>
+            <p className="text-slate-600 dark:text-slate-400 font-medium mb-8">
+              Você já resolveu <span className="font-black text-primary">{answeredCount} questões</span>. Que tal reforçar a base com os <span className="text-amber-500 font-bold">Ebooks Premium 2025</span> e gabaritar o resto?
+            </p>
+            <div className="flex flex-col gap-4">
+              <button 
+                onClick={() => {
+                  window.open('/summaries', '_blank'); // Abre em nova guia
+                  setShowMidQuizOffer(false);
+                }}
+                className="bg-amber-500 hover:bg-amber-600 text-white py-4 rounded-2xl font-black text-lg shadow-glow-gold transition-all uppercase tracking-tighter flex items-center justify-center gap-2"
+              >
+                <span className="material-icons-round">open_in_new</span>
+                Ver Ebooks Premium
+              </button>
+              <button 
+                onClick={() => setShowMidQuizOffer(false)}
+                className="text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 text-sm font-bold uppercase tracking-widest transition-colors"
+              >
+                Continuar Simulado
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
       <header className="bg-surface-light dark:bg-surface-dark border-b border-slate-200 dark:border-slate-700 sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between relative">
           <div className="flex-1 hidden md:flex items-center">

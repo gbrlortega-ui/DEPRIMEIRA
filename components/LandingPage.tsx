@@ -64,17 +64,27 @@ const LandingPage: React.FC<LandingPageProps> = ({ onStartQuiz, onViewSummaries 
             <p className="text-lg text-slate-500 dark:text-slate-400 max-w-2xl mx-auto lg:mx-0">
               USP, UNESP, SUS e Provas de Progresso. Estude com material direcionado, questões comentadas e ebooks de alto rendimento.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start pt-4">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start pt-8 relative">
+              {/* Balão Informativo ENAMED */}
+              <div className="absolute -top-10 left-1/2 -translate-x-1/2 lg:left-10 lg:translate-x-0 animate-bounce">
+                <div className="bg-secondary text-white text-[10px] sm:text-xs font-black px-4 py-2 rounded-full shadow-lg flex items-center gap-2 whitespace-nowrap border-2 border-white dark:border-slate-900 ring-4 ring-secondary/20">
+                  <span className="material-icons-round text-sm sm:text-base">auto_awesome</span>
+                  QUESTÕES ENAMED 2025 COMENTADAS!
+                  <div className="absolute -bottom-1.5 left-1/2 -translate-x-1/2 w-3 h-3 bg-secondary rotate-45 border-r-2 border-b-2 border-white dark:border-slate-900"></div>
+                </div>
+              </div>
+
               <button 
                 onClick={() => onStartQuiz(40)}
-                className="bg-primary hover:bg-primary-hover text-white px-8 py-4 rounded-xl font-bold shadow-glow text-lg transition-all hover:-translate-y-1 flex items-center justify-center gap-2 active:scale-95"
+                className="group relative bg-gradient-to-r from-primary to-blue-600 hover:from-primary-hover hover:to-blue-700 text-white px-10 py-5 rounded-2xl font-black text-xl shadow-glow transition-all hover:-translate-y-1 active:scale-95 flex items-center justify-center gap-3 uppercase tracking-tighter italic overflow-hidden"
               >
-                <span className="material-icons-round">play_arrow</span>
-                Iniciar Simulado
+                <div className="absolute inset-0 bg-white/20 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-700 skew-x-[-20deg]"></div>
+                <span className="material-icons-round text-2xl animate-pulse">play_circle_filled</span>
+                Iniciar Simulado Grátis
               </button>
               <button 
                 onClick={onViewSummaries}
-                className="bg-amber-500 hover:bg-amber-600 text-white px-8 py-4 rounded-xl font-black transition-all flex items-center justify-center gap-2 shadow-glow-gold hover:-translate-y-1 active:scale-95 text-lg uppercase italic tracking-tighter"
+                className="bg-amber-500 hover:bg-amber-600 text-white px-8 py-5 rounded-2xl font-black transition-all flex items-center justify-center gap-3 shadow-glow-gold hover:-translate-y-1 active:scale-95 text-xl uppercase italic tracking-tighter"
               >
                 <span className="material-icons-round animate-bounce">auto_stories</span>
                 Quero Ver o Material Premium
@@ -136,76 +146,76 @@ const LandingPage: React.FC<LandingPageProps> = ({ onStartQuiz, onViewSummaries 
 
       {/* Catalog Section */}
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24" id="catalogo">
-        <div className="text-center mb-20 relative">
-          <div className="absolute inset-x-0 -top-12 flex justify-center opacity-10">
-            <span className="text-9xl font-black uppercase tracking-tighter text-primary">PREMIUM</span>
+        <div className="text-center mb-16 relative">
+          <div className="absolute inset-x-0 -top-8 flex justify-center opacity-10">
+            <span className="text-7xl font-black uppercase tracking-tighter text-primary">PREMIUM</span>
           </div>
-          <h2 className="text-4xl lg:text-6xl font-black text-slate-900 dark:text-white mb-6 uppercase tracking-tighter italic">Ebooks de Elite</h2>
-          <p className="text-xl text-slate-500 dark:text-slate-400 max-w-2xl mx-auto font-medium">O material que os aprovados escondem. Conteúdo 100% estratégico e atualizado para as provas de 2025.</p>
+          <h2 className="text-3xl lg:text-5xl font-black text-slate-900 dark:text-white mb-4 uppercase tracking-tighter italic">Ebooks de Elite</h2>
+          <p className="text-lg text-slate-500 dark:text-slate-400 max-w-xl mx-auto font-medium">Material estratégico 100% atualizado para as provas de 2025.</p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-20">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
           {specialtyModules.map((m) => {
             const isCombo = m.id === '6';
             return (
               <div 
                 key={m.id} 
                 onClick={onViewSummaries}
-                className={`group cursor-pointer rounded-[2.5rem] p-8 border transition-all duration-500 flex flex-col justify-between h-[420px] relative overflow-hidden ${
+                className={`group cursor-pointer rounded-[1.75rem] p-6 border transition-all duration-500 flex flex-col justify-between h-[320px] relative overflow-hidden ${
                   isCombo 
-                    ? 'bg-slate-900 dark:bg-primary border-transparent shadow-2xl scale-[1.03] lg:scale-[1.08] z-20' 
-                    : 'bg-surface-light dark:bg-surface-dark border-slate-100 dark:border-slate-800 shadow-soft hover:shadow-2xl hover:-translate-y-3'
+                    ? 'bg-slate-900 dark:bg-primary border-transparent shadow-2xl scale-[1.02] lg:scale-[1.05] z-20' 
+                    : 'bg-surface-light dark:bg-surface-dark border-slate-100 dark:border-slate-800 shadow-soft hover:shadow-xl hover:-translate-y-2'
                 }`}
               >
                 {isCombo && (
                   <>
-                    <div className="absolute top-0 right-0 bg-secondary text-white text-xs font-black px-6 py-2 rounded-bl-3xl z-30 uppercase shadow-lg">🔥 Recomendado</div>
-                    <div className="absolute -bottom-10 -right-10 text-white/5 transform rotate-12">
-                      <span className="material-icons-round text-[200px]">diamond</span>
+                    <div className="absolute top-0 right-0 bg-secondary text-white text-[10px] font-black px-4 py-1.5 rounded-bl-2xl z-30 uppercase shadow-lg">🔥 Recomendado</div>
+                    <div className="absolute -bottom-6 -right-6 text-white/5 transform rotate-12">
+                      <span className="material-icons-round text-[140px]">diamond</span>
                     </div>
                   </>
                 )}
                 
                 <div>
-                  <div className={`w-20 h-20 rounded-3xl flex items-center justify-center mb-8 transition-all duration-500 shadow-lg ${
+                  <div className={`w-14 h-14 rounded-2xl flex items-center justify-center mb-6 transition-all duration-500 shadow-md ${
                     isCombo 
                       ? 'bg-white/20 group-hover:scale-110 group-hover:rotate-6' 
                       : 'bg-primary/10 group-hover:bg-primary group-hover:scale-110 group-hover:-rotate-6'
                   }`}>
-                    <span className={`material-icons-round text-4xl transition-all duration-500 ${
+                    <span className={`material-icons-round text-2xl transition-all duration-500 ${
                       isCombo ? 'text-white' : 'text-primary group-hover:text-white'
                     }`}>{m.icon}</span>
                   </div>
                   
-                  <h3 className={`text-2xl font-black mb-4 leading-tight uppercase tracking-tight ${
+                  <h3 className={`text-lg font-black mb-3 leading-tight uppercase tracking-tight ${
                     isCombo ? 'text-white' : 'text-slate-900 dark:text-white group-hover:text-primary'
                   }`}>
                     {m.title}
                   </h3>
                   
-                  <p className={`text-base mb-6 leading-relaxed font-medium ${
+                  <p className={`text-sm mb-4 leading-relaxed font-medium line-clamp-3 ${
                     isCombo ? 'text-blue-100/80' : 'text-slate-500 dark:text-slate-400'
                   }`}>
                     {m.description}
                   </p>
                 </div>
 
-                <div className={`mt-auto pt-6 border-t flex items-center justify-between ${
+                <div className={`mt-auto pt-4 border-t flex items-center justify-between ${
                   isCombo ? 'border-white/10' : 'border-slate-100 dark:border-slate-800'
                 }`}>
                   <div className="flex flex-col">
-                    <span className={`text-[11px] font-black uppercase tracking-widest mb-1 ${
+                    <span className={`text-[9px] font-black uppercase tracking-widest mb-0.5 ${
                       isCombo ? 'text-white/60' : 'text-slate-400'
                     }`}>Status 2025</span>
-                    <span className={`text-xl font-black uppercase italic ${
+                    <span className={`text-base font-black uppercase italic ${
                       isCombo ? 'text-secondary' : 'text-primary'
                     }`}>Em Breve</span>
                   </div>
                   
-                  <div className={`size-12 rounded-2xl flex items-center justify-center transition-all ${
+                  <div className={`size-10 rounded-xl flex items-center justify-center transition-all ${
                     isCombo ? 'bg-white text-primary' : 'bg-slate-900 text-white group-hover:bg-primary'
                   }`}>
-                    <span className="material-icons-round">chevron_right</span>
+                    <span className="material-icons-round text-sm">chevron_right</span>
                   </div>
                 </div>
               </div>
@@ -216,11 +226,11 @@ const LandingPage: React.FC<LandingPageProps> = ({ onStartQuiz, onViewSummaries 
         <div className="flex justify-center">
           <button 
             onClick={onViewSummaries}
-            className="group relative inline-flex items-center justify-center gap-4 bg-gradient-to-r from-primary to-blue-600 text-white px-16 py-6 rounded-[2rem] font-black text-2xl transition-all shadow-glow hover:shadow-2xl hover:-translate-y-2 active:scale-95 uppercase tracking-tighter italic"
+            className="group relative inline-flex items-center justify-center gap-3 bg-gradient-to-r from-primary to-blue-600 text-white px-10 py-4 rounded-[1.5rem] font-black text-xl transition-all shadow-glow hover:shadow-2xl hover:-translate-y-1 active:scale-95 uppercase tracking-tighter italic"
           >
-            <span className="material-icons-round text-3xl">rocket_launch</span>
+            <span className="material-icons-round text-2xl">rocket_launch</span>
             Acessar Catálogo Completo
-            <span className="material-icons-round text-3xl group-hover:translate-x-2 transition-transform">arrow_forward</span>
+            <span className="material-icons-round text-2xl group-hover:translate-x-1 transition-transform">arrow_forward</span>
           </button>
         </div>
       </main>
@@ -239,7 +249,7 @@ const LandingPage: React.FC<LandingPageProps> = ({ onStartQuiz, onViewSummaries 
               {
                 name: "DRa. Amanda",
                 role: "Residente Pediatria USP",
-                text: "O material é mto tpop! Consegui revisar Cardio inteira num fds e gabaritei a área na prova do SUS. Se vc quer passar, esse é le caminho!",
+                text: "O material é mto tpop! Consegui revisar Cardio inteira num fds e gabaritar a área na prova do SUS. Se vc quer passar, esse é le caminho!",
                 initials: "AM",
                 color: "bg-blue-500"
               },
