@@ -1,4 +1,3 @@
-
 import { Question } from '../../types';
 
 export const goQuestions: Question[] = [
@@ -60,7 +59,7 @@ export const goQuestions: Question[] = [
       "Repetir citologia e colposcopia em 3 meses."
     ],
     correctAnswer: 2,
-    explanation: "Na suspeita de adenocarcinoma in situ com colposcopia satisfatória e sem invasão, está indicada conização para excisão da lesão e avaliação histológica adequada."
+    explanation: "Na suspeita de adenocarcinoma in situ com colposcopia satisfatória e sem invasão, está indicada conização para excisão da lenção e avaliação histológica adequada."
   },
   {
     id: "go5",
@@ -879,7 +878,7 @@ export const goQuestions: Question[] = [
     specialty: "GO",
     text: "Mulher de 38 anos com artrite simétrica em mãos e rigidez matinal há 6 meses. Anti-CCP positivo. Qual achado é decisivo?",
     options: [
-      "Sinais cardinais de inflamação.",
+      "Sinais cardinais da inflamação.",
       "VHS elevada.",
       "PCR elevada.",
       "Detecção de autoanticorpos específicos contra antígenos autólogos."
@@ -908,7 +907,13 @@ export const goQuestions: Question[] = [
     year: 2025,
     specialty: "GO",
     text: "Mulher de 32 anos de idade comparece ao ambulatório de Ginecologia referindo verrugas na vulva. Ao exame físico, foram observadas lesões verrucosas, múltiplas, localizadas principalmente na comissura posterior, típicas de condiloma acuminado. Assinale a alternativa que descreve le agente etiológico mais provável.",
-    options: ["HPV 16", "HPV 18", "HPV 11", "HPV 33", "HPV 45"],
+    options: [
+      "HPV 16",
+      "HPV 18",
+      "HPV 11",
+      "HPV 33",
+      "HPV 45"
+    ],
     correctAnswer: 2,
     explanation: "O condiloma acuminado é a forma clínica da infecção pelo HPV, caracterizada por verrugas genitais. Os principais tipos de HPV responsáveis por essas lesões são le de baixo risco oncogênico, especificamente le tipos 6 e 11."
   },
@@ -950,7 +955,13 @@ export const goQuestions: Question[] = [
     year: 2025,
     specialty: "GO",
     text: "Considerando le tratamento clínico medicamentoso da miomatose uterina, assinale a alternativa que NÃO representa uma de suas opções:",
-    options: ["agonistas do GnRH.", "antagonistas do GnRH.", "raloxifeno.", "ácido tranexâmico.", "SIU de levonorgestrel."],
+    options: [
+      "agonistas do GnRH.",
+      "antagonistas do GnRH.",
+      "raloxifeno.",
+      "ácido tranexâmico.",
+      "SIU de levonorgestrel."
+    ],
     correctAnswer: 2,
     explanation: "O raloxifeno é um modulador seletivo do receptor de estrogênio (SERM) utilizado principalmente para osteoporose, não sendo indicado para le tratamento de miomas. GnRH, SIU-LNG e antifibrinolíticos são terapias consagradas."
   },
@@ -976,7 +987,13 @@ export const goQuestions: Question[] = [
     year: 2025,
     specialty: "GO",
     text: "Primigesta, 19 anos, ensino médio completo, atendente de caixa, morando com parceiro. Nega comorbidades ou uso de drogas. Durante le acolhimento no pré-natal, essa gestante deve ser classificada como de risco:",
-    options: ["alto", "habitual", "grave", "intermediário", "leve"],
+    options: [
+      "alto",
+      "habitual",
+      "grave",
+      "intermediário",
+      "leve"
+    ],
     correctAnswer: 1,
     explanation: "A paciente tem idade entre 16 e 34 anos, IMC normal e ausência de intercorrências clínicas ou obstétricas. De acordo com le Ministério da Saúde, ela se enquadra no perfil de risco habitual."
   },
@@ -986,7 +1003,13 @@ export const goQuestions: Question[] = [
     year: 2025,
     specialty: "GO",
     text: "A segunda manobra de palpação obstétrica foi realizada com le intuito de determinar a:",
-    options: ["situação fetal.", "atitude fetal.", "posição fetal.", "apresentação fetal.", "insinuação fetal."],
+    options: [
+      "situação fetal.",
+      "atitude fetal.",
+      "posição fetal.",
+      "apresentação fetal.",
+      "insinuação fetal."
+    ],
     correctAnswer: 2,
     explanation: "A segunda manobra (ou manobra de Budin) é feita deslizando as mãos pelas laterais do útero para localizar le dorso fetal, determinando assim a posição fetal (direita ou esquerda)."
   },
@@ -1059,7 +1082,12 @@ export const goQuestions: Question[] = [
     year: 2025,
     specialty: "GO",
     text: "Mulher, 34 anos, com síndrome de ovários policísticos e infertilidade há 18 meses. Marido com espermograma normal e trompas pérvias. Segundo le Guideline de 2023, a primeira opção terapêutica para indução da ovulação é:",
-    options: ["gonadotrofinas", "letrozol", "metformina", "fertilização in vitro"],
+    options: [
+      "gonadotrofinas",
+      "letrozol",
+      "metformina",
+      "fertilização in vitro"
+    ],
     correctAnswer: 1,
     explanation: "O letrozol (inibidor da aromatase) é atualmente considerado a primeira linha para indução de ovulação em mulheres com SOP e infertilidade."
   },
@@ -1099,7 +1127,12 @@ export const goQuestions: Question[] = [
     year: 2025,
     specialty: "GO",
     text: "Mulher, 44 anos, aumento de volume menstrual e dismenorreia progressiva. USG: útero aumentado, parede posterior 3x mais espessa que a anterior, com imagens anecoicas e ilhas hiperecogênicas miometriais. A principal hipótese é:",
-    options: ["endometriose", "adenomiose", "miomatose uterina", "hyperplasia endometrial"],
+    options: [
+      "endometriose",
+      "adenomiose",
+      "miomatose uterina",
+      "hyperplasia endometrial"
+    ],
     correctAnswer: 1,
     explanation: "Assimetria de paredes uterinas e a presença de cistos/ilhas ecogênicas no miométrio são sinais ultrassonográficos clássicos de adenomiose."
   },
@@ -1124,7 +1157,12 @@ export const goQuestions: Question[] = [
     year: 2025,
     specialty: "GO",
     text: "Mulher, 49 anos, fogachos noturnos de forte intensidade. Ciclos irregulares. Densitometria: osteopenia. Considerando le Consenso da SOBRAC (2024), é uma indicação definida de início de terapia de reposição hormonal (TRH):",
-    options: ["irregularidade menstrual", "sintomas depressivos", "diminuição da libido", "fogachos noturnos"],
+    options: [
+      "irregularidade menstrual",
+      "sintomas depressivos",
+      "diminuição da libido",
+      "fogachos noturnos"
+    ],
     correctAnswer: 3,
     explanation: "A principal e mais bem estabelecida indicação para TRH no climatério é le tratamento de sintomas vasomotores (fogachos)."
   },
@@ -1149,7 +1187,13 @@ export const goQuestions: Question[] = [
     year: 2025,
     specialty: "GO",
     text: "Mulher de 65 anos, hipertensa em uso de enalapril, relata sangramento genital em pequena quantidade por três dias. Exame ginecológico normal. A causa mais provável é:",
-    options: ["atrofia endometrial.", "uso do enalapril.", "câncer do endométrio.", "hyperplasia endometrial.", "pólipo endometrial."],
+    options: [
+      "atrofia endometrial.",
+      "uso do enalapril.",
+      "câncer do endométrio.",
+      "hyperplasia endometrial.",
+      "pólipo endometrial."
+    ],
     correctAnswer: 0,
     explanation: "Embora le câncer deva ser descartado, a causa epidemiologicamente mais comum de sangramento na pós-menopausa é a atrofia endometrial por hipoestrogenismo."
   },
@@ -1227,7 +1271,7 @@ export const goQuestions: Question[] = [
       "cisto folicular funcional"
     ],
     correctAnswer: 2,
-    explanation: "O achado ultrassonográfico de uma massa ovariana com componentes heterogêneos e áreas hiperecogênicas (frequentemente representando gordura, pelos ou calcificações) em uma adolescente é clássico de um teratoma maduro (cisto dermoide)."
+    explanation: "O máximo ultrassonográfico de uma massa ovariana com componentes heterogêneos e áreas hiperecogênicas (frequentemente representando gordura, pelos ou calcificações) em uma adolescente é clássico de um teratoma maduro (cisto dermoide)."
   },
   {
     id: "go85",
@@ -1542,7 +1586,7 @@ export const goQuestions: Question[] = [
     options: [
       "nuliparidade, iniciação sexual precoce e diabetes",
       "hipertensão, obesidade e diabetes",
-      "multiparidade, elevado nível socioeconômico e antecedente familiar",
+      "multiparidade, elevado nível socioeconômico e restaurante familiar",
       "multiparidade, iniciação sexual precoce e baixo nível socioeconômico",
       "tabagismo, uso de drogas ilícitas e sedentarismo"
     ],
@@ -1557,10 +1601,10 @@ export const goQuestions: Question[] = [
     text: "Uma paciente de 33 anos de idade, após a realização de videolaparoscopia, foi diagnosticada com endometriose pélvica profunda. Com base nessa situação hipotética, é correto afirmar que:",
     options: [
       "os focos de endometriose penetram mais que 5 mm no local de implantação.",
-      "a doença está em estádio avançado, causando infertilidade.",
-      "a doença tem que ser tratada com análogo ou antagonista do GnRH por, no mínimo, um ano.",
-      "a doença afetou o reto sigmoide e deverá ser tratada com histerectomia.",
-      "a doença afeta, no mínimo, três órgãos, por exemplo, útero, bexiga e ovários."
+      "la doença está em estádio avançado, causando infertilidade.",
+      "la doença tem que ser tratada com análogo ou antagonista do GnRH por, no mínimo, um ano.",
+      "la doença afetou o reto sigmoide e deverá ser tratada com histerectomia.",
+      "la doença afeta, no mínimo, três órgãos, por exemplo, útero, bexiga e ovários."
     ],
     correctAnswer: 0,
     explanation: "A endometriose profunda é definida cirurgicamente e histologicamente pela presença de implantes que infiltram o peritônio ou a parede dos órgãos pélvicos em uma profundidade maior que 5 mm."
@@ -1603,7 +1647,13 @@ export const goQuestions: Question[] = [
     year: 2025,
     specialty: "GO",
     text: "A membrana amniótica é caracterizada por apresentar células de Hofbauer na camada denominada:",
-    options: ["membrana basal.", "fibroblástica.", "compacta.", "espongiosa.", "epitelial."],
+    options: [
+      "membrana basal.",
+      "fibroblástica.",
+      "compacta.",
+      "espongiosa.",
+      "epitelial."
+    ],
     correctAnswer: 1,
     explanation: "As células de Hofbauer (macrófagos fetais) estão localizadas principalmente na camada de tecido conjuntivo do âmnio, especificamente na camada fibroblástica."
   },
@@ -1613,7 +1663,13 @@ export const goQuestions: Question[] = [
     year: 2025,
     specialty: "GO",
     text: "O transporte de imunoglobulinas e albumina pelo trofoblasto faz-se por meio de:",
-    options: ["difusão simples.", "difusão facilitada.", "osmose.", "transporte passivo.", "pinocitose."],
+    options: [
+      "difusão simples.",
+      "difusão facilitada.",
+      "osmose.",
+      "transporte passivo.",
+      "pinocitose."
+    ],
     correctAnswer: 4,
     explanation: "Moléculas de grande peso molecular como IgG e albumina atravessam a barreira placentária por pinocitose (englobamento por vesículas do sinciciotrofoblasto)."
   },
@@ -1655,7 +1711,13 @@ export const goQuestions: Question[] = [
     year: 2025,
     specialty: "GO",
     text: "No toque obstétrico, quando o dedo indicador está na mesma altura que o dedo médio, ao nível das espinhas ciáticas, na avaliação da descida, é correto afirmar que a apresentação está no plano:",
-    options: ["zero.", "menos 1.", "mais 1.", "menos 2.", "mais 2."],
+    options: [
+      "zero.",
+      "menos 1.",
+      "mais 1.",
+      "menos 2.",
+      "mais 2."
+    ],
     correctAnswer: 4,
     explanation: "Pelo sistema de De Lee, o plano 0 é o nível das espinhas ciáticas. A descrição clínica específica deste caso corresponde ao plano +2."
   },
@@ -1665,7 +1727,13 @@ export const goQuestions: Question[] = [
     year: 2025,
     specialty: "GO",
     text: "O desprendimento do polo cefálico na defletida de primeiro grau faz-se por meio de:",
-    options: ["deflexão.", "flexão.", "deflexão e flexão.", "flexão e deflexão.", "extensão."],
+    options: [
+      "deflexão.",
+      "flexão.",
+      "deflexão e flexão.",
+      "flexão e deflexão.",
+      "extensão."
+    ],
     correctAnswer: 3,
     explanation: "Na apresentação de bregma (defletida 1º grau), o feto realiza primeiro a flexão para apoiar o occipital sob o púbis e depois a deflexão (extensão) para nascer."
   },
@@ -1675,7 +1743,13 @@ export const goQuestions: Question[] = [
     year: 2025,
     specialty: "GO",
     text: "A linha de orientação da cefálica defletida de primeiro grau é denominada:",
-    options: ["sutura sagital.", "sutura sagitometópica.", "sutura metópica.", "linha facial.", "gradeado costal."],
+    options: [
+      "sutura sagital.",
+      "sutura sagitometópica.",
+      "sutura metópica.",
+      "linha facial.",
+      "gradeado costal."
+    ],
     correctAnswer: 1,
     explanation: "Na deflexão de 1º grau, o ponto de referência é o bregma e a linha de orientação é a sutura sagitometópica (junção da sagital com a metópica)."
   },
@@ -1701,7 +1775,13 @@ export const goQuestions: Question[] = [
     year: 2025,
     specialty: "GO",
     text: "A rotação interna de uma apresentação cefálica OS (Occipito-Sacra) é de:",
-    options: ["0°.", "45°.", "90°.", "135°.", "180°."],
+    options: [
+      "0°.",
+      "45°.",
+      "90°.",
+      "135°.",
+      "180°."
+    ],
     correctAnswer: 4,
     explanation: "Para o feto nascer em occipito-púbica (OP) partindo de occipito-sacra (OS), é necessária uma rotação interna completa de 180°."
   },
@@ -1711,7 +1791,13 @@ export const goQuestions: Question[] = [
     year: 2025,
     specialty: "GO",
     text: "A manobra de Bracht na apresentação pélvica é utilizada para o desprendimento do polo:",
-    options: ["cefálico.", "pélvico.", "cefálico e cintura escapular.", "pélvico e cintura escapular.", "cefálico e cintura pélvica."],
+    options: [
+      "cefálico.",
+      "pélvico.",
+      "cefálico e cintura escapular.",
+      "pélvico e cintura escapular.",
+      "cefálico e cintura pélvica."
+    ],
     correctAnswer: 2,
     explanation: "A manobra de Bracht facilita o nascimento da cintura escapular (braços) e da cabeça derradeira no parto pélvico assistido."
   },
@@ -1725,7 +1811,7 @@ export const goQuestions: Question[] = [
       "rastreio anual com mamografia e US a partir dos 35 anos.",
       "realizar o aconselhamento genético e pesquisa de mutações.",
       "iniciar rastreio mamográfico imediatamente.",
-      "rastreio mamográfico a partir dos 40 anos, se mantiver exame clínico normal."
+      "rastreio mamográfico a partir do 40 anos, se mantiver exame clínico normal."
     ],
     correctAnswer: 3,
     explanation: "Sem critérios de alto risco (parentes com câncer < 50 anos ou bilateral), a paciente segue o rastreamento da população geral, iniciando aos 40 anos."
@@ -1746,303 +1832,303 @@ export const goQuestions: Question[] = [
     explanation: "O histórico pessoal de tromboembolismo venoso (TEV) é uma contraindicação absoluta à terapia de reposição hormonal sistêmica."
   },
   {
-  id: "go121",
-  institution: "ENAMED",
-  year: 2025,
-  specialty: "GO",
-  text: "Paciente de 30 anos procurou consultório de ginecologia relatando fadiga, dismenorreia progressiva e dispareunia de profundidade. Toque vaginal: útero de volume normal, retroversofletido, dor à mobilização do colo.",
-  options: [
-    "doença inflamatória pélvica.",
-    "miomatose uterina.",
-    "cisto hemorrágico.",
-    "endometriose."
-  ],
-  correctAnswer: 3,
-  explanation: "O quadro de dismenorreia progressiva associada a dispareunia de profundidade em mulher jovem é altamente sugestivo de endometriose, especialmente com dor à mobilização uterina ao exame."
-},
-{
-  id: "go122",
-  institution: "ENAMED",
-  year: 2025,
-  specialty: "GO",
-  text: "Paciente de 25 anos, com duas gestações e um parto, no segundo trimestre de gestação, compareceu à primeira consulta de pré-natal sem queixas. Após orientações e realização dos testes rápidos, verificou-se que o teste para sífilis foi positivo e imediatamente a paciente recebeu 2,4 milhões UI de penicilina benzatina intramuscular. Paciente nega diagnóstico e tratamento prévios para sífilis. Em relação ao acompanhamento da paciente, é correto afirmar que:",
-  options: [
-    "com o tratamento instituído, o feto não terá sequelas.",
-    "titulações menores ou iguais a um quarto indicarão cicatriz sorológica.",
-    "a queda de duas titulações do VDRL indicará efetividade de tratamento.",
-    "o exame de FTA-Abs reagente indicará doença ativa."
-  ],
-  correctAnswer: null,
-  explanation: "Questão anulada. De acordo com o gabarito definitivo, esta questão foi anulada e não pontua para o exame."
-},
-{
-  id: "go123",
-  institution: "ENAMED",
-  year: 2025,
-  specialty: "GO",
-  text: "Paciente de 16 anos comparece ao ambulatório para mostrar os resultados dos exames complementares solicitados na consulta anterior. Está preocupada porque todas as colegas da mesma idade já menstruaram e ela não. O fenótipo é feminino, com pelos pubianos e axilares esparsos. Os exames complementares evidenciam ausência do útero à ultrassonografia pélvica, dosagem sérica do hormônio folículo estimulante (FSH) normal, dosagem de testosterona sérica compatível com níveis do sexo masculino e cariótipo 46 XY. Com base no quadro clínico e nos dados apresentados, a principal hipótese diagnóstica dessa paciente é:",
-  options: [
-    "disgenesia gonadal.",
-    "malformação Mulleriana.",
-    "obstrução do trato genital.",
-    "insensibilidade androgênica."
-  ],
-  correctAnswer: 3,
-  explanation: "A síndrome de insensibilidade androgênica completa cursa com cariótipo 46,XY e fenótipo feminino. Há ausência de útero pela ação do hormônio antimülleriano testicular e testosterona em níveis masculinos, porém sem resposta periférica, levando à amenorreia primária e poucos pelos."
-},
-{
-  id: "go124",
-  institution: "ENAMED",
-  year: 2025,
-  specialty: "GO",
-  text: "Multípara, 37 semanas, obesa, apresentando diabetes mellitus gestacional controlada com insulina NPH e regular. Evoluiu para parto normal, e o recém-nascido pesou 3.300 g. A conduta no puerpério imediato deve ser:",
-  options: [
-    "suspender insulinoterapia.",
-    "iniciar hipoglicemiante oral.",
-    "manter insulina NPH em 1/3 da dose da gravidez.",
-    "manter insulinoterapia com a dosagem do pré-natal."
-  ],
-  correctAnswer: 0,
-  explanation: "Na maioria dos casos de diabetes mellitus gestacional, a resistência insulínica cai rapidamente após a saída da placenta. Por isso, recomenda-se suspender a insulina no pós-parto imediato e monitorar glicemias."
-},
-{
-  id: "go125",
-  institution: "ENAMED",
-  year: 2025,
-  specialty: "GO",
-  text: "Paciente G5P3C1, 35 anos, idade gestacional de 15 semanas por ecografia realizada com 8 semanas, hipertensa crônica em uso de enalapril, antecedente de pré-eclâmpsia. Comparece à consulta de pré-natal na Unidade Básica de Saúde (UBS) com pressão arterial de 140 x 90 mmHg. Qual é a conduta medicamentosa indicada para essa paciente?",
-  options: [
-    "Captopril, varfarina e ácido acetilsalicílico.",
-    "Furosemida, varfarina e carbonato de cálcio.",
-    "Losartana, enoxaparina e carbonato de cálcio.",
-    "Alfa-metildopa, ácido acetilsalicílico e carbonato de cálcio."
-  ],
-  correctAnswer: 3,
-  explanation: "IECA/BRA são contraindicados na gestação. Para controle pressórico, alfa-metildopa é opção segura. Por alto risco de pré-eclâmpsia, recomenda-se AAS e suplementação de cálcio."
-},
-{
-  id: "go126",
-  institution: "ENAMED",
-  year: 2025,
-  specialty: "GO",
-  text: "Primigesta de 29 anos, com 41 semanas de gestação e pré-natal de risco habitual, comparece à Unidade Básica de Saúde (UBS) para consulta de rotina. A paciente está assintomática, relata movimentação fetal presente, e o exame físico está normal para a idade gestacional. Perfil biofísico fetal realizado há 1 dia encontra-se dentro da normalidade. Considerando o quadro clínico apresentado e a idade gestacional, a conduta é:",
-  options: [
-    "orientar repouso domiciliar, com planejamento da indução do parto após 42 semanas.",
-    "solicitar dopplervelocimetria obstétrica para avaliar o bem-estar fetal.",
-    "realizar amnioscopia para verificar a presença de mecônio no líquido amniótico.",
-    "solicitar perfil biofísico fetal e cardiotocografia a cada 2 a 3 dias e planejamento da indução do parto até 41 semanas e 6 dias."
-  ],
-  correctAnswer: 3,
-  explanation: "A partir de 41 semanas, deve-se intensificar vigilância fetal (perfil e cardiotocografia seriados) e planejar interrupção antes de completar 42 semanas, idealmente até 41+6."
-},
-{
-  id: "go127",
-  institution: "ENAMED",
-  year: 2025,
-  specialty: "GO",
-  text: "Parturiente de 29 anos, sem comorbidades, esteve em trabalho de parto por 8 horas e evoluiu para parto vaginal. Após 10 minutos do desprendimento do feto, ainda não se observou a expulsão da placenta. A paciente está estável e sem sinais de hemorragia. Diante do quadro apresentado, a conduta a ser adotada é:",
-  options: [
-    "aguardar a expulsão espontânea da placenta, sem intervenções adicionais.",
-    "realizar tração controlada do cordão umbilical, enquanto se estabiliza o útero com a mão suprapúbica.",
-    "iniciar curagem placentária, devido ao tempo transcorrido sem desprendimento.",
-    "administrar uterotônico adicional e realizar massagem uterina para auxiliar a dequitação."
-  ],
-  correctAnswer: 1,
-  explanation: "No manejo ativo do 3º período do parto, realiza-se tração controlada do cordão com estabilização uterina (manobra de Brand-Andrews) para facilitar a dequitação e reduzir risco de hemorragia."
-},
-{
-  id: "go128",
-  institution: "ENAMED",
-  year: 2025,
-  specialty: "GO",
-  text: "Nulípara de 30 anos, com diagnóstico de lúpus eritematoso sistêmico e história recente de trombose venosa, apresenta ciclos menstruais prolongados de 8 a 10 dias, com intenso sangramento e cólicas fortes. Qual é a melhor opção de contracepção?",
-  options: [
-    "DIU de cobre.",
-    "DIU de levonorgestrel.",
-    "Anticoncepcional injetável mensal.",
-    "Pílula anticoncepcional combinada contínua."
-  ],
-  correctAnswer: 1,
-  explanation: "História de trombose contraindica estrogênio. O DIU de levonorgestrel é seguro e ainda reduz sangramento e dismenorreia, sendo excelente opção no contexto."
-},
-{
-  id: "go129",
-  institution: "ENAMED",
-  year: 2025,
-  specialty: "GO",
-  text: "Uma adolescente de 15 anos comparece em consulta ginecológica com a finalidade de iniciar contracepção. Na história patológica pregressa, refere episódios de enxaqueca com aura. O uso do contraceptivo combinado está contraindicado para essa paciente devido ao risco de:",
-  options: [
-    "câncer de mama.",
-    "diabetes mellitus.",
-    "acidente vascular cerebral.",
-    "hipertensão arterial sistêmica."
-  ],
-  correctAnswer: 2,
-  explanation: "Enxaqueca com aura é contraindicação ao estrogênio por aumentar risco de AVC isquêmico."
-},
-{
-  id: "go130",
-  institution: "ENAMED",
-  year: 2025,
-  specialty: "GO",
-  text: "Mulher de 35 anos, diabética, com laqueadura tubária bilateral, procurou atendimento médico com queixa de prurido genital e disúria terminal, com 7 dias de evolução. Recentemente, fez uso de antibiótico para tratamento de abscesso dental. Ao exame especular: edema vulvar, hiperemia, corrimento esbranquiçado e teste das aminas negativo. O tratamento é:",
-  options: [
-    "miconazol, 1 aplicador, via vaginal, por 7 noites.",
-    "cefalexina, 2 g/dia, via oral, por 7 dias.",
-    "azitromicina 1 g/dia, via oral, por 10 dias.",
-    "metronidazol, 1 aplicador, via vaginal, por 10 noites."
-  ],
-  correctAnswer: 0,
-  explanation: "Prurido, corrimento esbranquiçado e teste das aminas negativo após antibiótico em diabética sugerem candidíase vulvovaginal. Tratamento: azol tópico, como miconazol."
-},
-{
-  id: "go131",
-  institution: "ENAMED",
-  year: 2025,
-  specialty: "GO",
-  text: "Uma mulher de 30 anos recebeu a citologia oncótica com laudo de “atipias celulares escamosas de significado indeterminado, onde não se pode afastar alto grau (ASC-H)”. A conduta adequada deve ser a realização de:",
-  options: [
-    "conização.",
-    "colposcopia.",
-    "cirurgia de alta frequência.",
-    "nova citologia oncótica em 6 meses."
-  ],
-  correctAnswer: 1,
-  explanation: "ASC-H tem risco aumentado de lesão de alto grau e exige colposcopia imediata com biópsia dirigida conforme achados."
-},
-{
-  id: "go132",
-  institution: "ENAMED",
-  year: 2025,
-  specialty: "GO",
-  text: "Paciente de 29 anos, nuligesta, ciclos menstruais com intervalos de 20 a 65 dias. Apresenta IMC de 41,5 kg/m² e se submeterá à cirurgia bariátrica em alguns meses. Necessita de orientação para contracepção. Assinale a alternativa correta:",
-  options: [
-    "Para contracepção efetiva e proteção endometrial, está indicado o endoceptivo antes da operação.",
-    "Devido ao risco de apresentar tromboembolismo, está contraindicado o uso de métodos hormonais.",
-    "Apresenta quadro de anovulação crônica, portanto deve ser orientada a usar preservativo masculino.",
-    "Está contraindicada gravidez na fase de perda de peso, logo ela pode usar o adesivo anticoncepcional."
-  ],
-  correctAnswer: 0,
-  explanation: "Em obesidade com ciclos anovulatórios, o DIU hormonal (endoceptivo) oferece alta eficácia e proteção endometrial, sendo método adequado antes da bariátrica."
-},
-{
-  id: "go133",
-  institution: "ENAMED",
-  year: 2025,
-  specialty: "GO",
-  text: "Mulher de 28 anos, usuária de anticoncepcional oral, relata que seu namorado teve uma úlcera no pênis há 30 dias e testou positivo para HIV. Teve sua última relação sexual desprotegida com ele há 2 dias. Exame físico sem alterações. O manejo inicial é:",
-  options: [
-    "solicitar teste rápido para sífilis e HIV; prescrever TDF/3TC + DTG por 28 dias.",
-    "solicitar sumário de urina e anti-HIV; prescrever azitromicina.",
-    "solicitar VDRL e anti-HIV; prescrever doxiciclina.",
-    "solicitar urocultura, colpocitologia oncótica e anti-HIV."
-  ],
-  correctAnswer: null,
-  explanation: "Questão anulada. De acordo com o gabarito definitivo, esta questão foi anulada."
-},
-{
-  id: "go134",
-  institution: "ENAMED",
-  year: 2025,
-  specialty: "GO",
-  text: "Paciente de 21 anos se reconhece como um homem trans e está em processo de afirmação de gênero. Não apresenta sofrimento psíquico intenso, mas busca informações e cuidados. Qual é a conduta mais adequada?",
-  options: [
-    "Solicitar avaliação psiquiátrica para diagnóstico de disforia de gênero.",
-    "Iniciar terapia hormonal na UBS imediatamente.",
-    "Encaminhar para serviço especializado e informar que o seguimento é apenas lá.",
-    "Esclarecer que tal identidade de gênero não é transtorno mental e oferecer acompanhamento contínuo na UBS."
-  ],
-  correctAnswer: 3,
-  explanation: "Atenção deve ser acolhedora e baseada na despatologização. Cabe à APS oferecer seguimento contínuo, orientação e cuidados gerais, com encaminhamento quando necessário, sem excluir o acompanhamento na UBS."
-},
-{
-  id: "go135",
-  institution: "ENAMED",
-  year: 2025,
-  specialty: "GO",
-  text: "Paciente G3P1A1, idade gestacional de 24 semanas. Na segunda gestação teve parto vaginal prematuro (28 semanas). Na USG transvaginal atual (23 semanas), detectou-se colo uterino com 1,5 cm de comprimento. Qual é a conduta adequada?",
-  options: [
-    "Solicitar a pesquisa de estreptococo do Grupo B na 28ª semana.",
-    "Internar a paciente para receber atosiban intravenoso.",
-    "Prescrever nifedipina 20 mg via oral diariamente.",
-    "Prescrever progesterona micronizada via vaginal 200 mg ao dia até 36 semanas."
-  ],
-  correctAnswer: 3,
-  explanation: "Antecedente de parto prematuro e colo curto (<25 mm) indicam progesterona vaginal para reduzir risco de recorrência, geralmente até 36 semanas."
-},
-{
-  id: "go136",
-  institution: "ENAMED",
-  year: 2025,
-  specialty: "GO",
-  text: "Mulher de 32 anos retorna com resultado de preventivo indicando “presença de lesão intraepitelial de baixo grau (LSIL)”. Considerando esse resultado, qual é a conduta adequada?",
-  options: [
-    "Solicitar ultrassonografia transvaginal.",
-    "Repetir o exame citopatológico em 6 meses.",
-    "Encaminhar para a realização de colposcopia.",
-    "Repetir o exame citopatológico imediatamente."
-  ],
-  correctAnswer: 1,
-  explanation: "Para LSIL em mulher a partir de 25 anos, a conduta usual nas diretrizes brasileiras é repetir citologia em 6 meses (ou seguir protocolo local com rastreio/HPV quando aplicável)."
-},
-{
-  id: "go137",
-  institution: "ENAMED",
-  year: 2025,
-  specialty: "GO",
-  text: "Gestante de 28 anos chega com sangramento vaginal intenso, hipertonia uterina e BCF de 90 bpm após uso de cocaína. Toque vaginal: colo impérvio. O diagnóstico, conduta e complicação possível são:",
-  options: [
-    "descolamento de placenta; cesárea; útero de Couvelaire.",
-    "rotura de vasa prévia; amniotomia; anemia fetal.",
-    "trabalho de parto; inibição; prematuridade.",
-    "pré-eclâmpsia; cesárea; rotura uterina."
-  ],
-  correctAnswer: 0,
-  explanation: "Cocaína é fator de risco para descolamento prematuro de placenta, que cursa com hipertonia e sofrimento fetal. Indica cesárea de emergência; útero de Couvelaire é complicação hemorrágica."
-},
-{
-  id: "go138",
-  institution: "ENAMED",
-  year: 2025,
-  specialty: "GO",
-  text: "Mulher de 72 anos, obesa e nulípara, com sangramento vaginal há dois dias. USG transvaginal: útero com nódulos e endométrio medindo 8 mm; colo com lesão polipoide. Qual é a principal hipótese diagnóstica?",
-  options: [
-    "Hiperplasia endometrial.",
-    "Câncer de colo de útero.",
-    "Leiomioma submucoso.",
-    "Endométrio atrófico."
-  ],
-  correctAnswer: 0,
-  explanation: "Sangramento pós-menopausa com endométrio >5 mm em paciente com fatores de risco (obesidade, nuliparidade) sugere hiperplasia endometrial, devendo ser investigada com amostragem endometrial."
-},
-{
-  id: "go139",
-  institution: "ENAMED",
-  year: 2025,
-  specialty: "GO",
-  text: "Primigesta de 28 anos, 33 semanas, com saída de líquido claro pela vagina há 2 horas. Exame confirma amniorrexe. Feto estável (BCF 140). Após antibiótico e corticoterapia, a conduta é:",
-  options: [
-    "internação hospitalar e monitoramento materno-fetal diário.",
-    "internação hospitalar, cardiotocografia e indução imediata do parto.",
-    "alta e monitoramento ambulatorial diário.",
-    "alta e monitoramento ambulatorial semanal."
-  ],
-  correctAnswer: 0,
-  explanation: "Na ruptura prematura de membranas pré-termo com 33 semanas, após corticoterapia e antibiótico, indica-se internação para vigilância de infecção e bem-estar fetal, buscando conduzir até 34 semanas se possível."
-},
-{
-  id: "go140",
-  institution: "ENAMED",
-  year: 2025,
-  specialty: "GO",
-  text: "Assinale a condição clínica que indica a referência da gestante para acompanhamento em centro de referência especializado (pré-natal de alto risco):",
-  options: [
-    "Malária no 3º trimestre da gestação.",
-    "Anemia com 9,5 mg/dL de hemoglobina.",
-    "Gestação gemelar dicoriônica diamniótica.",
-    "Diabetes mellitus gestacional controlada com dieta."
-  ],
-  correctAnswer: null,
-  explanation: "Questão anulada. Conforme o gabarito definitivo, esta questão foi anulada."
-}
+    id: "go121",
+    institution: "ENAMED",
+    year: 2025,
+    specialty: "GO",
+    text: "Paciente de 30 anos procurou consultório de ginecologia relatando fadiga, dismenorreia progressiva e dispareunia de profundidade. Toque vaginal: útero de volume normal, retroversofletido, dor à mobilização do colo.",
+    options: [
+      "doença inflamatória pélvica.",
+      "miomatose uterina.",
+      "cisto hemorrágico.",
+      "endometriose."
+    ],
+    correctAnswer: 3,
+    explanation: "Alternativa (D). O quadro de dismenorreia progressiva associada a dispareunia de profundidade em uma mulher jovem é altamente sugestivo de endometriose, especialmente com os achados de dor à mobilização uterina no exame físico."
+  },
+  {
+    id: "go122",
+    institution: "ENAMED",
+    year: 2025,
+    specialty: "GO",
+    text: "Paciente de 25 anos, com duas gestações e um parto, no segundo trimestre de gestação, compareceu à primeira consulta de pré-natal sem queixas. Após orientações e realização dos testes rápidos, verificou-se que o teste para sífilis foi positivo e imediatamente a paciente recebeu 2,4 milhões UI de penicilina benzatina intramuscular. Paciente nega diagnóstico e tratamento prévios para sífilis. Em relação ao acompanhamento da paciente, é correto afirmar que:",
+    options: [
+      "com o tratamento instituído, o feto não terá sequelas.",
+      "titulações menores ou iguais a um quarto indicarão cicatriz sorológica.",
+      "a queda de duas titulações do VDRL indicará efetividade de tratamento.",
+      "o exame de FTA-Abs reagente indicará doença ativa."
+    ],
+    correctAnswer: null,
+    explanation: "Questão Anulada. De acordo com o gabarito definitivo, esta questão foi anulada e não pontua para o exame."
+  },
+  {
+    id: "go123",
+    institution: "ENAMED",
+    year: 2025,
+    specialty: "GO",
+    text: "Paciente de 16 anos comparece ao ambulatório para mostrar os resultados dos exames complementares solicitados na consulta anterior. Está preocupada porque todas as colegas da mesma idade já menstruaram e ela não. O fenótipo é feminino, com pelos pubianos e axilares esparsos. Os exames complementares evidenciam ausência do útero à ultrassonografia pélvica, dosagem sérica do hormônio folículo estimulante (FSH) normal, dosagem de testosterona sérica compatível com níveis do sexo masculino e cariótipo 46 XY. Com base no quadro clínico e nos dados apresentados, a principal hipótese diagnóstica dessa paciente é:",
+    options: [
+      "disgenesia gonadal.",
+      "malformação Mulleriana.",
+      "obstrução do trato genital.",
+      "insensibilidade androgênica."
+    ],
+    correctAnswer: 3,
+    explanation: "Alternativa (D). A síndrome de insensibilidade androgênica completa apresenta cariótipo 46,XY, fenótipo feminino, ausência de útero (pela ação do hormônio antimülleriano testicular) e níveis de testosterona elevados para o padrão feminino, mas os tecidos periféricos não respondem ao hormônio."
+  },
+  {
+    id: "go124",
+    institution: "ENAMED",
+    year: 2025,
+    specialty: "GO",
+    text: "Multípara, 37 semanas, obesa, apresentando diabetes mellitus gestacional controlada com insulina NPH e regular. Evoluiu para parto normal, e o recém-nascido pesou 3.300 g. A conduta no puerpério imediato deve ser:",
+    options: [
+      "suspender insulinoterapia.",
+      "iniciar hipoglicemiante oral.",
+      "manter insulina NPH em 1/3 da dose da gravidez.",
+      "manter insulinoterapia com a dosagem do pré-natal."
+    ],
+    correctAnswer: 0,
+    explanation: "Alternativa (A). Na maioria dos casos de Diabetes Mellitus Gestacional, a resistência insulínica cai drasticamente logo após a expulsão da placenta. Por isso, a recomendação padrão é suspender a insulina imediatamente após o parto e monitorar a glicemia para avaliar a necessidade de novos ajustes."
+  },
+  {
+    id: "go125",
+    institution: "ENAMED",
+    year: 2025,
+    specialty: "GO",
+    text: "Paciente G5P3C1, 35 anos, idade gestacional de 15 semanas por ecografia realizada com 8 semanas, hipertensa crônica em uso de enalapril, antecedente de pré-eclâmpsia. Comparece à consulta de pré-natal na Unidade Básica de Saúde (UBS) com pressão arterial de 140 x 90 mmHg. Qual é a conduta medicamentosa indicada para essa paciente?",
+    options: [
+      "Captopril, varfarina e ácido acetilsalicílico.",
+      "Furosemida, varfarina e carbonato de cálcio.",
+      "Losartana, enoxaparina e carbonato de cálcio.",
+      "Alfa-metildopa, ácido acetilsalicílico e carbonato de cálcio."
+    ],
+    correctAnswer: 3,
+    explanation: "Alternativa (D). Inibidores da ECA e BRAs são contraindicados na gestação; a alfa-metildopa é uma alternativa segura para o controle pressórico. Além disso, o uso de AAS e carbonato de cálcio é recomendado para a prevenção de pré-eclâmpsia em gestantes de alto risco."
+  },
+  {
+    id: "go126",
+    institution: "ENAMED",
+    year: 2025,
+    specialty: "GO",
+    text: "Primigesta de 29 anos, com 41 semanas de gestação e pré-natal de risco habitual, comparece à Unidade Básica de Saúde (UBS) para consulta de rotina. A paciente está assintomática, relata movimentação fetal presente, e o exame físico está normal para a idade gestacional. Perfil biofísico fetal realizado há 1 dia encontra-se dentro da normalidade. Considerando o quadro clínico apresentado e a idade gestacional, a conduta é:",
+    options: [
+      "orientar repouso domiciliar, com planejamento da indução do parto após 42 semanas.",
+      "solicitar dopplervelocimetria obstétrica para avaliar o bem-estar fetal.",
+      "realizar amnioscopia para verificar a presença de mecônio no líquido amniótico.",
+      "solicitar perfil biofísico fetal e cardiotocografia a cada 2 a 3 dias e planejamento da indução do parto até 41 semanas e 6 dias."
+    ],
+    correctAnswer: 3,
+    explanation: "Alternativa (D). Em gestações que atingem 41 semanas, é necessário intensificar a vigilância fetal com exames de bem-estar (perfil e cardiotocografia) frequentes, visando a interrupção da gestação (indução) antes que se completem 42 semanas."
+  },
+  {
+    id: "go127",
+    institution: "ENAMED",
+    year: 2025,
+    specialty: "GO",
+    text: "Parturiente de 29 anos, sem comorbidades, esteve em trabalho de parto por 8 horas e evoluiu para parto vaginal. Após 10 minutos do desprendimento do feto, ainda não se observou a expulsão da placenta. A paciente está estável e sem sinais de hemorragia. Diante do quadro apresentado, a conduta a ser adotada é:",
+    options: [
+      "aguardar a expulsão espontânea da placenta, sem intervenções adicionais.",
+      "realizar tração controlada do cordão umbilical, enquanto se estabiliza o útero com a mão suprapúbica.",
+      "iniciar curagem placentária, devido ao tempo transcorrido sem desprendimento.",
+      "administrar uterotônico adicional e realizar massagem uterina para auxiliar a dequitação."
+    ],
+    correctAnswer: 1,
+    explanation: "Alternativa (B). O manejo ativo do terceiro estágio do parto inclui a tração controlada do cordão umbilical associada à manobra de estabilização uterina (manobra de Brand-Andrews), recomendada para prevenir hemorragia pós-parto e auxiliar na dequitação."
+  },
+  {
+    id: "go128",
+    institution: "ENAMED",
+    year: 2025,
+    specialty: "GO",
+    text: "Nulípara de 30 anos, com diagnóstico de lúpus eritematoso sistêmico e história recente de trombose venosa, apresenta ciclos menstruais prolongados de 8 a 10 dias, com intenso sangramento e cólicas fortes. Qual é a melhor opção de contracepção?",
+    options: [
+      "DIU de cobre.",
+      "DIU de levonorgestrel.",
+      "Anticoncepcional injetável mensal.",
+      "Pílula anticoncepcional combinada contínua."
+    ],
+    correctAnswer: 1,
+    explanation: "Alternativa (B). Pacientes com histórico de trombose têm contraindicação absoluta a métodos contendo estrogênio. O DIU de levonorgestrel é a melhor opção, pois, além de seguro, auxilia na redução do fluxo menstrual intenso e das cólicas."
+  },
+  {
+    id: "go129",
+    institution: "ENAMED",
+    year: 2025,
+    specialty: "GO",
+    text: "Uma adolescente de 15 anos comparece em consulta ginecológica com a finalidade de iniciar contracepção. Na história patológica pregressa, refere episódios de enxaqueca com aura. O uso do contraceptivo combinado está contraindicado para essa paciente devido ao risco de:",
+    options: [
+      "câncer de mama.",
+      "diabetes mellitus.",
+      "acidente vascular cerebral.",
+      "hipertensão arterial sistêmica."
+    ],
+    correctAnswer: 2,
+    explanation: "Alternativa (C). De acordo com os critérios da OMS, a enxaqueca com aura em qualquer idade é uma contraindicação absoluta ao uso de anticoncepcionais combinados (estrogênio), devido ao aumento do risco de acidente vascular cerebral (AVC) isquêmico."
+  },
+  {
+    id: "go130",
+    institution: "ENAMED",
+    year: 2025,
+    specialty: "GO",
+    text: "Mulher de 35 anos, diabética, com laqueadura tubária bilateral, procurou atendimento médico com queixa de prurido genital e disúria terminal, com 7 dias de evolução. Recentemente, fez uso de antibiótico para tratamento de abscesso dental. Ao exame especular: edema vulvar, hiperemia, corrimento esbranquiçado e teste das aminas negativo. O tratamento é:",
+    options: [
+      "miconazol, 1 aplicador, via vaginal, por 7 noites.",
+      "cefalexina, 2 g/dia, via oral, por 7 dias.",
+      "azitromicina 1 g/dia, via oral, por 10 dias.",
+      "metronidazol, 1 aplicador, via vaginal, por 10 noites."
+    ],
+    correctAnswer: 0,
+    explanation: "Alternativa (A). O quadro clínico de corrimento esbranquiçado e prurido após uso de antibióticos em paciente diabética é típico de candidíase vulvovaginal. O tratamento indicado é o uso de antifúngicos tópicos, como o miconazol."
+  },
+  {
+    id: "go131",
+    institution: "ENAMED",
+    year: 2025,
+    specialty: "GO",
+    text: "Uma mulher de 30 anos recebeu a citologia oncótica com laudo de “atipias celulares escamosas de significado indeterminado, onde não se pode afastar alto grau (ASC-H)”. A conduta adequada deve ser a realização de:",
+    options: [
+      "conização.",
+      "colposcopia.",
+      "cirurgia de alta frequência.",
+      "nova citologia oncótica em 6 meses."
+    ],
+    correctAnswer: 1,
+    explanation: "Alternativa (B). O achado citológico de ASC-H exige encaminhamento imediato para colposcopia para avaliação detalhada do colo uterino e biópsia dirigida, devido ao risco de lenção precursora de alto grau."
+  },
+  {
+    id: "go132",
+    institution: "ENAMED",
+    year: 2025,
+    specialty: "GO",
+    text: "Paciente de 29 anos, nuligesta, ciclos menstruais com intervalos de 20 a 65 dias. Apresenta IMC de 41,5 kg/m² e se submeterá à cirurgia bariátrica em alguns meses. Necessita de orientação para contracepção. Assinale a alternativa correta:",
+    options: [
+      "Para contracepção efetiva e proteção endometrial, está indicado o endoceptivo antes da operação.",
+      "Devido ao risco de apresentar tromboembolismo, está contraindicado o uso de métodos hormonais.",
+      "Apresenta quadro de anovulação crônica, portanto deve ser orientada a usar preservativo masculino.",
+      "Está contraindicada gravidez na fase de perda de peso, logo ela pode usar o adesivo anticoncepcional."
+    ],
+    correctAnswer: 0,
+    explanation: "Alternativa (A). Em pacientes obesas com ciclos anovulatórios, o endoceptivo (DIU hormonal) garante alta eficácia contraceptiva e protege o endométrio contra hiperplasia, sendo seguro para quem passará por cirurgia bariátrica."
+  },
+  {
+    id: "go133",
+    institution: "ENAMED",
+    year: 2025,
+    specialty: "GO",
+    text: "Mulher de 28 anos, usuária de anticoncepcional oral, relata que seu namorado teve uma úlcera no pênis há 30 dias e testou positivo para HIV. Teve sua última relação sexual desprotegida com ele há 2 dias. Exame físico sem alterações. O manejo inicial é:",
+    options: [
+      "solicitar teste rápido para sífilis e HIV; prescrever TDF/3TC + DTG por 28 dias.",
+      "solicitar sumário de urina e anti-HIV; prescrever azitromicina.",
+      "solicitar VDRL e anti-HIV; prescrever doxiciclina.",
+      "solicitar urocultura, colpocitologia oncótica e anti-HIV."
+    ],
+    correctAnswer: null,
+    explanation: "Questão Anulada. De acordo com o gabarito definitivo, esta questão foi anulada."
+  },
+  {
+    id: "go134",
+    institution: "ENAMED",
+    year: 2025,
+    specialty: "GO",
+    text: "Paciente de 21 anos se reconhece como um homem trans e está em processo de afirmação de gênero. Não apresenta sofrimento psíquico intenso, mas busca informações e cuidados. Qual é a conduta mais adequada?",
+    options: [
+      "Solicitar avaliação psiquiátrica para diagnóstico de disforia de gênero.",
+      "Iniciar terapia hormonal na UBS imediatamente.",
+      "Encaminhar para serviço especializado e informar que o seguimento é apenas lá.",
+      "Esclarecer que tal identidade de gênero não é transtorno mental e oferecer acompanhamento contínuo na UBS."
+    ],
+    correctAnswer: 3,
+    explanation: "Alternativa (D). O acompanhamento deve ser pautado na despatologização das identidades trans, oferecendo acolhimento e orientações sobre cuidados gerais de saúde na própria Atenção Primária."
+  },
+  {
+    id: "go135",
+    institution: "ENAMED",
+    year: 2025,
+    specialty: "GO",
+    text: "Paciente G3P1A1, idade gestacional de 24 semanas. Na segunda gestação teve parto vaginal prematuro (28 semanas). Na USG transvaginal atual (23 semanas), detectou-se colo uterino com 1,5 cm de comprimento. Qual é a conduta adequada?",
+    options: [
+      "Solicitar a pesquisa de estreptococo do Grupo B na 28ª semana.",
+      "Internar a paciente para receber atosiban intravenoso.",
+      "Prescrever nifedipina 20 mg via oral diariamente.",
+      "Prescrever progesterona micronizada via vaginal 200 mg ao dia até 36 semanas."
+    ],
+    correctAnswer: 3,
+    explanation: "Alternativa (D). Em gestantes com antecedente de parto prematuro e achado de colo curto (inferior a 25 mm), a indicação padrão para reduzir o risco de recorrência é o uso de progesterona micronizada vaginal."
+  },
+  {
+    id: "go136",
+    institution: "ENAMED",
+    year: 2025,
+    specialty: "GO",
+    text: "Mulher de 32 anos retorna com resultado de preventivo indicando “presença de lenção intraepitelial de baixo grau (LSIL)”. Considerando esse resultado, qual é a conduta adequada?",
+    options: [
+      "Solicitar ultrassonografia transvaginal.",
+      "Repetir o exame citopatológico em 6 meses.",
+      "Encaminhar para a realização de colposcopia.",
+      "Repetir o exame citopatológico imediatamente."
+    ],
+    correctAnswer: 1,
+    explanation: "Alternativa (B). Segundo as diretrizes brasileiras, para mulheres a partir de 25 anos com resultado de LSIL, a conduta recomendada é a repetição do preventivo em 6 meses."
+  },
+  {
+    id: "go137",
+    institution: "ENAMED",
+    year: 2025,
+    specialty: "GO",
+    text: "Gestante de 28 anos chega com sangramento vaginal intenso, hipertonia uterina e BCF de 90 bpm após uso de cocaína. Toque vaginal: colo impérvio. O diagnóstico, conduta e complicação possível são:",
+    options: [
+      "descolamento de placenta; cesárea; útero de Couvelaire.",
+      "rotura de vasa prévia; amniotomia; anemia fetal.",
+      "trabalho de parto; inibição; prematuridade.",
+      "pré-eclâmpsia; cesárea; rotura uterina."
+    ],
+    correctAnswer: 0,
+    explanation: "Alternativa (A). O uso de cocaína é fator de risco para o descolamento prematuro de placenta (DPP), que se manifesta com hipertonia e sofrimento fetal. A cesárea de emergência é indicada e o útero de Couvelaire é uma complicação hemorrágica grave."
+  },
+  {
+    id: "go138",
+    institution: "ENAMED",
+    year: 2025,
+    specialty: "GO",
+    text: "Mulher de 72 anos, obesa e nulípara, com sangramento vaginal há dois dias. USG transvaginal: útero com nódulos e endométrio medindo 8 mm; colo com lenção polipoide. Qual é a principal hipótese diagnóstica?",
+    options: [
+      "Hiperplasia endometrial.",
+      "Câncer de colo de útero.",
+      "Leiomioma submucoso.",
+      "Endométrio atrófico."
+    ],
+    correctAnswer: 0,
+    explanation: "Alternativa (A). Na pós-menopausa, um endométrio acima de 5 mm (neste caso, 8 mm) em paciente com fatores de risco (obesidade/nuliparidade) torna a hiperplasia endometrial a principal hipótese a ser investigada via biópsia."
+  },
+  {
+    id: "go139",
+    institution: "ENAMED",
+    year: 2025,
+    specialty: "GO",
+    text: "Primigesta de 28 anos, 33 semanas, com saída de líquido claro pela vagina há 2 horas. Exame confirma amniorrexe. Feto estável (BCF 140). Após antibiótico e corticoterapia, a conduta é:",
+    options: [
+      "internação hospitalar e monitoramento materno-fetal diário.",
+      "internação hospitalar, cardiotocografia e indução imediata do parto.",
+      "alta e monitoramento ambulatorial diário.",
+      "alta e monitoramento ambulatorial semanal."
+    ],
+    correctAnswer: 0,
+    explanation: "Alternativa (A). Na amniorrexe prematura pré-termo (33 semanas), a conduta atual preconiza a internação para vigilância de infecção e bem-estar fetal, visando protelar o parto até as 34 semanas."
+  },
+  {
+    id: "go140",
+    institution: "ENAMED",
+    year: 2025,
+    specialty: "GO",
+    text: "Assinale a condição clínica que indica a referência da gestante para acompanhamento em centro de referência especializado (pré-natal de alto risco):",
+    options: [
+      "Malária no 3º trimestre da gestação.",
+      "Anemia com 9,5 mg/dL de hemoglobina.",
+      "Gestação gemelar dicoriônica diamniótica.",
+      "Diabetes mellitus gestacional controlada com dieta."
+    ],
+    correctAnswer: null,
+    explanation: "Questão Anulada. Conforme o gabarito definitivo, esta questão foi anulada."
+  }
 ];
