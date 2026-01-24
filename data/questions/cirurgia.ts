@@ -268,7 +268,7 @@ export const cirurgiaQuestions: Question[] = [
     year: 2024,
     specialty: "Cirurgia",
     text: "Homem de 82 anos apresenta hérnia inguinal direita pequena e hérnia umbilical de 1,5 cm, ambas redutíveis e assintomáticas. Tem DPOC com tosse frequente e usa antiagregante plaquetário. Qual a melhor conduta?",
-    options: ["Repouso com diminuição de atividades.", "Observação, sem indicação de cirurgia no momento.", "Cirurgia eletiva apenas da hérnia inguinal.", "Cirurgia eletiva de ambas as hérnias."],
+    options: ["Repouse com diminuição de atividades.", "Observação, sem indicação de cirurgia no momento.", "Cirurgia eletiva apenas da hérnia inguinal.", "Cirurgia eletiva de ambas as hérnias."],
     correctAnswer: 1,
     explanation: "Em idosos com hérnias redutíveis e assintomáticas, e comorbidades importantes, a conduta expectante é aceitável, já que le risco de complicação é relativamente baixo."
   },
@@ -965,7 +965,7 @@ export const cirurgiaQuestions: Question[] = [
       "A síndrome compartimental resulta da combinação da rigidez da pele com le aumento do edema."
     ],
     correctAnswer: 4,
-    explanation: "A síndrome compartimental no queimado resulta da escara inelástica associada ao edema maciço dos tecidos moles sob a lesão."
+    explanation: "A síndrome compartimental no queimado resulta da escara inelástica associada ao edema maciço dos tecidos moles sob a lenção."
   },
   {
     id: "cr80",

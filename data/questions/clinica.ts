@@ -377,7 +377,7 @@ export const clinicaQuestions: Question[] = [
     institution: "Simulado",
     year: 2024,
     specialty: "Clinica",
-    text: "Quadro de rabdomiólise severa e injúria renal. Relacione as associações corretas:",
+    text: "Quadro de rabdomiólise sever e injúria renal. Relacione as associações corretas:",
     options: ['1 – E, F; 2 – B, C; 3 – G, H; 4 – D, H', '1 – E, F; 2 – B, C; 3 – D, H; 4 – A, H', '1 – C, F; 2 – B, E; 3 – D, H; 4 – A, G', '1 – C, E; 2 – B, F; 3 – A, G; 4 – D, H'],
     correctAnswer: 3,
     explanation: "1-C (Síndrome Compartimental), 2-B (Lise Celular), 3-A (Deposição de Mioglobina) e 4-D (Fluxo de Na/Ca) formam a cadeia fisiopatológica descrita."

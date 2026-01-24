@@ -1,0 +1,21 @@
+
+/* Estilos globais para DePrimeira! */
+:root {
+  --primary-glow: rgba(19, 127, 236, 0.3);
+  --secondary-glow: rgba(245, 158, 11, 0.3);
+}
+
+.shadow-glow {
+  box-shadow: 0 4px 20px -2px var(--primary-glow);
+}
+
+.shadow-glow-gold {
+  box-shadow: 0 4px 20px -2px var(--secondary-glow);
+}
+
+/* Transições suaves */
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+}
