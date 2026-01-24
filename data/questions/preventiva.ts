@@ -1101,4 +1101,304 @@ export const preventivaQuestions: Question[] = [
     correctAnswer: 1,
     explanation: "O Acesso é o atributo que garante que a APS seja o primeiro contato do usuário com o sistema de saúde, devendo ser geograficamente e organizacionalmente acessível."
   }
+  {
+  id: "pr81",
+  institution: "ENAMED",
+  year: 2025,
+  specialty: "Preventiva",
+  text: "Observe o encaminhamento realizado por um médico de família. “À cardiologia, Encaminho o Sr. J. L. S., de 56 anos, com diagnóstico de cardiopatia isquêmica, que sofreu um infarto agudo do miocárdio há 3 meses. Tem orientação para o uso de antiagregantes plaquetários, mas tem história de úlcera péptica e teve reação alérgica ao clopidogrel e à ticlopidina. Desta forma, solicito orientação quanto à conduta preventiva.” Ao ser assistido pelo cardiologista, o paciente será atendido em qual nível de atenção e receberá que tipo de prevenção, respectivamente?",
+  options: [
+    "Primário; secundário.",
+    "Secundário; secundário.",
+    "Terciário; terciário.",
+    "Quaternário; terciário."
+  ],
+  correctAnswer: 1,
+  explanation: "O atendimento ambulatorial especializado (cardiologia) caracteriza nível secundário de atenção. Como o objetivo é prevenir recorrência/complicações de um agravo já instalado (IAM há 3 meses), trata-se de prevenção secundária."
+},
+{
+  id: "pr82",
+  institution: "ENAMED",
+  year: 2025,
+  specialty: "Preventiva",
+  text: "Homem de 52 anos, branco, solteiro, comparece à consulta agendada na Unidade Básica de Saúde (UBS) desejando realizar revisão clínica e exames laboratoriais. Desde os 35 anos não faz acompanhamento de saúde. Relata história familiar de diabetes e hipertensão, e a mãe faleceu com câncer de pulmão. Sem história familiar de câncer de próstata. Fuma cerca de 2 maços por dia há 21 anos. Exame físico: pressão arterial de 120 x 80 mmHg, índice de massa corporal de 23 kg/m², sem outras alterações. Considerando as recomendações de rastreamento para esse paciente, o médico de família e comunidade deve:",
+  options: [
+    "solicitar exames de colesterol total e frações, hemograma, glicemia de jejum, creatinina, PSA, radiografia de tórax, colonoscopia, realizar toque retal; orientar sobre a prática de atividade física regular.",
+    "solicitar exames de colesterol total, glicemia de jejum, pesquisa de sangue oculto nas fezes, PSA, ofertar anti-HIV e HBsAg, realizar toque retal; orientar sobre participação no grupo na UBS para abandono do tabagismo.",
+    "abordar mudanças no estilo de vida e cessação do tabagismo; acompanhar, em consultas longitudinais, as futuras possibilidades de exames complementares, quando o paciente atingir faixa etária para investigações adicionais.",
+    "solicitar exames de colesterol total, HDL e triglicerídeos, glicemia de jejum, pesquisa de sangue oculto nas fezes, ofertar testes rápidos para HIV, sífilis e hepatites B e C; realizar abordagem sobre possibilidade de cessação do tabagismo."
+  ],
+  correctAnswer: 3,
+  explanation: "Aos 52 anos, recomenda-se rastrear risco cardiovascular (perfil lipídico e glicemia) e câncer colorretal (sangue oculto nas fezes entre 50–75 anos). Na APS, é indicado ofertar testagem para ISTs conforme protocolos e fazer intervenção prioritária para cessação do tabagismo."
+},
+{
+  id: "pr83",
+  institution: "ENAMED",
+  year: 2025,
+  specialty: "Preventiva",
+  text: "Mulher de 32 anos, trabalhadora rural, diarista no plantio de morango, procura Unidade Básica de Saúde (UBS) com queixas de tonturas, dores de cabeça, cansaço, náuseas e falta de ar. Relata que há 2 semanas, após uma pulverização de agrotóxicos, começou a apresentar os sintomas, e que sua colega apresenta queixas similares. A médica suspeita de intoxicação aguda por agrotóxicos. Nessa situação, qual é a conduta adequada a ser adotada na assistência?",
+  options: [
+    "Encaminhar como caso suspeito ao centro de referência em saúde do trabalhador estadual e formalizar denúncia ao Ministério Público do Trabalho.",
+    "Estabelecer nexo causal entre os sintomas e os resultados de exames complementares, para confirmar diagnóstico de intoxicação por agrotóxicos, e notificar a Vigilância em Saúde municipal.",
+    "Tratar os sintomas, solicitar exames complementares, notificar o caso no Sistema de Notificação de Agravos e Doenças (Sinan), conceder atestado médico e solicitar matriciamento à Vigilância em Saúde do Trabalhador.",
+    "Informar não ser responsável pelo preenchimento da comunicação de acidente de trabalho (CAT), por ser atribuição exclusiva da medicina do trabalho."
+  ],
+  correctAnswer: 2,
+  explanation: "Na suspeita de agravo relacionado ao trabalho, a APS deve prestar assistência clínica (tratamento e exames), realizar notificação compulsória no SINAN (intoxicação por agrotóxicos) e acionar/solicitar apoio (matriciamento) da Vigilância em Saúde do Trabalhador."
+},
+{
+  id: "pr84",
+  institution: "ENAMED",
+  year: 2025,
+  specialty: "Preventiva",
+  text: "Mulher travesti de 28 anos, profissional do sexo, comparece à UBS em demanda espontânea. Relata relações sexuais frequentes com uso inconsistente de preservativos. Há 2 dias teve uma relação sexual desprotegida com um cliente. Nunca utilizou medicamento para PrEP ou PEP. Considerando que a paciente está assintomática no momento, qual a melhor estratégia de prevenção?",
+  options: [
+    "Prescrever PrEP após resultado não reagente para HIV; indicar PEP após tratamento inicial e orientar rastreamento de ISTs a cada 3 meses.",
+    "Oferecer teste rápido para HIV e sífilis; prescrever PrEP de início imediato; orientar sobre as vacinas disponíveis no SUS.",
+    "Realizar testagem rápida para HIV e sífilis; prescrever PEP mediante resultado não reagente para HIV e programar início da PrEP após término da PEP.",
+    "Prescrever PEP e PrEP de forma concomitante; solicitar sorologias para ISTs; agendar retorno."
+  ],
+  correctAnswer: 2,
+  explanation: "Houve exposição de risco há 48 horas (janela até 72h), portanto indica-se PEP após testagem inicial (HIV não reagente). Como o risco é contínuo (profissional do sexo), programa-se transição para PrEP ao término dos 28 dias de PEP."
+},
+{
+  id: "pr85",
+  institution: "ENAMED",
+  year: 2025,
+  specialty: "Preventiva",
+  text: "Homem de 48 anos, auxiliar de pedreiro, procura UBS com queixa de dor lombar iniciada há 3 semanas, de instalação insidiosa, sem irradiação. Relata que a dor piora ao final do dia e melhora com repouso e paracetamol. Nega \"red flags\" (perda de peso, febre, traumas). Exame físico com dor à palpação paravertebral, sem alterações neurológicas. Qual o próximo passo na condução desse caso?",
+  options: [
+    "Solicitar ressonância magnética da coluna lombar e encaminhar para a ortopedia.",
+    "Solicitar radiografia lombar, prescrever corticoide oral e agendar o retorno após 10 dias.",
+    "Orientar repouso, fornecer atestado de 7 dias e otimizar a analgesia com antidepressivo tricíclico.",
+    "Explicar a natureza benigna, orientar analgesia e atividade física leve, com reavaliação em 4 a 6 semanas."
+  ],
+  correctAnswer: 3,
+  explanation: "Lombalgia mecânica subaguda sem sinais de alerta não exige imagem inicial. Conduta: educação (curso benigno), analgesia simples, manter atividade física leve e reavaliar em 4–6 semanas (evitar repouso absoluto e exames desnecessários)."
+},
+{
+  id: "pr86",
+  institution: "ENAMED",
+  year: 2025,
+  specialty: "Preventiva",
+  text: "Sobre a internação involuntária no Brasil, é correto afirmar que:",
+  options: [
+    "a internação involuntária é determinada, de acordo com a legislação, pela Justiça.",
+    "é autorizada por médico devidamente registrado no Conselho Regional de Medicina.",
+    "no prazo de 15 dias, a internação deve ser comunicada ao Ministério Público Federal.",
+    "o término da internação involuntária ocorrerá por solicitação do Ministério Público Municipal."
+  ],
+  correctAnswer: 1,
+  explanation: "Pela Lei 10.216/2001, a internação involuntária é autorizada por médico. A comunicação é ao Ministério Público Estadual em até 72 horas, e a alta decorre de avaliação clínica (não por determinação do MP)."
+},
+{
+  id: "pr87",
+  institution: "ENAMED",
+  year: 2025,
+  specialty: "Preventiva",
+  text: "Homem de 48 anos busca a UBS para reiniciar tratamento para tuberculose. Paciente interrompeu o acompanhamento há 2 meses (abandono). Foram solicitados TRM-TB, baciloscopia e radiografia. Qual a conduta adequada?",
+  options: [
+    "Se o TRM-TB for positivo, sem resistência à rifampicina, e a baciloscopia for negativa, reiniciar o esquema básico.",
+    "Se o TRM-TB for negativo e a baciloscopia for positiva, reiniciar o esquema básico, desde que a resistência à rifampicina seja positiva.",
+    "Se o TRM-TB for negativo e a baciloscopia for positiva, solicitar cultura de escarro com teste de sensibilidade e reiniciar o esquema básico enquanto se aguarda a cultura.",
+    "Se o TRM-TB for positivo, com resistência à rifampicina, e a baciloscopia for positiva, solicitar cultura de escarro com teste de sensibilidade e reiniciar o esquema básico."
+  ],
+  correctAnswer: 2,
+  explanation: "Em retratamento por abandono, resultados discordantes exigem cultura com teste de sensibilidade para investigar resistência. A conduta é iniciar o esquema básico enquanto aguarda a cultura, ajustando depois conforme sensibilidade."
+},
+{
+  id: "pr88",
+  institution: "ENAMED",
+  year: 2025,
+  specialty: "Preventiva",
+  text: "Uma instituição de saúde está pesquisando um novo teste de triagem para hanseníase, com sensibilidade de 92% e especificidade de 65%, aplicado em uma população com baixa prevalência da doença. Nesse contexto, é correto afirmar que:",
+  options: [
+    "quase todos os testes positivos indicarão verdadeiros casos de hanseníase.",
+    "o número de falsos-positivos será elevado, devido à baixa especificidade do teste e à baixa prevalência da doença.",
+    "o número de falsos-negativos será elevado, reduzindo a capacidade do teste em detectar casos reais.",
+    "a elevada sensibilidade do teste o torna ideal para a confirmação do diagnóstico."
+  ],
+  correctAnswer: 1,
+  explanation: "Em baixa prevalência, o VPP cai. Com especificidade de 65%, haverá muitos falsos-positivos, tornando grande parte dos positivos não verdadeiros casos."
+},
+{
+  id: "pr89",
+  institution: "ENAMED",
+  year: 2025,
+  specialty: "Preventiva",
+  text: "Mulher de 52 anos chega à UBS muito chorosa, relatando luto pela morte do filho ocorrida há 3 dias. Sonha com o ocorrido e sente dor intensa. Nega ideação suicida ou histórico psiquiátrico prévio. Qual a conduta adequada?",
+  options: [
+    "Prescrever inibidor de recaptação de serotonina para alívio dos sintomas.",
+    "Encaminhar ao CAPs para seguimento intensivo com médico psiquiatra.",
+    "Encaminhar para psicologia na atenção secundária para ofertar terapia psicanalítica breve.",
+    "Acompanhar longitudinalmente para observação e ofertar apoio pela equipe da UBS."
+  ],
+  correctAnswer: 3,
+  explanation: "Quadro compatível com luto agudo normal (3 dias). A APS deve acolher, oferecer suporte, orientar rede de apoio e acompanhar longitudinalmente, evitando medicalização/encaminhamentos intensivos sem critérios."
+},
+{
+  id: "pr90",
+  institution: "ENAMED",
+  year: 2025,
+  specialty: "Preventiva",
+  text: "Médica de 32 anos trabalhará no distrito indígena Yanomami (região endêmica para malária). Qual quimioprofilaxia está indicada?",
+  options: [
+    "Artesunato.",
+    "Doxiciclina.",
+    "Primaquina.",
+    "Cloroquina."
+  ],
+  correctAnswer: null,
+  explanation: "Questão excluída. De acordo com o gabarito definitivo, esta questão foi excluída do cálculo dos resultados por desajuste ao modelo estatístico."
+},
+{
+  id: "pr91",
+  institution: "ENAMED",
+  year: 2025,
+  specialty: "Preventiva",
+  text: "Paciente de 27 anos, em regime fechado em penitenciária, queixa-se de tosse há 2 semanas. Considerando a situação na qual se encontra esse paciente, o médico de família e comunidade deve:",
+  options: [
+    "encaminhar para internação clínica, objetivando rapidez no diagnóstico.",
+    "solicitar radiografia de tórax, pesquisa laboratorial de Mycobacterium tuberculosis e garantir o tratamento em caso de positividade.",
+    "solicitar internação social, a fim de garantir tratamento supervisionado por 6 meses.",
+    "aguardar evolução, com uso de sintomáticos; caso a tosse persista por mais de 3 semanas, investigar."
+  ],
+  correctAnswer: 1,
+  explanation: "População privada de liberdade é de alto risco para TB; define-se sintomático respiratório com qualquer duração de tosse. Deve-se investigar imediatamente (TRM-TB/baciloscopia e RX) e garantir tratamento se confirmado."
+},
+{
+  id: "pr92",
+  institution: "ENAMED",
+  year: 2025,
+  specialty: "Preventiva",
+  text: "Ao visitar um idoso acamado de 80 anos, a médica verifica que ele não recebeu vacinas por receio da cuidadora sobre efeitos colaterais. Assinale a alternativa com vacinas do calendário nacional para o idoso e a forma de abordagem:",
+  options: [
+    "Pneumocócica 23-valente, dT (difteria e tétano), contra influenza e covid-19 e contra hepatite B. Agendar nova visita com mais familiares para dialogar.",
+    "Contra influenza e covid-19; dT; contra hepatite B; contra herpes-zoster. Fazer denúncia ao Conselho do Idoso.",
+    "Pneumocócica 10-valente; dT; contra influenza e covid-19; contra hepatite B. Solicitar assinatura de termo de responsabilidade.",
+    "Pneumocócica 10-valente; influenza; covid-19; herpes-zoster e dT. Respeitar a autonomia da filha."
+  ],
+  correctAnswer: 0,
+  explanation: "Calendário do idoso inclui influenza, covid-19, dT e hepatite B. Pneumocócica 23V é indicada para idosos acamados/institucionalizados. A abordagem deve ser educativa e dialógica, envolvendo família/cuidadores para reduzir hesitação vacinal."
+},
+{
+  id: "pr93",
+  institution: "ENAMED",
+  year: 2025,
+  specialty: "Preventiva",
+  text: "As ações voltadas para o controle do mosquito Aedes sp incluem o manejo integrado de vetores, que envolve atividades executadas pela equipe de vigilância em um processo cíclico, tais como:",
+  options: [
+    "levantamento do índice larvário e notificação de vetores infectados.",
+    "treinamento da equipe, uso intensivo de inseticidas e mutirões.",
+    "vigilância virológica e notificação semanal de casos suspeitos.",
+    "análise situacional com base em informações, desenho das operações de planificação, implementação, monitoramento e avaliação."
+  ],
+  correctAnswer: 3,
+  explanation: "Manejo integrado é ciclo de gestão: análise situacional, planejamento, implementação e monitoramento/avaliação contínuos, ajustando estratégias conforme efetividade e contexto."
+},
+{
+  id: "pr94",
+  institution: "ENAMED",
+  year: 2025,
+  specialty: "Preventiva",
+  text: "Médica de família preencherá a declaração de óbito (DO) de um paciente hipertenso (30 anos) com histórico de AVE (5 anos). Há 10 dias teve gripe e há 1 dia agravamento respiratório. A DO deverá ser preenchida:",
+  options: [
+    "pelo IML; Parte I: a) Insuficiência respiratória; b) Gripe; c) HAS. Parte II: AVE.",
+    "pela médica; Parte I: a) Insuficiência respiratória aguda grave (horas); b) Pneumonia (1 dia); c) Síndrome gripal (10 dias). Parte II: a) AVE (5 anos); b) HAS (30 anos).",
+    "pelo SAMU; Parte I: a) Síndrome gripal; b) Pneumonia; c) Insuficiência respiratória.",
+    "pelo SVO; Parte I: a) Insuficiência respiratória; b) AVE; c) HAS."
+  ],
+  correctAnswer: 1,
+  explanation: "Sendo morte natural assistida, a médica assistente preenche a DO. Na Parte I, registra-se a cadeia causal (imediata → básica) com tempo aproximado; na Parte II, condições contribuintes (AVE e HAS) que não fazem parte da sequência direta."
+},
+{
+  id: "pr95",
+  institution: "ENAMED",
+  year: 2025,
+  specialty: "Preventiva",
+  text: "Uma equipe identificou complicações de diabetes em sua população e decidiu elaborar um projeto de intervenção com ênfase em orientação nutricional e atividade física. Qual é o desenho de pesquisa para avaliação do impacto desse projeto?",
+  options: [
+    "Estudo de caso-controle aninhado.",
+    "Ensaio clínico não randomizado.",
+    "Estudo de coorte retrospectivo.",
+    "Ensaio clínico randomizado."
+  ],
+  correctAnswer: 1,
+  explanation: "Projeto de intervenção aplicado em serviço/comunidade, sem alocação aleatória formal, caracteriza ensaio clínico não randomizado (quase-experimento) para avaliar impacto antes/depois ou com comparações não aleatórias."
+},
+{
+  id: "pr96",
+  institution: "ENAMED",
+  year: 2025,
+  specialty: "Preventiva",
+  text: "Médico investigará o padrão de dependência de álcool de um paciente de 45 anos conforme o DSM-5. O médico deve investigar sobre:",
+  options: [
+    "a intolerância cruzada entre outras substâncias.",
+    "a aceitação e a adesão à proposta de abstinência.",
+    "o tempo que é gasto para obter a substância ou recuperar-se de seus efeitos.",
+    "o tipo e a classe de substância que o paciente usa."
+  ],
+  correctAnswer: 2,
+  explanation: "Critérios do DSM-5 incluem gastar muito tempo para obter, usar ou se recuperar do álcool/substância, sendo marcador central do transtorno por uso de substâncias."
+},
+{
+  id: "pr97",
+  institution: "ENAMED",
+  year: 2025,
+  specialty: "Preventiva",
+  text: "Em uma unidade prisional superlotada, houve aumento de queixas de prurido intenso e lesões cutâneas. As ações prioritárias no manejo adequado dessa situação são:",
+  options: [
+    "solicitar o isolamento imediato dos sintomáticos e tratamento individual.",
+    "implementar bloqueio coletivo com tratamento simultâneo, notificar o surto à vigilância e planejar medidas educativas/estruturais.",
+    "preferir o tratamento tópico dos casos diagnosticados e restringir medicação aos confirmados.",
+    "discutir a transferência dos casos graves e focar em folhetos informativos."
+  ],
+  correctAnswer: 1,
+  explanation: "Em surtos em ambientes fechados (escabiose é hipótese típica), a prioridade é bloqueio coletivo com tratamento simultâneo de casos/contatos, notificação do surto e medidas educativas/estruturais para interromper transmissão."
+},
+{
+  id: "pr98",
+  institution: "ENAMED",
+  year: 2025,
+  specialty: "Preventiva",
+  text: "Médica em atendimento a comunidades ribeirinhas e indígenas observa que uma mulher ribeirinha evita contato visual e um indígena insiste na presença de um pajé da comunidade. A abordagem adequada é:",
+  options: [
+    "investir na padronização de rotinas clínicas e comunicação técnica.",
+    "promover espaços formativos para a equipe assistencial, reconhecendo saberes e práticas das populações atendidas.",
+    "reforçar a autonomia profissional da médica e condutas baseadas em evidências.",
+    "estabelecer rotinas padronizadas uniformes de atendimento."
+  ],
+  correctAnswer: 1,
+  explanation: "Competência cultural exige reconhecer práticas/saberes locais (ex.: presença do pajé), qualificar a equipe e adaptar comunicação e cuidado para garantir vínculo, respeito e efetividade."
+},
+{
+  id: "pr99",
+  institution: "ENAMED",
+  year: 2025,
+  specialty: "Preventiva",
+  text: "Paciente de 21 anos se reconhece como homem trans e busca informações sobre transição de gênero na UBS. Não apresenta sofrimento psíquico ou sintomas psiquiátricos. Qual a conduta mais adequada?",
+  options: [
+    "Solicitar avaliação psiquiátrica para diagnóstico de disforia de gênero.",
+    "Iniciar terapia hormonal na UBS imediatamente.",
+    "Encaminhar para serviço especializado e informar que o seguimento é apenas lá.",
+    "Esclarecer que tal identidade de gênero não é transtorno mental e oferecer acompanhamento contínuo na UBS."
+  ],
+  correctAnswer: 3,
+  explanation: "O cuidado deve seguir a despatologização: acolher, informar que identidade trans não é transtorno mental e manter acompanhamento contínuo na APS para cuidados gerais e prevenção, com encaminhamentos quando indicados."
+},
+{
+  id: "pr100",
+  institution: "ENAMED",
+  year: 2025,
+  specialty: "Preventiva",
+  text: "Agente de saúde relata preocupação com idosos de uma instituição de longa permanência (ILPI) que vivem em isolamento, sofrendo agressões e com sinais de contenção física e lesões por pressão. Qual a conduta da equipe de saúde?",
+  options: [
+    "Formalizar denúncia ao Conselho do Idoso, considerando que não requer intervenção clínica imediata.",
+    "Oferecer apoio clínico apenas para os casos de maior vulnerabilidade, respeitando a autonomia da ILPI.",
+    "Articular ação intersetorial com órgãos de controle social, registrar notificação compulsória de violência institucional e elaborar plano de ação conjunta.",
+    "Agendar reuniões para educação permanente, sem envolver instâncias legais."
+  ],
+  correctAnswer: 2,
+  explanation: "Suspeita de violência institucional contra idosos exige notificação compulsória e ação intersetorial (rede de proteção e controle social), além de plano de intervenção e assistência direta às vítimas."
+}
 ];

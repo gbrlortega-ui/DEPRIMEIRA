@@ -977,4 +977,304 @@ export const cirurgiaQuestions: Question[] = [
     correctAnswer: 2,
     explanation: "Tumores localizados costumam ser assintomáticos, e a progressão costuma ser lenta. Fatores genéticos (BRCA) aumentam significativamente o risco."
   }
+  {
+  id: "cr81",
+  institution: "ENAMED",
+  year: 2025,
+  specialty: "Cirurgia",
+  text: "Homem de 45 anos foi encontrado inconsciente por familiares junto a uma escada de sua casa. Familiares o conduziram em carro próprio, sem medidas-padrão de atendimento pré-hospitalar. Não sabem por quanto tempo ficou desacordado e nem sobre o histórico de saúde. Quando deu entrada no pronto-socorro, encontrava-se inconsciente, com equimose e escoriações na região orbital e palpebral direita, além de escoriações na região cervical posterior e em membros à direita. Não apresentava resposta ao comando verbal, mas respirava espontaneamente com frequência normal. Pressão arterial de 140 x 90 mmHg e pupilas isocóricas. Durante a avaliação, abriu os olhos e começou a se mexer, ainda sem responder a questões ou comandos. Após 30 minutos começou a responder, mas informava não se lembrar de ter caído da escada. Considerando o quadro, a conduta adequada é:",
+  options: [
+    "Tomografia de crânio, face e coluna cervical; radiografia de membros; manter o paciente em observação por 12 horas.",
+    "Radiografia de crânio, coluna cervical e membros em duas posições; internar o paciente para observação.",
+    "Tomografia de crânio, face e radiografia de membros; liberar o paciente para observação domiciliar.",
+    "Radiografia de crânio e face; radiografia de membros; internar o paciente por 24 horas."
+  ],
+  correctAnswer: 0,
+  explanation: "O paciente sofreu um trauma cranioencefálico com amnésia do evento. A conduta padrão no neurotrauma exige tomografia de crânio e coluna cervical para descartar lesões intracranianas e cervicais, além de observação hospitalar."
+},
+{
+  id: "cr82",
+  institution: "ENAMED",
+  year: 2025,
+  specialty: "Cirurgia",
+  text: "Paciente feminina de 78 anos, com 24 horas de evolução de dor e abaulamento progressivo em região inguinal direita, associado a vômitos e diminuição da eliminação de flatos. Apresenta obesidade e múltiplas comorbidades. Abdome sem sinais de irritação peritoneal. Qual o diagnóstico?",
+  options: [
+    "Isquemia mesentérica.",
+    "Hérnia inguinal indireta.",
+    "Hérnia femoral encarcerada.",
+    "Neoplasia de cólon obstrutiva."
+  ],
+  correctAnswer: null,
+  explanation: "Questão anulada administrativamente devido a erro material na redação entre os diferentes cadernos de prova."
+},
+{
+  id: "cr83",
+  institution: "ENAMED",
+  year: 2025,
+  specialty: "Cirurgia",
+  text: "Paciente de 20 anos, sexo masculino, vítima de colisão automobilística, sem cinto de segurança. Apresenta hipotensão, hipoxemia, turgência jugular, desvio de traqueia para a direita e ausência de murmúrio vesicular à esquerda. Qual é a conduta adequada no atendimento pré-hospitalar?",
+  options: [
+    "Reposição volêmica.",
+    "Cricotireoidostomia.",
+    "Pericardiocentese.",
+    "Toracocentese."
+  ],
+  correctAnswer: 3,
+  explanation: "O quadro é típico de pneumotórax hipertensivo. A conduta imediata é a toracocentese para descompressão torácica, antes mesmo de exames de imagem."
+},
+{
+  id: "cr84",
+  institution: "ENAMED",
+  year: 2025,
+  specialty: "Cirurgia",
+  text: "Paciente feminina, 27 anos, com dor abdominal migratória do epigástrio para a fossa ilíaca direita, associada a febre e descompressão brusca dolorosa. Beta-hCG negativo. Qual a conduta correta?",
+  options: [
+    "Antibioticoterapia empírica e observação.",
+    "Tomografia e metotrexato.",
+    "Antibioticoterapia ambulatorial.",
+    "Ultrassonografia abdominal e parecer cirúrgico."
+  ],
+  correctAnswer: 3,
+  explanation: "O quadro clínico é sugestivo de apendicite aguda. A conduta adequada é confirmação por imagem e avaliação cirúrgica."
+},
+{
+  id: "cr85",
+  institution: "ENAMED",
+  year: 2025,
+  specialty: "Cirurgia",
+  text: "Menino de 6 anos apresenta balanopostites recorrentes e anel fibrótico prepucial, impedindo exposição da glande. Qual a conduta correta?",
+  options: [
+    "Fimose fisiológica, apenas higiene.",
+    "Cirurgia apenas na adolescência.",
+    "Indicação cirúrgica por fimose patológica.",
+    "Tratamento tópico com corticoide."
+  ],
+  correctAnswer: 2,
+  explanation: "Infecções recorrentes associadas a fibrose caracterizam fimose patológica, com indicação formal de postectomia."
+},
+{
+  id: "cr86",
+  institution: "ENAMED",
+  year: 2025,
+  specialty: "Cirurgia",
+  text: "Mulher de 72 anos com icterícia obstrutiva, prurido, colúria, emagrecimento e vesícula palpável indolor. Qual exame inicial é mais indicado?",
+  options: [
+    "Ultrassonografia.",
+    "Tomografia computadorizada.",
+    "Colangiorressonância.",
+    "Biópsia percutânea."
+  ],
+  correctAnswer: 1,
+  explanation: "O sinal de Courvoisier sugere neoplasia pancreática. A tomografia é o exame inicial para diagnóstico e estadiamento."
+},
+{
+  id: "cr87",
+  institution: "ENAMED",
+  year: 2025,
+  specialty: "Cirurgia",
+  text: "Homem alcoolista crônico com dor epigástrica irradiada para dorso, enzimas pancreáticas normais. Qual o diagnóstico?",
+  options: [
+    "Colangite.",
+    "Colecistite.",
+    "Úlcera péptica.",
+    "Pancreatite crônica."
+  ],
+  correctAnswer: 3,
+  explanation: "Na pancreatite crônica, as enzimas podem estar normais devido à fibrose pancreática."
+},
+{
+  id: "cr88",
+  institution: "ENAMED",
+  year: 2025,
+  specialty: "Cirurgia",
+  text: "Paciente em pós-operatório cardíaco apresenta diverticulite com abscesso identificado em tomografia. Após antibiótico, qual conduta?",
+  options: [
+    "Laparotomia.",
+    "Tratamento clínico.",
+    "Drenagem endoscópica.",
+    "Drenagem percutânea."
+  ],
+  correctAnswer: null,
+  explanation: "Questão anulada conforme gabarito oficial."
+},
+{
+  id: "cr89",
+  institution: "ENAMED",
+  year: 2025,
+  specialty: "Cirurgia",
+  text: "Paciente com tosse seca, dispneia e macicez à percussão em base pulmonar esquerda. Qual exame e conduta?",
+  options: [
+    "Ressonância e cirurgia.",
+    "TC e lobectomia.",
+    "TC e drenagem.",
+    "Ultrassonografia e toracocentese."
+  ],
+  correctAnswer: 3,
+  explanation: "O quadro sugere derrame pleural. Ultrassonografia confirma e a toracocentese é diagnóstica e terapêutica."
+},
+{
+  id: "cr90",
+  institution: "ENAMED",
+  year: 2025,
+  specialty: "Cirurgia",
+  text: "Paciente com retocolite ulcerativa e padrão colestático. Qual exame e achado esperado?",
+  options: [
+    "TC; tumor hilar.",
+    "CPRE; cálculo.",
+    "Colangiorressonância; estenoses multifocais.",
+    "USG; colecistite."
+  ],
+  correctAnswer: 2,
+  explanation: "Sugere colangite esclerosante primária, cujo exame de escolha é a colangiorressonância."
+},
+{
+  id: "cr91",
+  institution: "ENAMED",
+  year: 2025,
+  specialty: "Cirurgia",
+  text: "Paciente politraumatizado apresenta intervalo lúcido seguido de anisocoria. TC mostra coleção extra-axial hiperdensa biconvexa. Diagnóstico?",
+  options: [
+    "Hematoma subdural.",
+    "Contusão.",
+    "Hematoma epidural.",
+    "Hematoma intraparenquimatoso."
+  ],
+  correctAnswer: 2,
+  explanation: "O hematoma epidural cursa com intervalo lúcido e deterioração neurológica rápida."
+},
+{
+  id: "cr92",
+  institution: "ENAMED",
+  year: 2025,
+  specialty: "Cirurgia",
+  text: "Homem com dor em fossa ilíaca esquerda, febre, leucocitose e plastrão. Qual exame mais acurado?",
+  options: [
+    "RX abdome.",
+    "Colonoscopia.",
+    "TC com contraste.",
+    "USG."
+  ],
+  correctAnswer: 2,
+  explanation: "A tomografia com contraste é o padrão-ouro na diverticulite."
+},
+{
+  id: "cr93",
+  institution: "ENAMED",
+  year: 2025,
+  specialty: "Cirurgia",
+  text: "Ferimento por arma de fogo em membro superior com hemorragia pulsátil intensa. Qual conduta pré-hospitalar?",
+  options: [
+    "Dissecção com pinça.",
+    "Reposição com albumina.",
+    "Compressão e torniquete, SF.",
+    "Torniquete e albumina."
+  ],
+  correctAnswer: 2,
+  explanation: "Hemorragia exanguinante deve ser controlada com compressão e torniquete, com reposição volêmica por cristaloide."
+},
+{
+  id: "cr94",
+  institution: "ENAMED",
+  year: 2025,
+  specialty: "Cirurgia",
+  text: "Paciente submetida à tireoidectomia total evolui com rouquidão persistente. Qual nervo foi lesionado?",
+  options: [
+    "Laríngeo recorrente.",
+    "Glossofaríngeo.",
+    "Hipoglosso.",
+    "Vago."
+  ],
+  correctAnswer: 0,
+  explanation: "A lesão do nervo laríngeo recorrente causa rouquidão por paralisia de corda vocal."
+},
+{
+  id: "cr95",
+  institution: "ENAMED",
+  year: 2025,
+  specialty: "Cirurgia",
+  text: "Recém-nascido com abdome escavado e ruídos intestinais no tórax. Qual conduta inicial?",
+  options: [
+    "Intubação traqueal.",
+    "Cateterismo umbilical.",
+    "Ventilação com máscara.",
+    "Surfactante."
+  ],
+  correctAnswer: 0,
+  explanation: "Na hérnia diafragmática congênita, deve-se evitar ventilação com máscara. A intubação imediata é a conduta correta."
+},
+{
+  id: "cr96",
+  institution: "ENAMED",
+  year: 2025,
+  specialty: "Cirurgia",
+  text: "Adulto com dor anal intensa ao evacuar e sangramento vivo. Diagnóstico?",
+  options: [
+    "Abscesso.",
+    "Fístula.",
+    "Cisto pilonidal.",
+    "Fissura anal."
+  ],
+  correctAnswer: 3,
+  explanation: "Dor evacuatória com sangramento vivo em pequena quantidade caracteriza fissura anal."
+},
+{
+  id: "cr97",
+  institution: "ENAMED",
+  year: 2025,
+  specialty: "Cirurgia",
+  text: "Homem com icterícia obstrutiva, emagrecimento e suspeita de câncer pancreático. Qual exame inicial?",
+  options: [
+    "USG.",
+    "CPRE.",
+    "RM.",
+    "TC com contraste e CA 19-9."
+  ],
+  correctAnswer: null,
+  explanation: "Questão excluída conforme gabarito oficial."
+},
+{
+  id: "cr98",
+  institution: "ENAMED",
+  year: 2025,
+  specialty: "Cirurgia",
+  text: "Paciente com queimadura química ocular por alvejante. Qual conduta correta?",
+  options: [
+    "Colírio lubrificante.",
+    "Água boricada.",
+    "Lavagem com SF e especialista.",
+    "Corticoide tópico."
+  ],
+  correctAnswer: 2,
+  explanation: "Queimaduras químicas exigem lavagem imediata e abundante com solução fisiológica."
+},
+{
+  id: "cr99",
+  institution: "ENAMED",
+  year: 2025,
+  specialty: "Cirurgia",
+  text: "Paciente com icterícia, colúria, acolia, cálculos e dilatação de vias biliares, sem febre. Diagnóstico e exame?",
+  options: [
+    "Colestase sem colangite; TC.",
+    "Colestase com colangite; RM.",
+    "Colestase sem colangite; colangiorressonância.",
+    "Colestase com colangite; CPRE."
+  ],
+  correctAnswer: 2,
+  explanation: "Coledocolitíase sem sinais de colangite deve ser investigada com colangiorressonância."
+},
+{
+  id: "cr100",
+  institution: "ENAMED",
+  year: 2025,
+  specialty: "Cirurgia",
+  text: "Paciente com dismenorreia progressiva, dispareunia profunda e dor à mobilização do colo. Qual diagnóstico?",
+  options: [
+    "DIP.",
+    "Miomatose.",
+    "Cisto hemorrágico.",
+    "Endometriose."
+  ],
+  correctAnswer: 3,
+  explanation: "A tríade clínica é típica de endometriose, causa frequente de dor pélvica crônica com indicação cirúrgica."
+}
 ];
