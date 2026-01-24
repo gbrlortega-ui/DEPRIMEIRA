@@ -1,3 +1,4 @@
+
 import { Question } from '../../types';
 
 export const clinicaQuestions: Question[] = [
@@ -46,7 +47,7 @@ export const clinicaQuestions: Question[] = [
     institution: "Simulado",
     year: 2024,
     specialty: "Clinica",
-    text: "Mulher de 26 anos de idade, sem comorbidades, procura atendimento ambulatorial com queixa de disúria, polaciúria e opergência urinária há 2 dias. Nega febre ou dor lombar. Ao exame físico, está afebril e sem dor à palpação lombar. Qual é a conduta mais adequada?",
+    text: "Mulher de 26 anos de idade, sem comorbidades, procura atendimento ambulatorial com queixa de disúria, polaciúria e urgência urinária há 2 dias. Nega febre ou dor lombar. Ao exame físico, está afebril e sem dor à palpação lombar. Qual é a conduta mais adequada?",
     options: ['Prescrever nitrofurantoína por 5 dias.', 'Prescrever norfloxacina por 3 dias e, ao final, coletar urocultura de controle.', 'Solicitar urocultura e, após resultado, avaliar início do antibiótico.', 'Prescrever fosfomicina por 4 dias.'],
     correctAnswer: 0,
     explanation: "Quadro típico de cistite aguda não complicada: mulher jovem, sem comorbidades e sem sinais de pielonefrite. O tratamento empírico de primeira linha é nitrofurantoína por 5 dias, sem necessidade de urocultura de rotina."
@@ -57,9 +58,9 @@ export const clinicaQuestions: Question[] = [
     year: 2024,
     specialty: "Clinica",
     text: "Mulher de 40 anos, portadora de diabetes mellitus tipo 1, procura atendimento com fraqueza muscular progressiva e mal-estar, com vômitos e oligúria nas últimas 24 horas. Exames laboratoriais revelam: Ureia: 135 mg/dL, Creatinina: 5,2 mg/dL, Potássio sérico: 7,6 mEq/L, pH arterial: 7,24. Após medidas iniciais para hipercalemia sem melhora clínica, qual é a conduta mais adequada neste momento?",
-    options: ['Repetir nova dose de insulina com glicose intravenosa.', 'Iniciar resina trocadora de potássio por via oral.', 'Iniciar hemodiálise de opergência.', 'Aguardar resposta às medidas já realizadas e monitorar potássio e ECG.'],
+    options: ['Repetir nova dose de insulina com glicose intravenosa.', 'Iniciar resina trocadora de potássio por via oral.', 'Iniciar hemodiálise de urgência.', 'Aguardar resposta às medidas já realizadas e monitorar potássio e ECG.'],
     correctAnswer: 2,
-    explanation: "A paciente apresenta hipercalemia grave (K+ = 7,6 mEq/L) refratária às medidas habituais, associada a injúria renal aguda (creatinina 5,2 mg/dL). Nessa situação, há risco elevado de arritmias fatais e a conduta de escolha é hemodiálise de opergência para remoção rápida do potássio."
+    explanation: "A paciente apresenta hipercalemia grave (K+ = 7,6 mEq/L) refratária às medidas habituais, associada a injúria renal aguda (creatinina 5,2 mg/dL). Nessa situação, há risco elevado de arritmias fatais e a conduta de escolha é hemodiálise de urgência para remoção rápida do potássio."
   },
   {
     id: "cl7",
@@ -147,7 +148,7 @@ export const clinicaQuestions: Question[] = [
     year: 2024,
     specialty: "Clinica",
     text: "Homem de 26 anos procura atendimento por lesões cutâneas (manchas não pruriginosas no tronco, membros e palmas das mãos) há 10 dias. Teste Rápido de Sífilis reagente e VDRL não reagente. Qual é a conduta para este paciente (com manifestações de Sífilis secundária)?",
-    options: ['Indicar o tratamento com três doses de Penicilina G Benzatina.', 'Indicar o tratamento com duas doses de Penicilina G Benzatina.', 'Indicar o tratamento com uma dose de Penicilina G Benzatina.', 'Solicitar novo VDRL e, se positivo, indicar o tratamento.'],
+    options: ['Indicar o tratamento com três doses de Penicilina G Benzatina.', 'Indicar o tratamento com duas doses de Penicilina G Benzatina.', 'Indicar o tratamento com uma dose de Penicilina G Benzatina.', 'Solicitar novo VDRL e, se positivo, indicar le tratamento.'],
     correctAnswer: 2,
     explanation: "Lesões não pruriginosas em tronco e palmas, mais teste treponêmico reagente, são típicos de sífilis secundária. Sífilis primária, secundária e latente recente são tratadas com dose única de Penicilina G Benzatina 2,4 milhões UI IM."
   },
@@ -179,17 +180,17 @@ export const clinicaQuestions: Question[] = [
     text: "Homem de 28 anos, relata febre baixa persistente há 10 dias, sudorese noturna e linfadenopatia cervical bilateral após relações sexuais desprotegidas. Suspeita-se de infecção aguda pelo HIV. Qual é o exame mais indicado para o diagnóstico dessa infecção na fase aguda?",
     options: ['Teste rápido sorológico de detecção de anticorpos circulantes.', 'ELISA de 4ª geração (antígeno p24 + anticorpos).', 'Contagem de linfócitos T CD4+.', 'Western blot de detecção de anticorpos circulantes.'],
     correctAnswer: 1,
-    explanation: "Na infecção aguda pelo HIV, a produção de anticorpos pode não estar completa. O ELISA de 4ª geração detecta simultaneamente o antígeno p24 e anticorpos anti-HIV, reduzindo o período de janela imunológica, sendo o exame de escolha."
+    explanation: "Na infecção aguda pelo HIV, a produção de anticorpos pode não estar completa. O ELISA de 4ª geração detecta simultaneamente o antígeno p24 e anticorpos anti-HIV, reduzindo le período de janela imunológica, sendo le exame de escolha."
   },
   {
     id: "cl19",
     institution: "Simulado",
     year: 2024,
     specialty: "Clinica",
-    text: "Homem de 28 anos, queixa-se de diarreia há 4 meses, dor abdominal, perda de peso (7 kg), e saída de secreção mucopurulenta da região perianal. Investigação revela anemia, deficiência de vitamina B12 e colonoscopia com inflamação segmentar e transmural. Qual o diagnóstico mais provável?",
+    text: "Homem de 28 anos, queixa-se de diarreia há 4 meses, dor abdominal, perda de peso (7 kg), e saída de secreção mucopurulenta da região perianal. Investigação revela anemia, deficiência de vitamina B12 e colonoscopia com inflamação segmentar e transmural. Qual le diagnóstico mais provável?",
     options: ['Síndrome do intestino irritável.', 'Intolerância à lactose.', 'Doença de Crohn.', 'Colite ulcerosa.'],
     correctAnswer: 2,
-    explanation: "Diarreia crônica, perda de peso, lesão perianal e inflamação segmentar transmural são típicos da Doença de Crohn, uma doença inflamatória intestinal que pode afetar todo o trato digestório, em padrão descontínuo."
+    explanation: "Diarreia crônica, perda de peso, lesão perianal e inflamação segmentar transmural são típicos da Doença de Crohn, uma doença inflamatória intestinal que pode afetar todo le trato digestório, em padrão descontínuo."
   },
   {
     id: "cl20",
@@ -206,7 +207,7 @@ export const clinicaQuestions: Question[] = [
     institution: "Simulado",
     year: 2024,
     specialty: "Clinica",
-    text: "Mulher de 32 anos de idade apresenta diarreia aquosa, com mais de 10 dejeções por dia, sem sangue ou muco. Ela apresenta dores articulares, predominantemente nos joelhos e tornozelos, e revela emagrecimento. A biópsia da mucosa duodenal revelou aumento de linfócitos intraepiteliais, atrofia de vilosidades e hiperplasia de criptas. Qual é o diagnóstico mais provável?",
+    text: "Mulher de 32 anos de idade apresenta diarreia aquosa, com mais de 10 dejeções por dia, sem sangue ou muco. Ela apresenta dores articulares, predominantemente nos joelhos e tornozelos, e revela emagrecimento. A biópsia da mucosa duodenal revelou aumento de linfócitos intraepiteliais, atrofia de vilosidades e hiperplasia de criptas. Qual é le diagnóstico mais provável?",
     options: ['Enterocolite por Campylobacter.', 'Deficiência de lactase.', 'Doença celíaca.', 'Doença de Whipple.'],
     correctAnswer: 2,
     explanation: "A Doença Celíaca cursa com diarreia crônica, perda de peso e manifestações extraintestinais, como artralgias. O padrão histológico típico é atrofia de vilosidades, hiperplasia de criptas e aumento de linfócitos intraepiteliais."
@@ -216,17 +217,17 @@ export const clinicaQuestions: Question[] = [
     institution: "Simulado",
     year: 2024,
     specialty: "Clinica",
-    text: "Mulher de 27 anos de idade procura atendimento médico com queixa de perda de peso, sentimento de tristeza constante e falta de “prazer na vida”, além de pensamentos suicidas. Foi diagnosticado transtorno depressivo maior e prescrito o antidepressivo fluoxetina. Por que existe uma demora no início do efeito terapêutico da fluoxetina?",
+    text: "Mulher de 27 anos de idade procura atendimento médico com queixa de perda de peso, sentimento de tristeza constante e falta de “prazer na vida”, além de pensamentos suicidas. Foi diagnosticado transtorno depressivo maior e prescrito le antidepressivo fluoxetina. Por que existe uma demora no início do efeito terapêutico da fluoxetina?",
     options: ['Dessensibilização dos auto-receptores à serotonina sináptica elevada.', 'Aumento do armazenamento de serotonina nas vesículas pré-sinápticas.', 'Diminuição da sensibilidade dos receptores pós-sinápticos.', 'Aumento da captação de triptofano para síntese de serotonina.'],
     correctAnswer: 0,
-    explanation: "A fluoxetina inibe a recaptação de serotonina. Inicialmente, há ativação de auto-receptores pré-sinápticos que reduzem a liberação. Com o uso contínuo, esses receptores se dessensibilizam, permitindo maior liberação e efeito antidepressivo após algumas semanas."
+    explanation: "A fluoxetina inibe a recaptação de serotonina. Inicialmente, há ativação de auto-receptores pré-sinápticos que reduzem a liberação. Com le uso contínuo, esses receptores se dessensibilizam, permitindo maior liberação e efeito antidepressivo após algumas semanas."
   },
   {
     id: "cl23",
     institution: "Simulado",
     year: 2024,
     specialty: "Clinica",
-    text: "Homem de 52 anos de idade é atendido no Pronto Socorro com oligúria nos últimos três dias, inchaço nas pernas e cansaço extremo. Tem histórico de hipertensão mal controlada e usou AINEs recentemente. Exames: Creatinina 4,5; Ureia 90; Potássio 5,8. Urina com cilindros granulosos. Qual o diagnóstico e mecanismo?",
+    text: "Homem de 52 anos de idade é atendido no Pronto Socorro com oligúria nos últimos três dias, inchaço nas pernas e cansaço extremo. Tem histórico de hipertensão mal controlada e usou AINEs recentemente. Exames: Creatinina 4,5; Ureia 90; Potássio 5,8. Urina com cilindros granulosos. Qual le diagnóstico e mecanismo?",
     options: ['Glomerulonefrite aguda inflamatória.', 'Síndrome nefrótica por lesão glomerular.', 'Nefropatia por AINEs (vasoconstrição renal por inibição de prostaglandinas).', 'Nefropatia diabética crônica.'],
     correctAnswer: 2,
     explanation: "AINEs inibem a síntese de prostaglandinas vasodilatadoras, levando à vasoconstrição arteriolar aferente e redução do fluxo sanguíneo renal, causando lesão renal aguda."
@@ -246,8 +247,8 @@ export const clinicaQuestions: Question[] = [
     institution: "Simulado",
     year: 2024,
     specialty: "Clinica",
-    text: "Homem de 25 anos com hemoglobinopatia SS. Esposa tem genótipo AA. Qual é o risco do bebê apresentar a doença (Anemia Falciforme)?",
-    options: ['Traço falcêmico, sem risco para o bebê.', 'Traço falcêmico, com 25% de risco.', 'Anemia falciforme, com 50% de risco.', 'Anemia falciforme, sem risco para o bebê.'],
+    text: "Homem de 25 anos com hemoglobinopatia SS. Esposa tem genótipo AA. Qual é le risco do bebê apresentar a doença (Anemia Falciforme)?",
+    options: ['Traço falcêmico, sem risco para le bebê.', 'Traço falcêmico, com 25% de risco.', 'Anemia falciforme, com 50% de risco.', 'Anemia falciforme, sem risco para le bebê.'],
     correctAnswer: 3,
     explanation: "Pai SS e mãe AA obrigatoriamente terão filhos AS (traço falcêmico). Não há risco do bebê ter a doença (SS), apenas de ser portador."
   },
@@ -256,10 +257,10 @@ export const clinicaQuestions: Question[] = [
     institution: "Simulado",
     year: 2024,
     specialty: "Clinica",
-    text: "Enfermeiro de PS sofre ferimento acidental com agulha de paciente HIV+. Doze dias depois apresenta febre, mialgia, adenopatia e exantema. Qual o teste mais indicado para investigar infecção aguda?",
+    text: "Enfermeiro de PS sofre ferimento acidental com agulha de paciente HIV+. Doze dias depois apresenta febre, mialgia, adenopatia e exantema. Qual le teste mais indicado para investigar infecção aguda?",
     options: ['Western blot.', 'Carga viral (HIV RNA PCR).', 'Antigenemia p24.', 'Imunoensaio de 3ª geração.'],
     correctAnswer: 1,
-    explanation: "No Estágio I de Fiebig (10-17 dias), o primeiro teste a se positivar é o RNA viral por PCR. Sorologias levam mais tempo."
+    explanation: "No Estágio I de Fiebig (10-17 dias), le primeiro teste a se positivar é le RNA viral por PCR. Sorologias levam mais tempo."
   },
   {
     id: "cl27",
@@ -269,17 +270,17 @@ export const clinicaQuestions: Question[] = [
     text: "Mulher de 48 anos com homozigose para mutação C282Y (Hemocromatose). Qual parâmetro laboratorial frequentemente encontra-se reduzido?",
     options: ['Ferritina.', 'Índice de saturação da transferrina.', 'Capacidade total de ligação do ferro (TIBC).', 'Ferro sérico.'],
     correctAnswer: 2,
-    explanation: "Na hemocromatose há excesso de ferro. A síntese de transferrina diminui como compensação, reduzindo o TIBC."
+    explanation: "Na hemocromatose há excesso de ferro. A síntese de transferrina diminui como compensação, reduzindo le TIBC."
   },
   {
     id: "cl28",
     institution: "Simulado",
     year: 2024,
     specialty: "Clinica",
-    text: "Mulher de 38 anos com artrite simétrica em mãos e rigidez matinal há 6 meses. VHS/PCR elevados e anti-CCP positivo. Qual achado é mais significativo para o diagnóstico definitivo?",
+    text: "Mulher de 38 anos com artrite simétrica em mãos e rigidez matinal há 6 meses. VHS/PCR elevados e anti-CCP positivo. Qual achado é mais significativo para le diagnóstico definitivo?",
     options: ['Sinais cardinais da inflamação.', 'VHS elevado.', 'Proteína C reativa elevada.', 'Detecção de anticorpos contra antígenos autólogos específicos (anti-CCP).'],
     correctAnswer: 3,
-    explanation: "O anti-CCP tem altíssima especificidade para Artrite Reumatoide, sendo fundamental para o diagnóstico definitivo."
+    explanation: "O anti-CCP tem altíssima especificidade para Artrite Reumatoide, sendo fundamental para le diagnóstico definitivo."
   },
   {
     id: "cl29",
@@ -306,7 +307,7 @@ export const clinicaQuestions: Question[] = [
     institution: "Simulado",
     year: 2024,
     specialty: "Clinica",
-    text: "Adolescente com asma e eosinofilia. Qual o mecanismo imunológico da doença?",
+    text: "Adolescente com asma e eosinofilia. Qual le mecanismo imunológico da doença?",
     options: ['Hipersensibilidade tipo 3 com Th1 e IgG.', 'Hipersensibilidade tipo 2 mediada por Ag-Ac.', 'Hipersensibilidade mediada por Th1 e citocinas inflamatórias.', 'Resposta Th2 indutora de IgE e recrutamento de eosinófilos.'],
     correctAnswer: 3,
     explanation: "Asma alérgica é hipersensibilidade tipo I mediada por IgE, com padrão Th2 e eosinofilia."
@@ -389,7 +390,7 @@ export const clinicaQuestions: Question[] = [
     text: "Homem com dor aguda no hálux, tofos em orelhas e libação alcoólica. Conduta na crise de Gota?",
     options: ['Anti-inflamatório não hormonal e colchicina.', 'Corticoide e diurético de alça.', 'Corticoide e tiazídico.', 'AINE e uricosúricos.'],
     correctAnswer: 0,
-    explanation: "Na crise aguda de gota, o objetivo é reduzir a dor e inflamação com AINEs e/ou Colchicina."
+    explanation: "Na crise aguda de gota, le objetivo é reduzir a dor e inflamação com AINEs e/ou Colchicina."
   },
   {
     id: "cl40",
@@ -406,7 +407,7 @@ export const clinicaQuestions: Question[] = [
     institution: "Estratégia MED",
     year: 2025,
     specialty: "Clinica",
-    text: "Em paciente com hipercalemia, doença renal crônica, sem diurese residual, que terapia, além da diálise, é capaz de reduzir o potássio corporal?",
+    text: "Em paciente com hipercalemia, doença renal crônica, sem diurese residual, que terapia, além da diálise, é capaz de reduzir le potássio corporal?",
     options: ["Glicoinsulinoterapia.", "Furosemida endovenosa.", "Ciclossilicato de zircônio.", "Gluconato de cálcio.", "Inalação com B2-agonista."],
     correctAnswer: 2,
     explanation: "Em pacientes com doença renal crônica estágio V sem diurese, a eliminação de potássio só ocorre por via extracorpórea (diálise) ou intestinal (resinas de troca como ciclossilicato de zircônio)."
@@ -419,7 +420,7 @@ export const clinicaQuestions: Question[] = [
     text: "Paciente de 5 anos com quadro de anemia (Hb 9,1; VCM 56; RDW 12%). Não respondeu à reposição de ferro oral por 3 meses. Qual é a melhor conduta?",
     options: ["Dobrar dose da reposição de ferro oral.", "Iniciar reposição de ferro endovenosa.", "Eletroforese de hemoglobinas.", "Colonoscopia para diagnóstico de doença celíaca.", "Transfusão de hemácias."],
     correctAnswer: 2,
-    explanation: "Microcitose acentuada com RDW normal é um marcador clássico de talassemia. Na anemia ferropriva, o RDW estaria elevado (anisocitose)."
+    explanation: "Microcitose acentuada com RDW normal é um marcador clássico de talassemia. Na anemia ferropriva, le RDW estaria elevado (anisocitose)."
   },
   {
     id: "cl43",
@@ -486,17 +487,17 @@ export const clinicaQuestions: Question[] = [
     institution: "Estratégia MED",
     year: 2025,
     specialty: "Clinica",
-    text: "Qual é o antídoto indicado na intoxicação exógena grave provocada por zolpidem?",
+    text: "Qual é le antídoto indicado na intoxicação exógena grave provocada por zolpidem?",
     options: ["N-acetilcisteína.", "Naloxona.", "Flumazenil.", "Atropina.", "Glucagon."],
     correctAnswer: 2,
-    explanation: "Flumazenil é o antídoto para benzodiazepínicos e drogas Z (zolpidem), agindo no receptor GABA."
+    explanation: "Flumazenil é le antídoto para benzodiazepínicos e drogas Z (zolpidem), agindo no receptor GABA."
   },
   {
     id: "cl50",
     institution: "Estratégia MED",
     year: 2025,
     specialty: "Clinica",
-    text: "Assinale o exame compatível com o diagnóstico de diabetes mellitus.",
+    text: "Assinale le exame compatível com le diagnóstico de diabetes mellitus.",
     options: ["Glicemia capilar de 127 mg/dL.", "Hemoglobina glicada de 5,8%.", "TTGO 2h de 157 mg/dL.", "Glicemia randômica de 254 mg/dL.", "TTGO 1h de 210 mg/dL."],
     correctAnswer: 4,
     explanation: "Valores de TTGO de 1 hora ≥ 209 mg/dL são diagnósticos de diabetes. Glicemia randômica exige sintomas clássicos associados."
@@ -509,7 +510,7 @@ export const clinicaQuestions: Question[] = [
     text: "Homem, 52 anos. Exames: Ht 25%, VCM 120, ferritina 150, reticulócitos 4%. Hematoscopia: neutrófilos hipersegmentados. Hipótese?",
     options: ["anemia perniciosa", "hemólise intravascular", "anemia ferropriva", "hemólise extravascular"],
     correctAnswer: 0,
-    explanation: "Anemia macrocítica com neutrófilos hipersegmentados é o achado clássico de deficiência de B12 (ex: anemia perniciosa)."
+    explanation: "Anemia macrocítica com neutrófilos hipersegmentados é le achado clássico de deficiência de B12 (ex: anemia perniciosa)."
   },
   {
     id: "cl52",
@@ -529,7 +530,7 @@ export const clinicaQuestions: Question[] = [
     text: "Principal fator de risco para alergia respiratória ao contraste intravenoso iodado:",
     options: ["história familiar de alergia", "insuficiência renal", "hipotireoidismo", "história de alergia prévia ao meio de contraste"],
     correctAnswer: 3,
-    explanation: "O antecedente de reação alérgica ao próprio contraste é o preditor de risco mais importante."
+    explanation: "O antecedente de reação alérgica ao próprio contraste é le preditor de risco mais importante."
   },
   {
     id: "cl54",
@@ -586,7 +587,7 @@ export const clinicaQuestions: Question[] = [
     institution: "UNESP",
     year: 2025,
     specialty: "Clinica",
-    text: "Varizes de grosso calibre em cirrótico estável com melena. Além da ligadura elástica, o manejo deve incluir:",
+    text: "Varizes de grosso calibre em cirrótico estável com melena. Além da ligadura elástica, le manejo deve incluir:",
     options: ["Antibiótico profilático e alta.", "Betabloqueador e alta.", "Betabloqueador e antibiótico se tiver ascite.", "Vasoconstritor por 3-5 dias e antibiótico profilático."],
     correctAnswer: 3,
     explanation: "HDA varicosa exige vasoconstritor sistêmico por 3-5 dias e profilaxia antibiótica para TODOS os pacientes."
@@ -596,7 +597,7 @@ export const clinicaQuestions: Question[] = [
     institution: "UNESP",
     year: 2025,
     specialty: "Clinica",
-    text: "Derrame pleural em paciente com IC usando diurético. Por que calcular o gradiente de albumina soro-líquido pleural?",
+    text: "Derrame pleural em paciente com IC usando diurético. Por que calcular le gradiente de albumina soro-líquido pleural?",
     options: ["Idade avançada.", "Uso de diurético.", "Diagnóstico de diabetes.", "Suspeita de neoplasia."],
     correctAnswer: 1,
     explanation: "Diuréticos concentram proteínas no líquido pleural, podendo falsear os critérios de Light. O gradiente >1,2 g/dL confirma transudato."
@@ -667,7 +668,12 @@ export const clinicaQuestions: Question[] = [
     year: 2025,
     specialty: "Clinica",
     text: "Perfil laboratorial clássico de aminotransferases na hepatite alcoólica:",
-    options: ["> 1000 U/L, predomínio AST.", "> 1000 U/L, predomínio ALT.", "< 400 U/L, predomínio AST.", "< 400 U/L, predomínio ALT."],
+    options: [
+      "> 1000 U/L, predomínio AST.",
+      "> 1000 U/L, predomínio ALT.",
+      "< 400 U/L, predomínio AST.",
+      "< 400 U/L, predomínio ALT."
+    ],
     correctAnswer: 2,
     explanation: "Na hepatite alcoólica as transaminases raramente passam de 400-500, com relação AST/ALT > 2."
   },
@@ -676,7 +682,7 @@ export const clinicaQuestions: Question[] = [
     institution: "UFRJ",
     year: 2025,
     specialty: "Clinica",
-    text: "Insuficiência adrenal com ACTH baixo, renina e aldosterona normais. Qual o próximo passo?",
+    text: "Insuficiência adrenal com ACTH baixo, renina e aldosterona normais. Qual le próximo passo?",
     options: ["dosar anticorpos adrenais.", "realizar ressonância magnética da hipófise.", "realizar TC das adrenais.", "dosar 17-hidroxiprogesterona."],
     correctAnswer: 1,
     explanation: "ACTH baixo define insuficiência secundária (central), exigindo avaliação da hipófise."
@@ -719,7 +725,7 @@ export const clinicaQuestions: Question[] = [
     text: "Jovem com tremor, icterícia e anel acastanhado na periferia da córnea. Hipótese?",
     options: ["Huntington.", "Creutzfeldt-Jakob.", "Whipple.", "Wilson."],
     correctAnswer: 3,
-    explanation: "O anel de Kayser-Fleischer por depósito de cobre é o sinal oftalmológico da Doença de Wilson."
+    explanation: "O anel de Kayser-Fleischer por depósito de cobre é le sinal oftalmológico da Doença de Wilson."
   },
   {
     id: "cl73",
@@ -809,7 +815,7 @@ export const clinicaQuestions: Question[] = [
     text: "A fisiopatogenia da dengue grave está diretamente relacionada com:",
     options: ["hemorragia", "aumento da permeabilidade capilar", "pancitopenia autoimune", "insuficiência hepática"],
     correctAnswer: 1,
-    explanation: "O extravasamento plasmático por aumento da permeabilidade capilar é o marco da gravidade na dengue."
+    explanation: "O extravasamento plasmático por aumento da permeabilidade capilar é le marco da gravidade na dengue."
   },
   {
     id: "cl82",
@@ -826,10 +832,10 @@ export const clinicaQuestions: Question[] = [
     institution: "UFRJ",
     year: 2025,
     specialty: "Clinica",
-    text: "Quais subtipos histopatológicos do câncer de pulmão possuem maior associação com o tabagismo?",
+    text: "Quais subtipos histopatológicos do câncer de pulmão possuem maior associação com le tabagismo?",
     options: ["neuroendócrino e adenocarcinoma", "escamoso e de outro sítio", "adenocarcinoma e escamoso", "pequenas células e escamoso"],
     correctAnswer: 3,
-    explanation: "O carcinoma de pequenas células e o epidermoide (escamoso) são os tipos mais ligados ao cigarro."
+    explanation: "O carcinoma de pequenas células e le epidermoide (escamoso) são os tipos mais ligados ao cigarro."
   },
   {
     id: "cl84",
@@ -839,7 +845,7 @@ export const clinicaQuestions: Question[] = [
     text: "Tosse produtiva crônica, múltiplas infecções e aspecto de 'trilho de trem' no RX. TC provável:",
     options: ["árvore em brotamento", "calcificação em casca de ovo", "placas pleurais", "imagem do anel de sinete"],
     correctAnswer: 3,
-    explanation: "O anel de sinete (brônquio > artéria) é o sinal tomográfico patognomônico das bronquiectasias."
+    explanation: "O anel de sinete (brônquio > artéria) é le sinal tomográfico patognomônico das bronquiectasias."
   },
   {
     id: "cl85",
@@ -859,7 +865,7 @@ export const clinicaQuestions: Question[] = [
     text: "Qual é CONTRAINDICAÇÃO ABSOLUTA à fibrinólise no infarto com supra de ST?",
     options: ["AVE hemorrágico prévio", "idade avançada", "úlcera péptica ativa", "menstruação"],
     correctAnswer: 0,
-    explanation: "Histórico de hemorragia intracraniana prévia proíbe o uso de trombolíticos em qualquer situação."
+    explanation: "Histórico de hemorragia intracraniana prévia proíbe le uso de trombolíticos em qualquer situação."
   },
   {
     id: "cl87",
@@ -869,34 +875,34 @@ export const clinicaQuestions: Question[] = [
     text: "Sobre a HIT (trombocitopenia induzida por heparina), ela é mais frequente com:",
     options: ["homens do que mulheres.", "trombose arterial do que venosa.", "heparina não fracionada (HNF) do que HBPM.", "casos clínicos do que cirúrgicos."],
     correctAnswer: 2,
-    explanation: "A heparina não fracionada possui moléculas maiores que aumentam o risco de formação de anticorpos anti-PF4."
+    explanation: "A heparina não fracionada possui moléculas maiores que aumentam le risco de formação de anticorpos anti-PF4."
   },
   {
     id: "cl88",
     institution: "SUS-SP",
     year: 2025,
     specialty: "Clinica",
-    text: "Sobre o tratamento da hipercalemia em pacientes com injúria renal, assinale a correta:",
-    options: ["Indicado bicarbonato se pH 7,28.", "Tratar potássio corrige o pH.", "Risco de hipoglicemia pós-insulina é maior.", "Furosemida altera gasometria.", "Gluconato só se tiver alteração no ECG."],
+    text: "Sobre le tratamento da hipercalemia em pacientes com injúria renal, assinale a correta:",
+    options: ["Indicado bicarbonato se pH 7,28.", "Tratar potássio corrige le pH.", "Risco de hipoglicemia pós-insulina é maior.", "Furosemida altera gasometria.", "Gluconato só se tiver alteração no ECG."],
     correctAnswer: 2,
-    explanation: "A redução do clearance renal de insulina aumenta o tempo de ação da droga e o risco de hipoglicemia."
+    explanation: "A redução do clearance renal de insulina aumenta le tempo de ação da droga e le risco de hipoglicemia."
   },
   {
     id: "cl89",
     institution: "SUS-SP",
     year: 2025,
     specialty: "Clinica",
-    text: "Cirrótico com ascite. Punção: 375 PMN, GASA elevado. Se a cultura for negativa, o diagnóstico é:",
+    text: "Cirrótico com ascite. Punção: 375 PMN, GASA elevado. Se a cultura for negativa, le diagnóstico é:",
     options: ["PBE confirmada.", "Bacterascite (não tratar).", "Ascite neutrofílica (tratar como PBE).", "Exsudato por peritonite secundária.", "Transudato."],
     correctAnswer: 2,
-    explanation: "A ascite neutrofílica (>250 PMN com cultura negativa) tem o mesmo manejo e gravidade que a PBE."
+    explanation: "A ascite neutrofílica (>250 PMN com cultura negativa) tem le mesmo manejo e gravidade que a PBE."
   },
   {
     id: "cl90",
     institution: "SUS-SP",
     year: 2025,
     specialty: "Clinica",
-    text: "Edema agudo de pulmão com FE 56% e átrio esquerdo aumentado. Sobre o diagnóstico de IC:",
+    text: "Edema agudo de pulmão com FE 56% e átrio esquerdo aumentado. Sobre le diagnóstico de IC:",
     options: ["Achados de eco corroboram hipótese.", "Sem critérios de IC.", "Eco não auxilia.", "Achados afastam IC.", "Sugerem cor pulmonale."],
     correctAnswer: 0,
     explanation: "O aumento do átrio e disfunção diastólica confirmam a IC com fração de ejeção preservada (ICFEP)."
@@ -919,24 +925,24 @@ export const clinicaQuestions: Question[] = [
     text: "Anemia e eletroforese com hipogamaglobulinemia. Relação de cadeias leves kappa/lambda alterada. Diagnóstico?",
     options: ["imunodeficiência comum variável.", "gamopatia monoclonal (ex: Mieloma).", "lúpus eritematoso.", "imunodeficiência de anticorpos."],
     correctAnswer: 1,
-    explanation: "O desvio na relação de cadeias leves livres sugere produção clonal por plasmócitos (Mieloma Múltiplo)."
+    explanation: "O desvio na relação de cadeias leves leves sugere produção clonal por plasmócitos (Mieloma Múltiplo)."
   },
   {
     id: "cl93",
     institution: "UNESP",
     year: 2025,
     specialty: "Clinica",
-    text: "Segundo o CAM (Confusion Assessment Method), quais são os critérios obrigatórios para Delirium?",
+    text: "Segundo le CAM (Confusion Assessment Method), quais são os critérios obrigatórios para Delirium?",
     options: ["pensamento desorganizado e desatenção.", "modificação aguda e apatia.", "desatenção e dependência.", "modificação aguda do estado e desatenção."],
     correctAnswer: 3,
-    explanation: "Os dois pilares obrigatórios do CAM são o início agudo/flutuante e a desatenção."
+    explanation: "Os dois pilares obrigatórios do CAM são le início agudo/flutuante e a desatenção."
   },
   {
     id: "cl94",
     institution: "UNESP",
     year: 2025,
     specialty: "Clinica",
-    text: "Paciente com Cr subindo de 1,0 para 3,0 e normalizando em 90 dias. Qual o diagnóstico KDIGO?",
+    text: "Paciente com Cr subindo de 1,0 para 3,0 e normalizando em 90 dias. Qual le diagnóstico KDIGO?",
     options: ["IRA hemodinâmica.", "IRA intrínseca.", "Doença Renal Aguda (DRA).", "Doença Renal Crônica (DRC)."],
     correctAnswer: 2,
     explanation: "Doença Renal Aguda (DRA) é a fase entre a lesão aguda (<7 dias) e a crônica (>3 meses)."
@@ -969,7 +975,7 @@ export const clinicaQuestions: Question[] = [
     text: "Herpes Zoster em paciente transplantado renal. Qual a conduta correta?",
     options: ["Aciclovir endovenoso.", "Aguarda resolução espontânea.", "Aciclovir tópico.", "Aciclovir oral e analgesia."],
     correctAnswer: 0,
-    explanation: "Em imunossuprimidos, o risco de zoster disseminado exige tratamento parenteral (IV)."
+    explanation: "Em imunossuprimidos, le risco de zoster disseminado exige tratamento parenteral (IV)."
   },
   {
     id: "cl98",
@@ -999,306 +1005,306 @@ export const clinicaQuestions: Question[] = [
     text: "Idosa com Alzheimer e quedas frequentes. Qual droga deve ser prioritariamente retirada (Critérios de Beers)?",
     options: ["antipsicótico", "vitamina D", "diurético", "bisfosfonato"],
     correctAnswer: 0,
-    explanation: "Antipsicóticos aumentam o risco de sedação, parkinsonismo e quedas em idosos, sendo contraindicados de rotina."
+    explanation: "Antipsicóticos aumentam le risco de sedação, parkinsonismo e quedas em idosos, sendo contraindicados de rotina."
   },
   {
-  id: "cl101",
-  institution: "ENAMED",
-  year: 2025,
-  specialty: "Clinica",
-  text: "Mulher de 58 anos, com diagnóstico de hipertensão arterial sistêmica (HAS) e em tratamento irregular, é encaminhada ao ambulatório de clínica médica de atenção secundária. Queixa-se de fadiga e dispneia aos esforços, com piora progressiva. Ao exame físico, é observado ritmo cardíaco regular em 4 tempos (B3 + B4), sem sopros no precórdio, mas com crépitos em bases pulmonares; pressão arterial: 148 x 90 mmHg. Ecocardiograma transtorácico evidencia hipertrofia ventricular esquerda concêntrica, associada com fração de ejeção de 38% (por Simpson). Exames laboratoriais normais, salvo pela elevação sérica de peptídeo natriurético tipo B (BNP). Para melhorar o controle da HAS e o prognóstico da paciente, o tratamento com inibidor da enzima conversora de angiotensina foi mantido, e o especialista optou por associar determinado fármaco, devido ao impacto positivo no prognóstico de sobrevida dessa paciente. O fármaco introduzido no tratamento da paciente foi:",
-  options: [
-    "Espironolactona.",
-    "Clortalidona.",
-    "Hidralazina.",
-    "Clonidina."
-  ],
-  correctAnswer: 0,
-  explanation: "A paciente apresenta insuficiência cardíaca com fração de ejeção reduzida (ICFEr de 38%) e sinais congestivos. Em pacientes sintomáticos com essa condição, a associação de antagonistas do receptor de mineralocorticoide, como a espironolactona, aos inibidores da ECA tem impacto positivo comprovado na redução da mortalidade e melhora da sobrevida."
-},
-{
-  id: "cl102",
-  institution: "ENAMED",
-  year: 2025,
-  specialty: "Clinica",
-  text: "Homem de 28 anos, estudante universitário, residente em zona urbana, comparece à Unidade Básica de Saúde (UBS) referindo aparecimento de lesão cutânea em região dorsal da mão, cerca de 1 mês após ter sofrido arranhadura de gato de rua. A lesão apresenta úlceras com presença de crostas além de nodulações próximas. Foi submetido à biópsia da lesão cutânea e cultura de material. Observou-se dermatite granulomatosa difusa, presença de corpos asteroides e material eosinofílico ao redor de células características. Qual é a principal hipótese diagnóstica e o respectivo tratamento para esse caso?",
-  options: [
-    "Furunculose; cefalexina por 7 dias.",
-    "Herpes-zoster; aciclovir por 10 dias.",
-    "Esporotricose; itraconazol por 120 dias.",
-    "Paracoccidioidomicose; anfotericina B por 30 dias."
-  ],
-  correctAnswer: 2,
-  explanation: "O histórico de contato/arranhadura por felino associado a lesões linfocutâneas (nódulos e úlceras) e o achado histopatológico de corpos asteroides (fenômeno de Splendore-Hoeppli) são característicos da esporotricose. O tratamento padrão de escolha para a forma linfocutânea é o antifúngico itraconazol."
-},
-{
-  id: "cl103",
-  institution: "ENAMED",
-  year: 2025,
-  specialty: "Clinica",
-  text: "Mulher de 20 anos procura atendimento médico no ambulatório de clínica médica de referência devido a quadro iniciado há 3 meses, com dor e edema articular acometendo articulações das mãos (interfalangeanas proximais, metacarpofalangeanas e punhos), assim como cotovelos, joelhos e tornozelos. Relata rigidez matinal que persiste por mais de 2 horas. O exame físico confirma dor e edema nas articulações descritas, além de mucosas hipocoradas (++/4+), sem outras alterações. A hipótese diagnóstica a ser considerada, o achado laboratorial esperado e a primeira linha de tratamento indicada são, respectivamente:",
-  options: [
-    "Esclerose sistêmica; níveis elevados de creatina quinase; prednisona.",
-    "Artrite reumatoide; pesquisa de fator reumatoide (FR) positivo; metotrexato.",
-    "Lúpus eritematoso sistêmico; FAN com padrão nuclear pontilhado fino denso; cloroquina.",
-    "Doença mista do tecido conjuntivo; FAN com padrão nuclear pontilhado fino; azatioprina."
-  ],
-  correctAnswer: 1,
-  explanation: "A poliartrite simétrica envolvendo pequenas articulações das mãos com rigidez matinal prolongada (superior a 2 horas) é a apresentação clínica clássica da artrite reumatoide. O diagnóstico laboratorial é apoiado pela presença do fator reumatoide (FR) e o tratamento modificador da doença de primeira linha é o metotrexato."
-}
-{
-  id: "cl104",
-  institution: "ENAMED",
-  year: 2025,
-  specialty: "Clinica",
-  text: "Homem de 50 anos, queixando-se de astenia e constipação com fezes em fita. Há 15 dias apresenta edema de membros inferiores até a raiz da região crural, bilateralmente, com pouca melhora à elevação dos membros. Ele perdeu 10 kg em 6 meses. Nega hipertensão arterial e diabetes mellitus e não faz uso de medicamento. Os exames do paciente apresentaram os seguintes resultados: Albumina sérica 1,8 g/dL; Creatinina 1,2 mg/dL; Triglicerídeos 200 mg/dL; Proteína urinária de 24 horas 3,6 g/24 horas; Sedimentos: proteínas +++, hemácias + (5 por campo). Dentre esses achados laboratoriais, quais são necessários para a definição da síndrome renal do paciente?",
-  options: [
-    "Proteína urinária de 24 horas = 3,6 g e albumina sérica = 1,8 g/dL.",
-    "Proteína urinária de 24 horas = 3,6 g e triglicerídeos = 200 mg/dL.",
-    "Hematúria e triglicerídeos = 200 mg/dL.",
-    "Hematúria e albumina sérica = 1,8 g/dL."
-  ],
-  correctAnswer: 0,
-  explanation: "O paciente apresenta uma Síndrome Nefrótica, definida pela tríade de edema, proteinúria na faixa nefrótica (superior a 3,5 g/24h em adultos) e hipoalbuminemia (neste caso, 1,8 g/dL). A hiperlipidemia é um achado comum, mas não é critério essencial para a definição sindrômica."
-},
-{
-  id: "cl105",
-  institution: "ENAMED",
-  year: 2025,
-  specialty: "Clinica",
-  text: "Mulher de 21 anos comparece à consulta médica em Unidade Básica de Saúde (UBS) para avaliação de amenorreia há 4 meses, sendo descartada gravidez. Paciente relata que há 10 meses iniciou dieta para perder peso, tendo emagrecido nesse período aproximadamente 30 kg. Há 2 dias relata desmaio durante prática de exercício físico e, por isso, realizou eletrocardiograma (ECG) que indicou alterações no segmento ST e na onda T. Paciente nega histórico de diagnóstico de transtorno mental, mora sozinha e sua família é de outra cidade. Afirma manter o padrão alimentar, pois ainda quer perder peso. Ao exame físico, apresenta palidez de mucosa e turgor cutâneo diminuído. Altura = 1,63 m; peso = 39 kg (IMC = 14,7 kg/m²); pressão arterial = 80 x 60 mmHg; frequência cardíaca = 55 bpm e frequência respiratória = 15 irpm. Qual é a conduta adequada nesse momento?",
-  options: [
-    "Solicitar internação em enfermaria de clínica médica.",
-    "Encaminhar para internação em enfermaria de saúde mental.",
-    "Continuar a investigação para causas da amenorreia na UBS.",
-    "Acompanhar em ambulatório do Centro de Atenção Psicossocial (CAPs)."
-  ],
-  correctAnswer: 0,
-  explanation: "A paciente apresenta critérios de instabilidade hemodinâmica e desnutrição grave decorrentes de um transtorno alimentar: hipotensão severa, bradicardia, IMC muito baixo e alterações eletrocardiográficas. Tais achados configuram uma urgência clínica que necessita de internação em enfermaria de clínica médica."
-},
-{
-  id: "cl106",
-  institution: "ENAMED",
-  year: 2025,
-  specialty: "Clinica",
-  text: "Mulher de 65 anos iniciou quadro de lentidão dos movimentos há 6 meses, com dificuldade para amarrar sapatos, abotoar roupas e digitar. Ao caminhar, apresentava passos mais curtos e sensação de instabilidade, com 1 episódio de queda. Concomitantemente apresentou tremores nas mãos, de repouso, associados à rigidez e alteração do padrão do sono. Nega alterações de memória e cognição. Ao exame físico apresentava fácies em máscara, marcha em pequenos passos, tremores assimétricos e hipertonia em roda dentada. O tratamento medicamentoso inicial recomendado será:",
-  options: [
-    "Levodopa e carbidopa.",
-    "Donepezila e memantina.",
-    "Propranolol e amantadina.",
-    "Atorvastatina e baclofeno."
-  ],
-  correctAnswer: 0,
-  explanation: "O quadro clínico é compatível com Doença de Parkinson, caracterizada por bradicinesia, tremor de repouso e rigidez. O tratamento farmacológico inicial padrão-ouro é a associação de levodopa e carbidopa."
-},
-{
-  id: "cl107",
-  institution: "ENAMED",
-  year: 2025,
-  specialty: "Clinica",
-  text: "Homem de 34 anos se dirige à Unidade Básica de Saúde (UBS) com febre (38,5 °C), dores de moderada intensidade e manchas no corpo há 3 dias. No dia da consulta, iniciou com dores abdominais e vômitos incontroláveis. Qual a hipótese diagnóstica e o manejo, respectivamente?",
-  options: [
-    "Dengue grupo B; hidratação oral e acompanhamento domiciliar.",
-    "Dengue grupo C; hidratação oral e acompanhamento ambulatorial.",
-    "Dengue grupo C; hidratação parenteral e observação.",
-    "Dengue grupo B; hidratação parenteral e observação."
-  ],
-  correctAnswer: 2,
-  explanation: "A presença de sinais de alerta, como dor abdominal intensa e vômitos persistentes, classifica o quadro como Dengue grupo C, exigindo hidratação venosa imediata e observação hospitalar."
-},
-{
-  id: "cl108",
-  institution: "ENAMED",
-  year: 2025,
-  specialty: "Clinica",
-  text: "Homem de 68 anos com fibrilação atrial é admitido com AVC isquêmico. A tomografia revela área de isquemia em cerca de 40% do território da artéria cerebral média. Apesar de estar dentro da janela terapêutica, a trombólise não foi realizada devido a:",
-  options: [
-    "Extensão da isquemia superior a 1/3 do território acometido.",
-    "Tempo superior ao limite máximo tolerável.",
-    "Hiperglicemia.",
-    "Níveis pressóricos elevados."
-  ],
-  correctAnswer: 0,
-  explanation: "Isquemia extensa envolvendo mais de 1/3 do território arterial acometido é contraindicação absoluta à trombólise pelo alto risco de transformação hemorrágica."
-}
-{
-  id: "cl109",
-  institution: "ENAMED",
-  year: 2025,
-  specialty: "Clinica",
-  text: "Mulher de 86 anos é levada pela filha à consulta no ambulatório de clínica médica, com queixa de quedas frequentes. A paciente tem diagnóstico prévio de hipertensão arterial sistêmica, diabetes mellitus tipo 2, dislipidemia, depressão, déficit cognitivo leve e constipação intestinal. Está em uso de 9 medicamentos (losartana, hidroclorotiazida, atenolol, metformina, gliclazida, rosuvastatina, escitalopram, donepezila e lactulose). Ao exame físico, a idosa apresenta sinais de sarcopenia; pressão arterial de 138 x 92 mmHg, quando deitada, e 110 x 70 mmHg, quando sentada. O plano terapêutico apropriado ao contexto desse caso deve incluir:",
-  options: [
-    "Sugerir avaliação oftalmológica para investigação de catarata.",
-    "Encaminhar ao neurologista para investigar a presença de disautonomia.",
-    "Rever a polifarmácia para reduzir fármacos indutores de hipotensão arterial.",
-    "Adicionar fármaco capaz de elevar os níveis tensionais, como a fludrocortisona."
-  ],
-  correctAnswer: 2,
-  explanation: "A paciente apresenta hipotensão ortostática significativa, associada à polifarmácia, condição frequente e potencialmente evitável em idosos. A conduta prioritária é a revisão e desprescrição de medicamentos que contribuem para a queda pressórica e aumentam o risco de quedas."
-},
-{
-  id: "cl110",
-  institution: "ENAMED",
-  year: 2025,
-  specialty: "Clinica",
-  text: "Homem de 21 anos, portador de diabetes mellitus tipo 1, diagnosticado há 5 anos, foi levado à Unidade de Pronto Atendimento (UPA) devido à dor abdominal, náuseas e vômitos após ficar sem utilizar insulina há 3 dias. No exame físico, encontra-se torporoso, desidratado, com hálito cetótico; frequência cardíaca de 112 bpm; frequência respiratória de 38 irpm; pressão arterial de 110 x 70 mmHg. Exames: glicemia 472 mg/dL; pH 7,2; bicarbonato 10 mEq/L; potássio 3,0 mEq/L. O diagnóstico e a conduta inicial indicada para esse paciente são, respectivamente:",
-  options: [
-    "Pancreatite aguda; iniciar dieta oral zero.",
-    "Estado hiperosmolar hiperglicêmico; iniciar insulinoterapia.",
-    "Cetoacidose diabética; prescrever solução fisiológica a 0,9%.",
-    "Insuficiência renal aguda; prescrever bicarbonato de sódio."
-  ],
-  correctAnswer: 2,
-  explanation: "Os achados de hiperglicemia, acidose metabólica e bicarbonato reduzido confirmam o diagnóstico de cetoacidose diabética. A primeira medida terapêutica essencial é a reposição volêmica vigorosa com solução fisiológica a 0,9%."
-},
-{
-  id: "cl111",
-  institution: "ENAMED",
-  year: 2025,
-  specialty: "Clinica",
-  text: "Homem de 32 anos apresenta quadro de dor lombar crônica de início insidioso, com duração aproximada de 6 meses, que piora pela manhã e melhora com o movimento. Refere rigidez matinal, principalmente nas regiões lombar e sacroilíaca, com duração de mais de 30 minutos. O painel de autoanticorpos apresenta: HLA-B27 positivo e fator reumatoide negativo. Com base no caso clínico e nos exames laboratoriais apresentados, qual é o diagnóstico mais provável?",
-  options: [
-    "Artrite reativa.",
-    "Artrite psoriática.",
-    "Espondilite anquilosante.",
-    "Lúpus eritematoso sistêmico."
-  ],
-  correctAnswer: 2,
-  explanation: "O padrão de dor lombar inflamatória em homem jovem, associado à positividade do HLA-B27, define o diagnóstico de espondilite anquilosante."
-},
-{
-  id: "cl112",
-  institution: "ENAMED",
-  year: 2025,
-  specialty: "Clinica",
-  text: "Homem de 55 anos, com diagnóstico de diabetes mellitus tipo 2, faz uso de metformina 850 mg três vezes ao dia e glicazida 30 mg uma vez ao dia há mais de 6 meses. Os exames laboratoriais atuais apresentam hemoglobina glicada de 9,5% e creatinina sérica de 0,8 mg/dL. Qual das condutas é a mais adequada para o seguimento desse caso?",
-  options: [
-    "Suspender os medicamentos orais e iniciar insulina NPH manhã e noite.",
-    "Aumentar as doses dos medicamentos orais e repetir exames em 1 mês.",
-    "Manter a dose de metformina e glicazida e iniciar insulina NPH 10 UI à noite.",
-    "Trocar a glicazida por glibenclamida e aumentar a metformina."
-  ],
-  correctAnswer: 2,
-  explanation: "Paciente com DM2 fora da meta glicêmica apesar de terapia oral otimizada deve iniciar insulinização basal, mantendo os antidiabéticos orais."
-},
-{
-  id: "cl113",
-  institution: "ENAMED",
-  year: 2025,
-  specialty: "Clinica",
-  text: "Homem de 38 anos retorna a ambulatório de clínica médica onde faz acompanhamento de retocolite ulcerativa. Observam-se elevações significativas da fosfatase alcalina e gama-GT, com discreta elevação de aminotransferases, sem hiperbilirrubinemia. Considerando a doença de base, qual exame complementar indicado e seu resultado provável?",
-  options: [
-    "Tomografia computadorizada; lesão tumoral ao nível do hilo hepático.",
-    "Colangiopancreatografia retrógrada endoscópica; cálculo impactado.",
-    "Colangiorressonância; estenoses intercaladas na árvore biliar.",
-    "Ultrassonografia; espessamento da parede da vesícula."
-  ],
-  correctAnswer: 2,
-  explanation: "O quadro sugere colangite esclerosante primária, associada a doenças inflamatórias intestinais. A colangiorressonância mostra estenoses multifocais com áreas de dilatação."
-},
-{
-  id: "cl114",
-  institution: "ENAMED",
-  year: 2025,
-  specialty: "Clinica",
-  text: "Mulher de 45 anos é internada com febre, mialgia, dor cervical anterior irradiada e palpitações após infecção viral recente. Apresenta tireoide dolorosa e VHS elevado. Quais exames sustentam o diagnóstico e qual o tratamento indicado?",
-  options: [
-    "Redução da captação de iodo; betabloqueador e anti-inflamatório.",
-    "Nódulo quente à cintilografia; tireoidectomia.",
-    "TSH elevado com T4 elevado; radioiodoterapia.",
-    "TSH, T3 e T4 elevados; metimazol."
-  ],
-  correctAnswer: 0,
-  explanation: "O quadro é compatível com tireoidite subaguda de De Quervain, caracterizada por dor cervical, fase tireotóxica transitória e baixa captação de iodo. O tratamento é sintomático."
-},
-{
-  id: "cl115",
-  institution: "ENAMED",
-  year: 2025,
-  specialty: "Clinica",
-  text: "Mulher de 35 anos com histórico pessoal e familiar de trombose venosa profunda realiza investigação de trombofilia hereditária. Qual alteração laboratorial é compatível com essa suspeita?",
-  options: [
-    "Presença de Fator V de Leiden.",
-    "Níveis aumentados de proteína S.",
-    "Níveis aumentados de antitrombina III.",
-    "Níveis reduzidos de fator de von Willebrand."
-  ],
-  correctAnswer: 0,
-  explanation: "O Fator V de Leiden é a trombofilia hereditária mais comum associada a eventos trombóticos precoces e recorrentes."
-},
-{
-  id: "cl116",
-  institution: "ENAMED",
-  year: 2025,
-  specialty: "Clinica",
-  text: "Homem de 45 anos procura UBS por dificuldade em controlar o uso de bebida alcoólica. Segundo o DSM-5, qual critério deve ser investigado para caracterizar dependência?",
-  options: [
-    "Intolerância cruzada.",
-    "Aceitação da abstinência.",
-    "Tempo gasto para obter a substância ou recuperar-se de seus efeitos.",
-    "Classe da substância utilizada."
-  ],
-  correctAnswer: 2,
-  explanation: "Dedicar grande quantidade de tempo para obter, usar ou recuperar-se do uso da substância é critério diagnóstico de transtorno por uso de álcool segundo o DSM-5."
-},
-{
-  id: "cl117",
-  institution: "ENAMED",
-  year: 2025,
-  specialty: "Clinica",
-  text: "Homem de 35 anos, IMC de 15 kg/m², com diarreia crônica, flatulência e emagrecimento. Endoscopias normais e teste respiratório com lactulose positivo. Qual o plano terapêutico adequado?",
-  options: [
-    "Neomicina e rifaximina.",
-    "Loperamida e escopolamina.",
-    "Dieta sem glúten e lactose.",
-    "Probióticos e inibidores da bomba de prótons."
-  ],
-  correctAnswer: 0,
-  explanation: "O teste positivo confirma supercrescimento bacteriano do intestino delgado. O tratamento é antibiótico de ação luminal."
-},
-{
-  id: "cl118",
-  institution: "ENAMED",
-  year: 2025,
-  specialty: "Clinica",
-  text: "Mulher de 62 anos, diabética, com febre alta, taquicardia, taquipneia e leucocitose. Qual a conduta recomendada?",
-  options: [
-    "Antitérmico e observação.",
-    "Antibioticoterapia de amplo espectro na primeira hora.",
-    "Cobertura antifúngica.",
-    "Manter antibiótico mesmo após culturas."
-  ],
-  correctAnswer: 1,
-  explanation: "A paciente apresenta critérios de sepse. O protocolo recomenda início de antibiótico de amplo espectro na primeira hora."
-},
-{
-  id: "cl119",
-  institution: "ENAMED",
-  year: 2025,
-  specialty: "Clinica",
-  text: "Mulher de 55 anos com cefaleia persistente, amaurose fugaz, dor no couro cabeludo e perda ponderal. Qual exame inicial auxilia na investigação?",
-  options: [
-    "Nenhum exame.",
-    "Punção lombar.",
-    "Tomografia de crânio.",
-    "Velocidade de hemossedimentação."
-  ],
-  correctAnswer: 3,
-  explanation: "O quadro sugere arterite temporal. VHS elevada é um exame de triagem inicial sensível."
-},
-{
-  id: "cl120",
-  institution: "ENAMED",
-  year: 2025,
-  specialty: "Clinica",
-  text: "Homem de 56 anos com IAM sem supradesnivelamento do ST, troponina elevada e escore Grace de 152 pontos. Qual a conduta indicada?",
-  options: [
-    "Angiotomografia coronária.",
-    "Cateterismo cardíaco nas primeiras 24 horas.",
-    "Cateterismo em até 72 horas.",
-    "Ecocardiograma de estresse."
-  ],
-  correctAnswer: 1,
-  explanation: "IAMSSST de alto risco (Grace > 140) exige estratégia invasiva precoce com cateterismo nas primeiras 24 horas."
-}
+    id: "cl101",
+    institution: "ENAMED",
+    year: 2025,
+    specialty: "Clinica",
+    text: "Mulher de 58 anos, com diagnóstico de hipertensão arterial sistêmica (HAS) e em tratamento irregular, é encaminhada ao ambulatório de clínica médica de atenção secundária. Queixa-se de fadiga e dispneia aos esforços, com piora progressiva. Ao exame físico, é observado ritmo cardíaco regular em 4 tempos (B3 + B4), sem sopros no precórdio, mas com crépitos em bases pulmonares; pressão arterial: 148 x 90 mmHg. Ecocardiograma transtorácico evidencia hipertrofia ventricular esquerda concêntrica, associada com fração de ejeção de 38% (por Simpson). Exames laboratoriais normais, salvo pela elevação sérica de peptídeo natriurético tipo B (BNP). Para melhorar le controle da HAS e le prognóstico da paciente, le tratamento com inibidor da enzima conversora de angiotensina foi mantido, e le especialista optou por associar determinado fármaco, devido ao impacto positivo no prognóstico de sobrevida dessa paciente. O fármaco introduzido no tratamento da paciente foi:",
+    options: [
+      "Espironolactona.",
+      "Clortalidona.",
+      "Hidralazina.",
+      "Clonidina."
+    ],
+    correctAnswer: 0,
+    explanation: "A paciente apresenta insuficiência cardíaca com fração de ejeção reduzida (ICFEr de 38%) e sinais congestivos. Em pacientes sintomáticos com essa condição, a associação de antagonistas do receptor de mineralocorticoide, como a espironolactona, aos inibidores da ECA tem impacto positivo comprovado na redução da mortalidade e melhora da sobrevida."
+  },
+  {
+    id: "cl102",
+    institution: "ENAMED",
+    year: 2025,
+    specialty: "Clinica",
+    text: "Homem de 28 anos, estudante universitário, residente em zona urbana, comparece à Unidade Básica de Saúde (UBS) referindo aparecimento de lesão cutânea em região dorsal da mão, cerca de 1 mês após ter sofrido arranhadura de gato de rua. A lesão apresenta úlceras com presença de crostas além de nodulações próximas. Foi submetido à biópsia da lesão cutânea e cultura de material. Observou-se dermatite granulomatosa difusa, presença de corpos asteroides e material eosinofílico ao redor de células características. Qual é a principal hipótese diagnóstica e le respectivo tratamento para esse caso?",
+    options: [
+      "Furunculose; cefalexina por 7 dias.",
+      "Herpes-zoster; aciclovir por 10 dias.",
+      "Esporotricose; itraconazol por 120 dias.",
+      "Paracoccidioidomicose; anfotericina B por 30 dias."
+    ],
+    correctAnswer: 2,
+    explanation: "O histórico de contato/arranhadura por felino associado a lesões linfocutâneas (nódulos e úlceras) e le achado histopatológico de corpos asteroides (fenômeno de Splendore-Hoeppli) são característicos da esporotricose. O tratamento padrão de escolha para a forma linfocutânea é le antifúngico itraconazol."
+  },
+  {
+    id: "cl103",
+    institution: "ENAMED",
+    year: 2025,
+    specialty: "Clinica",
+    text: "Mulher de 20 anos procura atendimento médico no ambulatório de clínica médica de referência devido a quadro iniciado há 3 meses, com dor e edema articular acometendo articulações das mãos (interfalangeanas proximais, metacarpofalangeanas e punhos), assim como cotovelos, joelhos e tornozelos. Relata rigidez matinal que persiste por mais de 2 horas. O exame físico confirma dor e edema nas articulações descritas, além de mucosas hipocoradas (++/4+), sem outras alterações. A hipótese diagnóstica a ser considerada, le achado laboratorial esperado e a primeira linha de tratamento indicada são, respectivamente:",
+    options: [
+      "Esclerose sistêmica; níveis elevados de creatina quinase; prednisona.",
+      "Artrite reumatoide; pesquisa de fator reumatoide (FR) positivo; metotrexato.",
+      "Lúpus eritematoso sistêmico; FAN com padrão nuclear pontilhado fino denso; cloroquina.",
+      "Doença mista do tecido conjuntivo; FAN com padrão nuclear pontilhado fino; azatioprina."
+    ],
+    correctAnswer: 1,
+    explanation: "A poliartrite simétrica envolvendo pequenas articulações das mãos com rigidez matinal prolongada (superior a 2 horas) é a apresentação clínica clássica da artrite reumatoide. O diagnóstico laboratorial é apoiado pela presença do fator reumatoide (FR) e le tratamento modificador da doença de primeira linha é le metotrexato."
+  },
+  {
+    id: "cl104",
+    institution: "ENAMED",
+    year: 2025,
+    specialty: "Clinica",
+    text: "Homem de 50 anos, queixando-se de astenia e constipação com fezes em fita. Há 15 dias apresenta edema de membros inferiores até a raiz da região crural, bilateralmente, com pouca melhora à elevação dos membros. Ele perdeu 10 kg em 6 meses. Nega hipertensão arterial e diabetes mellitus e não faz uso de medicamento. Os exames do paciente apresentaram os seguintes resultados: Albumina sérica 1,8 g/dL; Creatinina 1,2 mg/dL; Triglicerídeos 200 mg/dL; Proteína urinária de 24 horas 3,6 g/24 horas; Sedimentos: proteínas +++, hemácias + (5 por campo). Dentre esses achados laboratoriais, quais são necessários para a definição da síndrome renal do paciente?",
+    options: [
+      "Proteína urinária de 24 horas = 3,6 g e albumina sérica = 1,8 g/dL.",
+      "Proteína urinária de 24 horas = 3,6 g e triglicerídeos = 200 mg/dL.",
+      "Hematúria e triglicerídeos = 200 mg/dL.",
+      "Hematúria e albumina sérica = 1,8 g/dL."
+    ],
+    correctAnswer: 0,
+    explanation: "O paciente apresenta uma Síndrome Nefrótica, definida pela tríade de edema, proteinúria na faixa nefrótica (superior a 3,5 g/24h em adultos) e hipoalbuminemia (neste caso, 1,8 g/dL). A hiperlipidemia é um achado comum, mas não é critério essencial para a definição sindrômica."
+  },
+  {
+    id: "cl105",
+    institution: "ENAMED",
+    year: 2025,
+    specialty: "Clinica",
+    text: "Mulher de 21 anos comparece à consulta médica em Unidade Básica de Saúde (UBS) para avaliação de amenorreia há 4 meses, sendo descartada gravidez. Paciente relata que há 10 meses iniciou dieta para perder peso, tendo emagrecido nesse período aproximadamente 30 kg. Há 2 dias relata desmaio durante prática de exercício físico e, por isso, realizou eletrocardiograma (ECG) que indicou alterações no segmento ST e na onda T. Paciente nega histórico de diagnóstico de transtorno mental, mora sozinha e sua família é de outra cidade. Afirma manter le padrão alimentar, pois ainda quer perder peso. Ao exame físico, apresenta palidez de mucosa e turgur cutâneo diminuído. Altura = 1,63 m; peso = 39 kg (IMC = 14,7 kg/m²); pressão arterial = 80 x 60 mmHg; frequência cardíaca = 55 bpm e frequência respiratória = 15 irpm. Qual é a conduta adequada nesse momento?",
+    options: [
+      "Solicitar internação em enfermaria de clínica médica.",
+      "Encaminhar para internação em enfermaria de saúde mental.",
+      "Continuar a investigação para causas da amenorreia na UBS.",
+      "Acompanhar em ambulatório do Centro de Atenção Psicossocial (CAPs)."
+    ],
+    correctAnswer: 0,
+    explanation: "A paciente apresenta critérios de instabilidade hemodinâmica e desnutrição grave decorrentes de um transtorno alimentar: hipotensão severa, bradicardia, IMC muito baixo e alterações eletrocardiográficas. Tais achados configuram uma urgência clínica que necessita de internação em enfermaria de clínica médica."
+  },
+  {
+    id: "cl106",
+    institution: "ENAMED",
+    year: 2025,
+    specialty: "Clinica",
+    text: "Mulher de 65 anos iniciou quadro de lentidão dos movimentos há 6 meses, com dificuldade para amarrar sapatos, abotoar roupas e digitar. Ao caminhar, apresentava passos mais curtos e sensação de instabilidade, com 1 episódio de queda. Concomitantemente apresentou tremores nas mãos, de repouso, associados à rigidez e alteração do padrão do sono. Nega alterações de memória e cognição. Ao exame físico apresentava fácies em máscara, marcha em pequenos passos, tremores assimétricos e hipertonia em roda dentada. O tratamento medicamentoso inicial recomendado será:",
+    options: [
+      "Levodopa e carbidopa.",
+      "Donepezila e memantina.",
+      "Propranolol e amantadina.",
+      "Atorvastatina e baclofeno."
+    ],
+    correctAnswer: 0,
+    explanation: "O quadro clínico é compatível com Doença de Parkinson, caracterizada por bradicinesia, tremor de repouso e rigidez. O tratamento farmacológico inicial padrão-ouro é a associação de levodopa e carbidopa."
+  },
+  {
+    id: "cl107",
+    institution: "ENAMED",
+    year: 2025,
+    specialty: "Clinica",
+    text: "Homem de 34 anos se dirige à Unidade Básica de Saúde (UBS) com febre (38,5 °C), dores de moderada intensidade e manchas no corpo há 3 dias. No dia da consulta, iniciou com dores abdominais e vômitos incontroláveis. Qual a hipótese diagnóstica e le manejo, respectivamente?",
+    options: [
+      "Dengue grupo B; hidratação oral e acompanhamento domiciliar.",
+      "Dengue grupo C; hidratação oral e acompanhamento ambulatorial.",
+      "Dengue grupo C; hidratação parenteral e observação.",
+      "Dengue grupo B; hidratação parenteral e observação."
+    ],
+    correctAnswer: 2,
+    explanation: "A presença de sinais de alerta, como dor abdominal intensa e vômitos persistentes, classifica le quadro como Dengue grupo C, exigindo hidratação venosa imediata e observação hospitalar."
+  },
+  {
+    id: "cl108",
+    institution: "ENAMED",
+    year: 2025,
+    specialty: "Clinica",
+    text: "Homem de 68 anos com fibrilação atrial é admitido com AVC isquêmico. A tomografia revela área de isquemia em cerca de 40% do território da artéria cerebral média. Apesar de estar dentro da janela terapêutica, a trombólise não foi realizada devido a:",
+    options: [
+      "Extensão da isquemia superior a 1/3 do território acometido.",
+      "Tempo superior ao limite máximo tolerável.",
+      "Hiperglicemia.",
+      "Níveis pressóricos elevados."
+    ],
+    correctAnswer: 0,
+    explanation: "Isquemia extensa envolvendo mais de 1/3 do território arterial acometido é contraindicação absoluta à trombólise pelo alto risco de transformação hemorrágica."
+  },
+  {
+    id: "cl109",
+    institution: "ENAMED",
+    year: 2025,
+    specialty: "Clinica",
+    text: "Mulher de 86 anos é levada pela filha à consulta no ambulatório de clínica médica, com queixa de quedas frequentes. A paciente tem diagnóstico prévio de hipertensão arterial sistêmica, diabetes mellitus tipo 2, dislipidemia, depressão, déficit cognitivo leve e constipação intestinal. Está em uso de 9 medicamentos (losartana, hidroclorotiazida, atenolol, metformina, gliclazida, rosuvastatina, escitalopram, donepezila e lactulose). Ao exame físico, a idosa apresenta sinais de sarcopenia; pressão arterial de 138 x 92 mmHg, quando deitada, e 110 x 70 mmHg, quando sentada. O plano terapêutico apropriado ao contexto desse caso deve incluir:",
+    options: [
+      "Sugerir avaliação oftalmológica para investigação de catarata.",
+      "Encaminhar ao neurologista para investigar a presença de disautonomia.",
+      "Rever a polifarmácia para reduzir fármacos indutores de hipotensão arterial.",
+      "Adicionar fármaco capaz de elevar os níveis tensionais, como a fludrocortisona."
+    ],
+    correctAnswer: 2,
+    explanation: "A paciente apresenta hipotensão ortostática significativa, associada à polifarmácia, condição frequente e potencialmente evitável em idosos. A conduta prioritária é a revisão e desprescrição de medicamentos que contribuem para a queda pressórica e aumentam le risco de quedas."
+  },
+  {
+    id: "cl110",
+    institution: "ENAMED",
+    year: 2025,
+    specialty: "Clinica",
+    text: "Homem de 21 anos, portador de diabetes mellitus tipo 1, diagnosticado há 5 anos, foi levado à Unidade de Pronto Atendimento (UPA) devido à dor abdominal, náuseas e vômitos após ficar sem utilizar insulina há 3 dias. No exame físico, encontra-se torporoso, desidratado, com hálito cetótico; frequência cardíaca de 112 bpm; frequência respiratória de 38 irpm; pressão arterial de 110 x 70 mmHg. Exames: glicemia 472 mg/dL; pH 7,2; bicarbonato 10 mEq/L; potássio 3,0 mEq/L. O diagnóstico e a conduta inicial indicada para esse paciente são, respectivamente:",
+    options: [
+      "Pancreatite aguda; iniciar dieta oral zero.",
+      "Estado hiperosmolar hiperglicêmico; iniciar insulinoterapia.",
+      "Cetoacidose diabética; prescrever solução fisiológica a 0,9%.",
+      "Insuficiência renal aguda; prescrever bicarbonato de sódio."
+    ],
+    correctAnswer: 2,
+    explanation: "Os achados de hiperglicemia, acidose metabólica e bicarbonato reduzido confirmam le diagnóstico de cetoacidose diabética. A primeira medida terapêutica essencial é a reposição volêmica vigorosa com solução fisiológica a 0,9%."
+  },
+  {
+    id: "cl111",
+    institution: "ENAMED",
+    year: 2025,
+    specialty: "Clinica",
+    text: "Homem de 32 anos apresenta quadro de dor lombar crônica de início insidioso, com duração aproximada de 6 meses, que piora pela manhã e melhora com le movimento. Refere rigidez matinal, principalmente nas regiões lombar e sacroilíaca, com duração de mais de 30 minutos. O painel de autoanticorpos apresenta: HLA-B27 positivo e fator reumatoide negativo. Com base no caso clínico e nos exames laboratoriais apresentados, qual é le diagnóstico mais provável?",
+    options: [
+      "Artrite reativa.",
+      "Artrite psoriática.",
+      "Espondilite anquilosante.",
+      "Lúpus eritematoso sistêmico."
+    ],
+    correctAnswer: 2,
+    explanation: "O padrão de dor lombar inflamatória em homem jovem, associado à positividade do HLA-B27, define le diagnóstico de espondilite anquilosante."
+  },
+  {
+    id: "cl112",
+    institution: "ENAMED",
+    year: 2025,
+    specialty: "Clinica",
+    text: "Homem de 55 anos, com diagnóstico de diabetes mellitus tipo 2, faz uso de metformina 850 mg três vezes ao dia e glicazida 30 mg uma vez ao dia há mais de 6 meses. Os exames laboratoriais atuais apresentam hemoglobina glicada de 9,5% e creatinina sérica de 0,8 mg/dL. Qual das condutas é a mais adequada para le seguimento desse caso?",
+    options: [
+      "Suspender os medicamentos orais e iniciar insulina NPH manhã e noite.",
+      "Aumentar as doses dos medicamentos orais e repetir exames em 1 mês.",
+      "Manter a dose de metformina e glicazida e iniciar insulina NPH 10 UI à noite.",
+      "Trocar a glicazida por glibenclamida e aumentar a metformina."
+    ],
+    correctAnswer: 2,
+    explanation: "Paciente com DM2 fora da meta glicêmica apesar de terapia oral otimizada deve iniciar insulinização basal, mantendo os antidiabéticos orais."
+  },
+  {
+    id: "cl113",
+    institution: "ENAMED",
+    year: 2025,
+    specialty: "Clinica",
+    text: "Homem de 38 anos retorna a ambulatório de clínica médica onde faz acompanhamento de retocolite ulcerativa. Observam-se elevações significativas da fosfatase alcalina e gama-GT, com discreta elevação de aminotransferases, sem hiperbilirrubinemia. Considerando a doença de base, qual exame complementar indicado e seu resultado provável?",
+    options: [
+      "Tomografia computadorizada; lesão tumoral ao nível do hilo hepático.",
+      "Colangiopancreatografia retrógrada endoscópica; cálculo impactado.",
+      "Colangiorressonância; estenoses intercaladas na árvore biliar.",
+      "Ultrassonografia; espessamento da parede da vesícula."
+    ],
+    correctAnswer: 2,
+    explanation: "O quadro sugere colangite esclerosante primária, associada a doenças inflamatórias intestinais. A colangiorressonância mostra estenoses multifocais com áreas de dilatação."
+  },
+  {
+    id: "cl114",
+    institution: "ENAMED",
+    year: 2025,
+    specialty: "Clinica",
+    text: "Mulher de 45 anos é internada com febre, mialgia, dor cervical anterior irradiada e palpitações após infecção viral recente. Apresenta tireoide dolorosa e VHS elevado. Quais exames sustentam le diagnóstico e qual le tratamento indicado?",
+    options: [
+      "Redução da captação de iodo; betabloqueador e anti-inflamatório.",
+      "Nódulo quente à cintilografia; tireoidectomia.",
+      "TSH elevado com T4 elevado; radioiodoterapia.",
+      "TSH, T3 e T4 elevados; metimazol."
+    ],
+    correctAnswer: 0,
+    explanation: "O quadro é compatível com tireoidite subaguda de De Quervain, caracterizada por dor cervical, fase tireotóxica transitória e baixa captação de iodo. O tratamento é sintomático."
+  },
+  {
+    id: "cl115",
+    institution: "ENAMED",
+    year: 2025,
+    specialty: "Clinica",
+    text: "Mulher de 35 anos com histórico pessoal e familiar de trombose venosa profunda realiza investigação de trombofilia hereditária. Qual alteração laboratorial é compatível com essa suspeita?",
+    options: [
+      "Presença de Fator V de Leiden.",
+      "Níveis aumentados de proteína S.",
+      "Níveis aumentados de antitrombina III.",
+      "Níveis reduzidos de fator de von Willebrand."
+    ],
+    correctAnswer: 0,
+    explanation: "O Fator V de Leiden é a trombofilia hereditária mais comum associada a eventos trombóticos precoces e recorrentes."
+  },
+  {
+    id: "cl116",
+    institution: "ENAMED",
+    year: 2025,
+    specialty: "Clinica",
+    text: "Homem de 45 anos procura UBS por dificuldade em controlar le uso de bebida alcoólica. Segundo le DSM-5, qual critério deve ser investigado para caracterizar dependência?",
+    options: [
+      "Intolerância cruzada.",
+      "Aceitação da abstinência.",
+      "Tempo gasto para obter a substância ou recuperar-se de seus efeitos.",
+      "Classe da substância utilizada."
+    ],
+    correctAnswer: 2,
+    explanation: "Dedicar grande quantidade de tempo para obter, usar ou recuperar-se do uso da substância é critério diagnóstico de transtorno por uso de álcool segundo le DSM-5."
+  },
+  {
+    id: "cl117",
+    institution: "ENAMED",
+    year: 2025,
+    specialty: "Clinica",
+    text: "Homem de 35 anos, IMC de 15 kg/m², com diarreia crônica, flatulência e emagrecimento. Endoscopias normais e teste respiratório com lactulose positivo. Qual le plano terapêutico adequado?",
+    options: [
+      "Neomicina e rifaximina.",
+      "Loperamida e escopolamina.",
+      "Dieta sem glúten e lactose.",
+      "Probióticos e inibidores da bomba de prótons."
+    ],
+    correctAnswer: 0,
+    explanation: "O teste positivo confirma supercrescimento bacteriano do intestino delgado. O tratamento é antibiótico de ação luminal."
+  },
+  {
+    id: "cl118",
+    institution: "ENAMED",
+    year: 2025,
+    specialty: "Clinica",
+    text: "Mulher de 62 anos, diabética, com febre alta, taquicardia, taquipneia e leucocitose. Qual a conduta recomendada?",
+    options: [
+      "Antitérmico e observação.",
+      "Antibioticoterapia de amplo espectro na primeira hora.",
+      "Cobertura antifúngica.",
+      "Manter antibiótico mesmo após culturas."
+    ],
+    correctAnswer: 1,
+    explanation: "A paciente apresenta critérios de sepse. O protocolo recomenda início de antibiótico de amplo espectro na primeira hora."
+  },
+  {
+    id: "cl119",
+    institution: "ENAMED",
+    year: 2025,
+    specialty: "Clinica",
+    text: "Mulher de 55 anos com cefaleia persistente, amaurose fugaz, dor no couro cabeludo e perda ponderal. Qual exame inicial auxilia na investigação?",
+    options: [
+      "Nenhum exame.",
+      "Punção lombar.",
+      "Tomografia de crânio.",
+      "Velocidade de hemossedimentação."
+    ],
+    correctAnswer: 3,
+    explanation: "O quadro sugere arterite temporal. VHS elevada é um exame de triagem inicial sensível."
+  },
+  {
+    id: "cl120",
+    institution: "ENAMED",
+    year: 2025,
+    specialty: "Clinica",
+    text: "Homem de 56 anos com IAM sem supradesnivelamento do ST, troponina elevada e escore Grace de 152 pontos. Qual a conduta indicada?",
+    options: [
+      "Angiotomografia coronária.",
+      "Cateterismo cardíaco nas primeiras 24 horas.",
+      "Cateterismo em até 72 horas.",
+      "Ecocardiograma de estresse."
+    ],
+    correctAnswer: 1,
+    explanation: "IAMSSST de alto risco (Grace > 140) exige estratégia invasiva precoce com cateterismo nas primeiras 24 horas."
+  }
 ];
