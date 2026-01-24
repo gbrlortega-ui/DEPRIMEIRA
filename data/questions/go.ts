@@ -1744,7 +1744,7 @@ export const goQuestions: Question[] = [
     ],
     correctAnswer: 2,
     explanation: "O histórico pessoal de tromboembolismo venoso (TEV) é uma contraindicação absoluta à terapia de reposição hormonal sistêmica."
-  }
+  },
   {
   id: "go121",
   institution: "ENAMED",
