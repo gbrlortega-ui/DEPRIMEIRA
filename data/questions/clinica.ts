@@ -1000,7 +1000,7 @@ export const clinicaQuestions: Question[] = [
     options: ["antipsicótico", "vitamina D", "diurético", "bisfosfonato"],
     correctAnswer: 0,
     explanation: "Antipsicóticos aumentam o risco de sedação, parkinsonismo e quedas em idosos, sendo contraindicados de rotina."
-  }
+  },
   {
   id: "cl101",
   institution: "ENAMED",
