@@ -1,17 +1,20 @@
-
 export const ebookDescriptions: Record<string, string> = {
   "Cardiologia": "Guia estratégico com 89 temas fundamentais. Inclui Doença Coronariana, Hipertensão, Insuficiência Cardíaca, Arritmias complexas, Valvopatias e ECG detalhado para as bancas de SP.",
   "Cirurgia": "78 temas essenciais para provas. Cobre Atendimento ao Politraumatizado (ATLS), Abdome Agudo, Hérnias, Pré e Pós-operatório, Cirurgia Vascular e Urologia de emergência.",
+  "Dermatologia": "53 temas diretos: Lesões elementares, Micoses, Psoríase, Hanseníase, Acne e Neoplasias cutâneas mais cobradas em provas de residência.",
   "Endocrinologia": "87 temas focados em Diabetes Mellitus, Tireoidopatias, Doenças da Adrenal, Obesidade e Distúrbios Hipofisários com esquemas de tratamento atualizados.",
   "Gastroenterologia e Hepatologia": "78 temas englobando Doença Refluxo, Úlcera Péptica, Doenças Inflamatórias Intestinais, Cirrose e suas complicações, e Hepatites Virais.",
-  "Ginecologia e Obstetricia": "80 temas completos. Assistência ao Parto, Pré-eclâmpsia, Hemorragias Obstétricas, Oncologia Ginecológica, Mastologia e Planejamento Familiar.",
+  "Ginecologia e Obstetricia": "56 temas focados na saúde da mulher. Inclui Mastologia, Oncologia Ginecológica, Planejamento Familiar e Doenças Benignas do Útero.",
   "Hematologia": "62 temas diretos: Anemias, Leucemias agudas e crônicas, Linfomas, Distúrbios da Coagulação e interpretação avançada de Hemograma.",
   "Imunologia": "65 temas sobre o sistema imune, Hipersensibilidades, Imunodeficiências Primárias e a base para compreensão de doenças autoimunes.",
   "Infectologia": "92 temas cruciais: Antibioticoterapia, HIV/AIDS, Meningites, Arboviroses (Dengue, Zika), Pneumonias e Infecções Hospitalares.",
   "Nefrologia": "87 temas focados em Glomerulopatias, Insuficiência Renal Aguda e Crônica, Distúrbios Hidroeletrolíticos e Ácido-Básicos.",
   "Neurologia": "74 temas essenciais: AVC (isquêmico e hemorrágico), Cefaleias, Epilepsia, Doenças Desmielinizantes e Neuropatias periféricas.",
+  "Obstetricia": "54 temas completos sobre gestação: Pré-natal, Assistência ao Parto, Pré-eclâmpsia, Hemorragias Obstétricas e Sofrimento Fetal.",
   "Oncologia": "75 temas sobre biologia tumoral, princípios da quimioterapia/radioterapia e os cânceres de maior incidência (Mama, Pulmão, Próstata, Cólon).",
   "Pediatria": "87 temas de Puericultura, Neonatologia, Infectologia Pediátrica, Emergências e o calendário vacinal 2025 atualizado.",
   "Pneumologia": "87 temas cobrindo Asma, DPOC, TEP, Câncer de Pulmão, Tuberculose e interpretação de Espirometria.",
-  "Saúde coletiva": "95 temas fundamentais: SUS (Legislação e História), Epidemiologia, Bioestatística, Ética Médica e Medicina de Família."
+  "Reumatologia": "51 temas estratégicos: Artrite Reumatoide, Lupus (LES), Espondiloartrites, Gota, Osteoartrite e Vasculites sistêmicas.",
+  "Saúde Coletiva": "95 temas fundamentais: SUS (Legislação e História), Epidemiologia, Bioestatística, Ética Médica e Medicina de Família.",
+  "Urologia": "65 temas essenciais: HPB, Câncer de Próstata, Litíase urinária, Infecções do trato urinário e Urgências urológicas traumáticas."
 };

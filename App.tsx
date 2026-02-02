@@ -1,17 +1,19 @@
-
 import React, { useState } from 'react';
 import LandingPage from './components/LandingPage';
 import QuizEngine from './components/QuizEngine';
 import CategoryModal from './components/CategoryModal';
 import SummaryPage from './components/SummaryPage';
+import EbookSalesPage from './components/EbookSalesPage';
 import { Question, Specialty } from './types';
 import { allQuestions } from './data/questions';
+import { ebooksSalesMap } from './data/ebooks/index';
 
 const App: React.FC = () => {
-  const [view, setView] = useState<'home' | 'quiz' | 'summaries'>('home');
+  const [view, setView] = useState<'home' | 'quiz' | 'summaries' | 'ebook-detail'>('home');
   const [quizQuestions, setQuizQuestions] = useState<Question[]>([]);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [currentAmount, setCurrentAmount] = useState(20);
+  const [selectedEbookId, setSelectedEbookId] = useState<string | null>(null);
 
   const openCategorySelector = (amount: number) => {
     setCurrentAmount(amount);
@@ -48,6 +50,17 @@ const App: React.FC = () => {
     window.scrollTo(0, 0);
   };
 
+  const handleViewEbookDetail = (id: string) => {
+    setSelectedEbookId(id);
+    setView('ebook-detail');
+    window.scrollTo(0, 0);
+  };
+
+  const handleBackToSummaries = () => {
+    setView('summaries');
+    window.scrollTo(0, 0);
+  };
+
   return (
     <div className="min-h-screen">
       {view === 'home' && (
@@ -70,7 +83,17 @@ const App: React.FC = () => {
       )}
 
       {view === 'summaries' && (
-        <SummaryPage onBack={handleGoBack} />
+        <SummaryPage 
+          onBack={handleGoBack} 
+          onViewDetails={handleViewEbookDetail} 
+        />
+      )}
+
+      {view === 'ebook-detail' && selectedEbookId && (
+        <EbookSalesPage 
+          content={ebooksSalesMap[selectedEbookId]} 
+          onBack={handleBackToSummaries} 
+        />
       )}
     </div>
   );

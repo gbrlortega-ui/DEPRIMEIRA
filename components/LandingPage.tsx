@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { SummaryModule } from '../types';
 
@@ -62,7 +61,7 @@ const LandingPage: React.FC<LandingPageProps> = ({ onStartQuiz, onViewSummaries 
               Passe na <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-blue-400">Residência Médica</span> sem fortuna.
             </h1>
             <p className="text-lg text-slate-500 dark:text-slate-400 max-w-2xl mx-auto lg:mx-0">
-              USP, UNESP, SUS e Provas de Progresso. Estude com material direcionado, questões comentadas e ebooks de alto rendimento.
+              USP, UNESP, SUS e Provas de Progresso. Estude com material direcionado, questões comentadas e simulados de alto rendimento.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start pt-8 relative">
               {/* Balão Informativo ENAMED */}
@@ -82,9 +81,11 @@ const LandingPage: React.FC<LandingPageProps> = ({ onStartQuiz, onViewSummaries 
                 <span className="material-icons-round text-2xl animate-pulse">play_circle_filled</span>
                 Iniciar Simulado Grátis
               </button>
+              
+              {/* Botão de Materiais Premium OCULTO */}
               <button 
                 onClick={onViewSummaries}
-                className="bg-amber-500 hover:bg-amber-600 text-white px-8 py-5 rounded-2xl font-black transition-all flex items-center justify-center gap-3 shadow-glow-gold hover:-translate-y-1 active:scale-95 text-xl uppercase italic tracking-tighter"
+                className="hidden bg-amber-500 hover:bg-amber-600 text-white px-8 py-5 rounded-2xl font-black transition-all flex items-center justify-center gap-3 shadow-glow-gold hover:-translate-y-1 active:scale-95 text-xl uppercase italic tracking-tighter"
               >
                 <span className="material-icons-round animate-bounce">auto_stories</span>
                 Quero Ver o Material Premium
@@ -107,8 +108,8 @@ const LandingPage: React.FC<LandingPageProps> = ({ onStartQuiz, onViewSummaries 
                     Aprovação Estratégica
                   </div>
                 </div>
-                <div onClick={onViewSummaries} className="bg-white text-primary rounded-xl p-4 font-black text-center shadow-lg transform scale-105 cursor-pointer hover:bg-slate-50 transition-colors uppercase tracking-tighter">
-                  Ver Conteúdo 2025
+                <div className="bg-white text-primary rounded-xl p-4 font-black text-center shadow-lg transform scale-105 uppercase tracking-tighter">
+                  Simulados 2025
                 </div>
               </div>
             </div>
@@ -144,8 +145,8 @@ const LandingPage: React.FC<LandingPageProps> = ({ onStartQuiz, onViewSummaries 
         </div>
       </div>
 
-      {/* Catalog Section */}
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24" id="catalogo">
+      {/* Catalog Section OCULTA */}
+      <main className="hidden max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24" id="catalogo">
         <div className="text-center mb-16 relative">
           <div className="absolute inset-x-0 -top-8 flex justify-center opacity-10">
             <span className="text-7xl font-black uppercase tracking-tighter text-primary">PREMIUM</span>
@@ -235,8 +236,8 @@ const LandingPage: React.FC<LandingPageProps> = ({ onStartQuiz, onViewSummaries 
         </div>
       </main>
 
-      {/* Testimonials */}
-      <section className="bg-slate-50 dark:bg-slate-900/50 py-24 border-y border-slate-200 dark:border-slate-800" id="depoimentos">
+      {/* Testimonials OCULTO */}
+      <section className="hidden bg-slate-50 dark:bg-slate-900/50 py-24 border-y border-slate-200 dark:border-slate-800" id="depoimentos">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-20">
             <span className="bg-primary/10 text-primary px-4 py-1.5 rounded-full text-xs font-black uppercase tracking-widest mb-4 inline-block">Histórias de Sucesso</span>

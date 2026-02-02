@@ -1,4 +1,4 @@
-
+// Fix: Added React import to resolve 'Cannot find namespace React' error when using React.FC
 import React, { useState, useEffect } from 'react';
 import { Question } from '../types';
 
@@ -28,12 +28,6 @@ const QuizEngine: React.FC<QuizEngineProps> = ({ questions, onFinish, onGoToSumm
     newAnswers[currentIndex] = optionIndex;
     setAnswers(newAnswers);
     setShowExplanation(true);
-
-    // Oferta a cada 20 questões respondidas
-    const currentAnsweredCount = newAnswers.filter(a => a !== null).length;
-    if (currentAnsweredCount > 0 && currentAnsweredCount % 20 === 0) {
-      setTimeout(() => setShowMidQuizOffer(true), 1500);
-    }
   };
 
   const nextQuestion = () => {
@@ -92,33 +86,27 @@ const QuizEngine: React.FC<QuizEngineProps> = ({ questions, onFinish, onGoToSumm
               </div>
             </div>
 
-            <div className="bg-gradient-to-br from-amber-50 to-orange-50 dark:from-amber-900/10 dark:to-orange-900/10 border-2 border-amber-200 dark:border-amber-800/50 p-6 rounded-2xl mb-8 relative overflow-hidden group">
+            <div className="bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-blue-900/10 dark:to-indigo-900/10 border-2 border-blue-200 dark:border-blue-800/50 p-6 rounded-2xl mb-8 relative overflow-hidden group">
               <div className="absolute top-0 right-0 p-2 opacity-10 group-hover:scale-110 transition-transform">
-                <span className="material-icons-round text-6xl text-amber-600">lightbulb</span>
+                <span className="material-icons-round text-6xl text-blue-600">psychology</span>
               </div>
               <div className="relative z-10">
-                <h3 className="text-amber-800 dark:text-amber-400 font-black text-sm uppercase tracking-wider mb-2 flex items-center gap-2">
-                  <span className="material-icons-round text-base">trending_up</span>
-                  Dica de Especialista
+                <h3 className="text-blue-800 dark:text-blue-400 font-black text-sm uppercase tracking-wider mb-2 flex items-center gap-2">
+                  <span className="material-icons-round text-base">emoji_events</span>
+                  Continue Praticando
                 </h3>
                 <p className="text-slate-700 dark:text-slate-300 font-bold leading-relaxed">
-                  Aumente a quantidade de acertos em <span className="text-secondary">até 20%</span> com resumos direto ao ponto. Estude de maneira inteligente: foque em absorver conteúdos estratégicos que são mais cobrados em provas de residência.
+                  A constância é a chave para a aprovação. Realize novos simulados periodicamente para fixar os conceitos e melhorar seu tempo de resposta.
                 </p>
               </div>
             </div>
 
             <div className="flex flex-col gap-3">
               <button 
-                onClick={onGoToSummaries}
-                className="w-full bg-secondary hover:bg-secondary-hover text-white py-5 rounded-2xl font-black text-lg shadow-glow-gold transition-all hover:-translate-y-1 active:scale-95 flex items-center justify-center gap-3 uppercase tracking-tighter"
-              >
-                <span className="material-icons-round">auto_stories</span>
-                Ver Resumos Premium
-              </button>
-              <button 
                 onClick={onFinish}
-                className="w-full bg-slate-100 dark:bg-slate-800 text-slate-500 dark:text-slate-400 py-4 rounded-2xl font-bold transition-all hover:bg-slate-200 dark:hover:bg-slate-700 active:scale-95"
+                className="w-full bg-primary hover:bg-primary-hover text-white py-5 rounded-2xl font-black text-lg shadow-glow transition-all hover:-translate-y-1 active:scale-95 flex items-center justify-center gap-3 uppercase tracking-tighter"
               >
+                <span className="material-icons-round">home</span>
                 Voltar ao Início
               </button>
             </div>
@@ -130,8 +118,8 @@ const QuizEngine: React.FC<QuizEngineProps> = ({ questions, onFinish, onGoToSumm
 
   return (
     <div className="min-h-screen bg-background-light dark:bg-background-dark flex flex-col font-display transition-colors duration-300">
-      {/* Mid-Quiz Offer Modal */}
-      {showMidQuizOffer && (
+      {/* Mid-Quiz Offer Modal OCULTO */}
+      {false && (
         <div className="fixed inset-0 z-[110] flex items-center justify-center p-4 bg-black/80 backdrop-blur-md animate-in fade-in duration-300">
           <div className="max-w-md w-full bg-white dark:bg-slate-900 rounded-[2.5rem] p-8 text-center shadow-2xl border border-amber-200/50 dark:border-amber-900/30 animate-in zoom-in-95 duration-300">
             <div className="size-20 bg-amber-100 dark:bg-amber-900/30 rounded-3xl flex items-center justify-center mx-auto mb-6">
@@ -144,12 +132,12 @@ const QuizEngine: React.FC<QuizEngineProps> = ({ questions, onFinish, onGoToSumm
             <div className="flex flex-col gap-4">
               <button 
                 onClick={() => {
-                  window.open('/summaries', '_blank'); // Abre em nova guia
+                  onGoToSummaries();
                   setShowMidQuizOffer(false);
                 }}
                 className="bg-amber-500 hover:bg-amber-600 text-white py-4 rounded-2xl font-black text-lg shadow-glow-gold transition-all uppercase tracking-tighter flex items-center justify-center gap-2"
               >
-                <span className="material-icons-round">open_in_new</span>
+                <span className="material-icons-round">auto_stories</span>
                 Ver Ebooks Premium
               </button>
               <button 
@@ -203,9 +191,14 @@ const QuizEngine: React.FC<QuizEngineProps> = ({ questions, onFinish, onGoToSumm
               {questions.map((_, i) => {
                 const hasAnswered = answers[i] !== null;
                 const isCorrect = answers[i] === questions[i].correctAnswer;
+                const isAnulada = questions[i].correctAnswer === null;
+                
                 let baseStyle = "w-full aspect-square rounded-xl text-xs font-black flex items-center justify-center transition-all border-2 ";
                 if (i === currentIndex) baseStyle += "border-primary bg-primary/5 text-primary scale-105 shadow-md";
-                else if (hasAnswered) baseStyle += isCorrect ? "bg-green-500 border-green-500 text-white shadow-lg" : "bg-red-500 border-red-500 text-white shadow-lg";
+                else if (hasAnswered) {
+                  if (isAnulada) baseStyle += "bg-slate-400 border-slate-400 text-white shadow-lg";
+                  else baseStyle += isCorrect ? "bg-green-500 border-green-500 text-white shadow-lg" : "bg-red-500 border-red-500 text-white shadow-lg";
+                }
                 else baseStyle += "bg-slate-50 dark:bg-slate-800 border-transparent text-slate-400 dark:text-slate-600";
 
                 return (
@@ -237,7 +230,7 @@ const QuizEngine: React.FC<QuizEngineProps> = ({ questions, onFinish, onGoToSumm
           <div className="bg-slate-50 dark:bg-slate-800/50 rounded-2xl p-4 border border-slate-100 dark:border-slate-700/50">
             <div className="flex items-center gap-2 text-secondary mb-4">
               <span className="material-icons-round text-lg">military_tech</span>
-              <span className="text-xs font-black uppercase tracking-wider">Notas de Corte ENARE</span>
+              <span className="text-xs font-black uppercase tracking-wider">Notas de Corte</span>
             </div>
             <div className="space-y-1">
               <div className="grid grid-cols-2 text-[9px] font-black text-slate-400 uppercase tracking-widest mb-2 px-1">
@@ -266,6 +259,11 @@ const QuizEngine: React.FC<QuizEngineProps> = ({ questions, onFinish, onGoToSumm
               <span className="bg-secondary/10 text-secondary-hover dark:text-secondary px-3 py-1 rounded-full text-[10px] font-black uppercase tracking-widest border border-secondary/20">
                 {currentQuestion.specialty}
               </span>
+              {currentQuestion.correctAnswer === null && (
+                <span className="bg-red-100 text-red-600 px-3 py-1 rounded-full text-[10px] font-black uppercase tracking-widest border border-red-200">
+                  ANULADA
+                </span>
+              )}
             </div>
 
             <h2 className="text-xl sm:text-2xl font-bold text-slate-900 dark:text-white leading-tight mb-8">
@@ -277,10 +275,15 @@ const QuizEngine: React.FC<QuizEngineProps> = ({ questions, onFinish, onGoToSumm
                 const isCorrectOption = i === currentQuestion.correctAnswer;
                 const isSelectedOption = i === answers[currentIndex];
                 let style = "border-slate-200 dark:border-slate-700 bg-surface-light dark:bg-surface-dark hover:border-primary/50";
+                
                 if (isAnswered) {
-                  if (isCorrectOption) style = "border-green-500 bg-green-50 dark:bg-green-900/20";
-                  else if (isSelectedOption) style = "border-red-500 bg-red-50 dark:bg-red-900/20";
-                  else style = "opacity-40 border-slate-100 dark:border-slate-800";
+                  if (currentQuestion.correctAnswer === null) {
+                    style = isSelectedOption ? "border-slate-400 bg-slate-50 dark:bg-slate-800" : "opacity-60 border-slate-100";
+                  } else {
+                    if (isCorrectOption) style = "border-green-500 bg-green-50 dark:bg-green-900/20";
+                    else if (isSelectedOption) style = "border-red-500 bg-red-50 dark:bg-red-900/20";
+                    else style = "opacity-40 border-slate-100 dark:border-slate-800";
+                  }
                 }
 
                 return (
@@ -294,7 +297,8 @@ const QuizEngine: React.FC<QuizEngineProps> = ({ questions, onFinish, onGoToSumm
               })}
             </div>
 
-            {showExplanation && (
+            {/* Explicação OCULTA conforme solicitado */}
+            {false && showExplanation && (
               <div className="bg-primary/5 dark:bg-primary/10 border-l-4 border-primary p-6 rounded-r-2xl mb-10 animate-in slide-in-from-top-4">
                 <div className="flex items-center gap-2 text-primary font-black uppercase text-[10px] mb-3 tracking-widest">Comentário</div>
                 <p className="text-slate-700 dark:text-slate-300 text-sm leading-relaxed font-medium">{currentQuestion.explanation}</p>

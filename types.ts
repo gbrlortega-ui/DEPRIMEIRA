@@ -1,4 +1,3 @@
-
 export type Specialty = 'Clinica' | 'Cirurgia' | 'Pediatria' | 'GO' | 'Preventiva';
 
 export interface Question {
@@ -26,4 +25,20 @@ export interface Testimonial {
   name: string;
   text: string;
   avatar: string;
+}
+
+export interface EbookSalesContent {
+  id: string;
+  title: string;
+  tagline: string;
+  icon: string;
+  topicsCount: number | string;
+  description: string;
+  syllabus: string[];
+  benefits: string[];
+  oldPrice: string;
+  newPrice: string;
+  discount: string;
+  hotmartLink?: string;
+  isAvailable: boolean;
 }
