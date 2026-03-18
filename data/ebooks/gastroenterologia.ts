@@ -101,8 +101,8 @@ export const gastroenterologiaData: EbookSalesContent = {
     '78 Temas com Foco em Questões USP e SUS-SP',
     'Design Premium Otimizado para Revisão Rápida'
   ],
-  oldPrice: '99,90',
-  newPrice: '69,90',
+  oldPrice: '59,90',
+  newPrice: '39,90',
   discount: '30% OFF',
   hotmartLink: 'https://pay.hotmart.com/J104056637M',
   isAvailable: true

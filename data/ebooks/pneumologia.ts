@@ -19,8 +19,8 @@ export const pneumologiaData: EbookSalesContent = {
     'Algoritmos de tratamento de asma',
     'Lançamento em breve'
   ],
-  oldPrice: '99,90',
-  newPrice: '69,90',
+  oldPrice: '59,90',
+  newPrice: '39,90',
   discount: '30% OFF',
   isAvailable: false
 };

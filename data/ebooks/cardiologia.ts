@@ -114,8 +114,8 @@ export const cardiologiaData: EbookSalesContent = {
     '89 Temas resumidos estrategicamente',
     'Design Premium otimizado para estudo mobile e desktop'
   ],
-  oldPrice: '99,90',
-  newPrice: '69,90',
+  oldPrice: '59,90',
+  newPrice: '39,90',
   discount: '30% OFF',
   hotmartLink: 'https://pay.hotmart.com/J103774720L',
   isAvailable: true

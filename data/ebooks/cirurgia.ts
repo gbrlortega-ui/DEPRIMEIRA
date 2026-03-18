@@ -106,8 +106,8 @@ export const cirurgiaData: EbookSalesContent = {
     '78 Temas Filtrados para as Bancas de SP',
     'Design Premium para Revisão Ágil'
   ],
-  oldPrice: '99,90',
-  newPrice: '69,90',
+  oldPrice: '59,90',
+  newPrice: '39,90',
   discount: '30% OFF',
   hotmartLink: 'https://pay.hotmart.com/X103849705O',
   isAvailable: true

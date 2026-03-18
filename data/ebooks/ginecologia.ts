@@ -80,8 +80,8 @@ export const ginecologiaData: EbookSalesContent = {
     '56 Temas Resumidos de Alto Impacto',
     'Design Otimizado para Revisão de GO'
   ],
-  oldPrice: '99,90',
-  newPrice: '69,90',
+  oldPrice: '59,90',
+  newPrice: '39,90',
   discount: '30% OFF',
   hotmartLink: 'https://pay.hotmart.com/H104094833I',
   isAvailable: true

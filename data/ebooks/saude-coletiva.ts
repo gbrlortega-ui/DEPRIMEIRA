@@ -19,8 +19,8 @@ export const saudeColetivaData: EbookSalesContent = {
     'Calculadora de Epidemiologia mental',
     'O material mais amado de SP'
   ],
-  oldPrice: '99,90',
-  newPrice: '69,90',
+  oldPrice: '59,90',
+  newPrice: '39,90',
   discount: '30% OFF',
   isAvailable: false
 };

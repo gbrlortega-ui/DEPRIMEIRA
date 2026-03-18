@@ -112,8 +112,8 @@ export const endocrinologiaData: EbookSalesContent = {
     'Algoritmos de Manejo de Emergências Endócrinas',
     'Resumos Diretos e Práticos sem Enrolação'
   ],
-  oldPrice: '99,90',
-  newPrice: '69,90',
+  oldPrice: '59,90',
+  newPrice: '39,90',
   discount: '30% OFF',
   hotmartLink: 'https://pay.hotmart.com/F103910167I',
   isAvailable: true

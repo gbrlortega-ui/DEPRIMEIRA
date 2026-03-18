@@ -10,6 +10,9 @@ const EbookSalesPage: React.FC<EbookSalesPageProps> = ({ content, onBack }) => {
   if (!content) return null;
 
   const handlePurchase = () => {
+    if (!content.isAvailable) {
+      return;
+    }
     if (content.hotmartLink) {
       window.open(content.hotmartLink, '_blank');
     } else {
@@ -103,9 +106,14 @@ const EbookSalesPage: React.FC<EbookSalesPageProps> = ({ content, onBack }) => {
               </div>
               <button 
                 onClick={handlePurchase}
-                className="w-full bg-primary hover:bg-primary-hover text-white py-5 rounded-2xl font-black text-lg shadow-glow transition-all hover:-translate-y-1 active:scale-95 flex items-center justify-center gap-3 uppercase tracking-tighter italic mb-4"
+                disabled={!content.isAvailable}
+                className={`w-full py-5 rounded-2xl font-black text-lg shadow-glow transition-all flex items-center justify-center gap-3 uppercase tracking-tighter italic mb-4 ${
+                  content.isAvailable 
+                    ? 'bg-primary hover:bg-primary-hover text-white hover:-translate-y-1 active:scale-95' 
+                    : 'bg-slate-200 text-slate-400 cursor-not-allowed'
+                }`}
               >
-                <span className="material-icons-round">shopping_cart</span>
+                <span className="material-icons-round">{content.isAvailable ? 'shopping_cart' : 'timer'}</span>
                 {content.isAvailable ? 'Garantir Acesso' : 'Em Breve'}
               </button>
               <p className="text-[10px] text-slate-400 font-bold uppercase tracking-widest flex items-center justify-center gap-1">
@@ -153,10 +161,15 @@ const EbookSalesPage: React.FC<EbookSalesPageProps> = ({ content, onBack }) => {
              <h2 className="text-3xl font-black text-slate-900 dark:text-white uppercase tracking-tighter italic">Sua vaga na residência começa com a base certa.</h2>
              <button 
                 onClick={handlePurchase}
-                className="inline-flex bg-slate-900 hover:bg-black text-white px-12 py-6 rounded-3xl font-black text-2xl shadow-2xl transition-all hover:-translate-y-1 active:scale-95 items-center justify-center gap-4 uppercase tracking-tighter italic"
+                disabled={!content.isAvailable}
+                className={`inline-flex px-12 py-6 rounded-3xl font-black text-2xl shadow-2xl transition-all items-center justify-center gap-4 uppercase tracking-tighter italic ${
+                  content.isAvailable 
+                    ? 'bg-slate-900 hover:bg-black text-white hover:-translate-y-1 active:scale-95' 
+                    : 'bg-slate-200 text-slate-400 cursor-not-allowed'
+                }`}
               >
-                <span className="material-icons-round text-3xl">local_fire_department</span>
-                Começar a Estudar Agora
+                <span className="material-icons-round text-3xl">{content.isAvailable ? 'local_fire_department' : 'timer'}</span>
+                {content.isAvailable ? 'Começar a Estudar Agora' : 'Em Breve'}
               </button>
            </div>
         </section>

@@ -19,8 +19,8 @@ export const kitCompletoData: EbookSalesContent = {
     'Plataforma Única de Estudos',
     'Melhor custo-benefício do Brasil'
   ],
-  oldPrice: '1799,90',
-  newPrice: '699,90',
+  oldPrice: '1078,90',
+  newPrice: '399,90',
   discount: '60% OFF',
   isAvailable: false
 };

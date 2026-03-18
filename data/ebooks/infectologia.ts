@@ -122,8 +122,8 @@ export const infectologiaData: EbookSalesContent = {
     'Protocolos de HIV e ISTs Atualizados',
     'Foco em Notificação Compulsória e Isolamento'
   ],
-  oldPrice: '99,90',
-  newPrice: '69,90',
+  oldPrice: '59,90',
+  newPrice: '39,90',
   discount: '30% OFF',
   hotmartLink: 'https://pay.hotmart.com/Q103775241W',
   isAvailable: true

@@ -1,14 +1,9 @@
 import React from 'react';
-import { SummaryModule } from '../types';
+import { ebooksSalesMap } from '../data/ebooks/index';
 
-const specialtyModules: SummaryModule[] = [
-  { id: '1', title: 'Módulos - Clínica Médica', description: 'Cardio, Nefro, Gastro e muito mais filtrado para as bancas de SP.', price: 0, oldPrice: 0, icon: 'medical_services', color: 'bg-red-500/10' },
-  { id: '2', title: 'Módulos - Pediatria', description: 'Puericultura, Neonatologia e Urgências Pediátricas essenciais.', price: 0, oldPrice: 0, icon: 'child_care', color: 'bg-blue-500/10' },
-  { id: '3', title: 'Módulos - Ginecologia e Obstetrícia', description: 'Obstetrícia e Ginecologia esquematizadas para provas reais.', price: 0, oldPrice: 0, icon: 'pregnant_woman', color: 'bg-pink-500/10' },
-  { id: '4', title: 'Módulos - Cirurgia', description: 'Trauma, Abdome Agudo e Cirurgia Geral direta ao ponto.', price: 0, oldPrice: 0, icon: 'content_cut', color: 'bg-green-500/10' },
-  { id: '5', title: 'Módulos - Saúde Coletiva', description: 'SUS, Epidemiologia e Ética Médica sem enrolação.', price: 0, oldPrice: 0, icon: 'poll', color: 'bg-purple-500/10' },
-  { id: '6', title: 'Combo COMPLETO 2025', description: 'Todos os ebooks de todas as especialidades em um único pacote promocional.', price: 0, oldPrice: 0, icon: 'auto_stories', color: 'bg-secondary/10' },
-];
+const availableEbooks = Object.values(ebooksSalesMap)
+  .filter(ebook => ebook.isAvailable && ebook.id !== '19')
+  .slice(0, 3);
 
 interface LandingPageProps {
   onStartQuiz: (amount: number) => void;
@@ -38,6 +33,13 @@ const LandingPage: React.FC<LandingPageProps> = ({ onStartQuiz, onViewSummaries 
           </div>
           
           <div className="flex items-center gap-4">
+            <button 
+              onClick={onViewSummaries}
+              className="flex items-center gap-1 text-slate-600 dark:text-slate-300 hover:text-primary font-bold transition-colors text-sm"
+            >
+              <span className="material-icons-round text-lg">auto_stories</span>
+              Ebooks
+            </button>
             <button 
               onClick={() => onStartQuiz(20)}
               className="bg-primary hover:bg-primary-hover text-white px-5 py-2 rounded-xl text-sm font-bold transition-all shadow-glow active:scale-95 whitespace-nowrap"
@@ -82,10 +84,9 @@ const LandingPage: React.FC<LandingPageProps> = ({ onStartQuiz, onViewSummaries 
                 Iniciar Simulado Grátis
               </button>
               
-              {/* Botão de Materiais Premium OCULTO */}
               <button 
                 onClick={onViewSummaries}
-                className="hidden bg-amber-500 hover:bg-amber-600 text-white px-8 py-5 rounded-2xl font-black transition-all flex items-center justify-center gap-3 shadow-glow-gold hover:-translate-y-1 active:scale-95 text-xl uppercase italic tracking-tighter"
+                className="bg-amber-500 hover:bg-amber-600 text-white px-8 py-5 rounded-2xl font-black transition-all flex items-center justify-center gap-3 shadow-glow-gold hover:-translate-y-1 active:scale-95 text-xl uppercase italic tracking-tighter"
               >
                 <span className="material-icons-round animate-bounce">auto_stories</span>
                 Quero Ver o Material Premium
@@ -145,8 +146,8 @@ const LandingPage: React.FC<LandingPageProps> = ({ onStartQuiz, onViewSummaries 
         </div>
       </div>
 
-      {/* Catalog Section OCULTA */}
-      <main className="hidden max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24" id="catalogo">
+      {/* Catalog Section */}
+      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24" id="catalogo">
         <div className="text-center mb-16 relative">
           <div className="absolute inset-x-0 -top-8 flex justify-center opacity-10">
             <span className="text-7xl font-black uppercase tracking-tighter text-primary">PREMIUM</span>
@@ -156,67 +157,35 @@ const LandingPage: React.FC<LandingPageProps> = ({ onStartQuiz, onViewSummaries 
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
-          {specialtyModules.map((m) => {
-            const isCombo = m.id === '6';
+          {availableEbooks.map((ebook) => {
             return (
               <div 
-                key={m.id} 
+                key={ebook.id} 
                 onClick={onViewSummaries}
-                className={`group cursor-pointer rounded-[1.75rem] p-6 border transition-all duration-500 flex flex-col justify-between h-[320px] relative overflow-hidden ${
-                  isCombo 
-                    ? 'bg-slate-900 dark:bg-primary border-transparent shadow-2xl scale-[1.02] lg:scale-[1.05] z-20' 
-                    : 'bg-surface-light dark:bg-surface-dark border-slate-100 dark:border-slate-800 shadow-soft hover:shadow-xl hover:-translate-y-2'
-                }`}
+                className="group cursor-pointer rounded-[1.75rem] p-6 border transition-all duration-500 flex flex-col justify-between h-[320px] relative overflow-hidden bg-surface-light dark:bg-surface-dark border-slate-100 dark:border-slate-800 shadow-soft hover:shadow-xl hover:-translate-y-2"
               >
-                {isCombo && (
-                  <>
-                    <div className="absolute top-0 right-0 bg-secondary text-white text-[10px] font-black px-4 py-1.5 rounded-bl-2xl z-30 uppercase shadow-lg">🔥 Recomendado</div>
-                    <div className="absolute -bottom-6 -right-6 text-white/5 transform rotate-12">
-                      <span className="material-icons-round text-[140px]">diamond</span>
-                    </div>
-                  </>
-                )}
-                
                 <div>
-                  <div className={`w-14 h-14 rounded-2xl flex items-center justify-center mb-6 transition-all duration-500 shadow-md ${
-                    isCombo 
-                      ? 'bg-white/20 group-hover:scale-110 group-hover:rotate-6' 
-                      : 'bg-primary/10 group-hover:bg-primary group-hover:scale-110 group-hover:-rotate-6'
-                  }`}>
-                    <span className={`material-icons-round text-2xl transition-all duration-500 ${
-                      isCombo ? 'text-white' : 'text-primary group-hover:text-white'
-                    }`}>{m.icon}</span>
+                  <div className="w-14 h-14 rounded-2xl flex items-center justify-center mb-6 transition-all duration-500 shadow-md bg-primary/10 group-hover:bg-primary group-hover:scale-110 group-hover:-rotate-6">
+                    <span className="material-icons-round text-2xl transition-all duration-500 text-primary group-hover:text-white">{ebook.icon}</span>
                   </div>
                   
-                  <h3 className={`text-lg font-black mb-3 leading-tight uppercase tracking-tight ${
-                    isCombo ? 'text-white' : 'text-slate-900 dark:text-white group-hover:text-primary'
-                  }`}>
-                    {m.title}
+                  <h3 className="text-lg font-black mb-3 leading-tight uppercase tracking-tight text-slate-900 dark:text-white group-hover:text-primary">
+                    {ebook.title}
                   </h3>
                   
-                  <p className={`text-sm mb-4 leading-relaxed font-medium line-clamp-3 ${
-                    isCombo ? 'text-blue-100/80' : 'text-slate-500 dark:text-slate-400'
-                  }`}>
-                    {m.description}
+                  <p className="text-sm mb-4 leading-relaxed font-medium line-clamp-3 text-slate-500 dark:text-slate-400">
+                    {ebook.tagline}
                   </p>
                 </div>
 
-                <div className={`mt-auto pt-4 border-t flex items-center justify-between ${
-                  isCombo ? 'border-white/10' : 'border-slate-100 dark:border-slate-800'
-                }`}>
+                <div className="mt-auto pt-4 border-t border-slate-100 dark:border-slate-800 flex items-center justify-between">
                   <div className="flex flex-col">
-                    <span className={`text-[9px] font-black uppercase tracking-widest mb-0.5 ${
-                      isCombo ? 'text-white/60' : 'text-slate-400'
-                    }`}>Status 2025</span>
-                    <span className={`text-base font-black uppercase italic ${
-                      isCombo ? 'text-secondary' : 'text-primary'
-                    }`}>Em Breve</span>
+                    <span className="text-[9px] font-black uppercase tracking-widest mb-0.5 text-slate-400">Status 2025</span>
+                    <span className="text-base font-black uppercase italic text-primary">Disponível</span>
                   </div>
                   
-                  <div className={`size-10 rounded-xl flex items-center justify-center transition-all ${
-                    isCombo ? 'bg-white text-primary' : 'bg-slate-900 text-white group-hover:bg-primary'
-                  }`}>
-                    <span className="material-icons-round text-sm">chevron_right</span>
+                  <div className="size-10 rounded-xl flex items-center justify-center transition-all bg-slate-900 text-white group-hover:bg-primary">
+                    <span className="material-icons-round text-sm">shopping_cart</span>
                   </div>
                 </div>
               </div>
@@ -236,8 +205,8 @@ const LandingPage: React.FC<LandingPageProps> = ({ onStartQuiz, onViewSummaries 
         </div>
       </main>
 
-      {/* Testimonials OCULTO */}
-      <section className="hidden bg-slate-50 dark:bg-slate-900/50 py-24 border-y border-slate-200 dark:border-slate-800" id="depoimentos">
+      {/* Testimonials */}
+      <section className="bg-slate-50 dark:bg-slate-900/50 py-24 border-y border-slate-200 dark:border-slate-800" id="depoimentos">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-20">
             <span className="bg-primary/10 text-primary px-4 py-1.5 rounded-full text-xs font-black uppercase tracking-widest mb-4 inline-block">Histórias de Sucesso</span>
@@ -306,6 +275,10 @@ const LandingPage: React.FC<LandingPageProps> = ({ onStartQuiz, onViewSummaries 
               <span className="font-black text-3xl uppercase tracking-tighter italic">DEPRIMEIRA!</span>
             </div>
             <p className="text-base max-w-sm mx-auto mt-4 font-medium">A plataforma estratégica definitiva para aprovação em Residência Médica em São Paulo.</p>
+            <div className="flex gap-6 mt-6">
+              <button onClick={onViewSummaries} className="hover:text-white transition-colors font-bold uppercase text-xs tracking-widest">Ebooks</button>
+              <button onClick={() => onStartQuiz(20)} className="hover:text-white transition-colors font-bold uppercase text-xs tracking-widest">Simulado</button>
+            </div>
           </div>
           
           <div className="text-center text-[11px] pt-12 border-t border-white/5 uppercase tracking-[0.3em] font-black opacity-30">

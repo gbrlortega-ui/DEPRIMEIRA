@@ -19,8 +19,8 @@ export const obstetriciaData: EbookSalesContent = {
     'Doses de urgência (Sulfato de Mg, etc)',
     'Protocolos USP e UNESP'
   ],
-  oldPrice: '99,90',
-  newPrice: '69,90',
+  oldPrice: '59,90',
+  newPrice: '39,90',
   discount: '30% OFF',
   isAvailable: false
 };

@@ -12,26 +12,27 @@ interface SummaryItem {
 }
 
 const ebooks: SummaryItem[] = [
-  { id: '1', title: 'Cardiologia', icon: 'favorite', topics: 89, oldPrice: '99,90', newPrice: '69,90', discount: '30% OFF', link: 'https://pay.hotmart.com/J103774720L' },
-  { id: '2', title: 'Cirurgia', icon: 'content_cut', topics: 78, oldPrice: '99,90', newPrice: '69,90', discount: '30% OFF', link: 'https://pay.hotmart.com/X103849705O' },
-  { id: '3', title: 'Dermatologia', icon: 'face', topics: 53, oldPrice: '99,90', newPrice: '69,90', discount: '30% OFF' },
-  { id: '4', title: 'Endocrinologia', icon: 'monitor_weight', topics: 87, oldPrice: '99,90', newPrice: '69,90', discount: '30% OFF', link: 'https://pay.hotmart.com/F103910167I' },
-  { id: '5', title: 'Gastroenterologia e Hepatologia', icon: 'restaurant_menu', topics: 78, oldPrice: '99,90', newPrice: '69,90', discount: '30% OFF', link: 'https://pay.hotmart.com/J104056637M' },
-  { id: '6', title: 'Ginecologia e Obstetricia', icon: 'female', topics: 56, oldPrice: '99,90', newPrice: '69,90', discount: '30% OFF', link: 'https://pay.hotmart.com/H104094833I' },
-  { id: '7', title: 'Hematologia', icon: 'bloodtype', topics: 62, oldPrice: '99,90', newPrice: '69,90', discount: '30% OFF' },
-  { id: '8', title: 'Imunologia', icon: 'biotech', topics: 65, oldPrice: '99,90', newPrice: '69,90', discount: '30% OFF' },
-  { id: '9', title: 'Infectologia', icon: 'coronavirus', topics: 92, oldPrice: '99,90', newPrice: '69,90', discount: '30% OFF', link: 'https://pay.hotmart.com/Q103775241W' },
-  { id: '10', title: 'Nefrologia', icon: 'water_drop', topics: 87, oldPrice: '99,90', newPrice: '69,90', discount: '30% OFF' },
-  { id: '11', title: 'Neurologia', icon: 'psychology', topics: 74, oldPrice: '99,90', newPrice: '69,90', discount: '30% OFF' },
-  { id: '12', title: 'Obstetricia', icon: 'pregnant_woman', topics: 54, oldPrice: '99,90', newPrice: '69,90', discount: '30% OFF' },
-  { id: '13', title: 'Oncologia', icon: 'medication_liquid', topics: 75, oldPrice: '99,90', newPrice: '69,90', discount: '30% OFF' },
-  { id: '14', title: 'Pediatria', icon: 'child_care', topics: 87, oldPrice: '99,90', newPrice: '69,90', discount: '30% OFF' },
-  { id: '15', title: 'Pneumologia', icon: 'air', topics: 87, oldPrice: '99,90', newPrice: '69,90', discount: '30% OFF' },
-  { id: '16', title: 'Reumatologia', icon: 'accessibility_new', topics: 51, oldPrice: '99,90', newPrice: '69,90', discount: '30% OFF' },
-  { id: '17', title: 'Saúde Coletiva', icon: 'poll', topics: 95, oldPrice: '99,90', newPrice: '69,90', discount: '30% OFF' },
-  { id: '18', title: 'Urologia', icon: 'water_damage', topics: 65, oldPrice: '99,90', newPrice: '69,90', discount: '30% OFF' },
-  { id: '19', title: 'KIT COMPLETO DEPRIMEIRA!', icon: 'diamond', topics: '1300+', oldPrice: '1799,90', newPrice: '699,90', discount: '60% OFF' },
-].sort((a, b) => {
+  { id: '1', title: 'Cardiologia', icon: 'favorite', topics: 89, oldPrice: '59,90', newPrice: '39,90', discount: '30% OFF', link: 'https://pay.hotmart.com/J103774720L' },
+  { id: '2', title: 'Cirurgia', icon: 'content_cut', topics: 78, oldPrice: '59,90', newPrice: '39,90', discount: '30% OFF', link: 'https://pay.hotmart.com/X103849705O' },
+  { id: '3', title: 'Dermatologia', icon: 'face', topics: 53, oldPrice: '59,90', newPrice: '39,90', discount: '30% OFF', link: 'https://pay.hotmart.com/B104113666T' },
+  { id: '4', title: 'Endocrinologia', icon: 'monitor_weight', topics: 87, oldPrice: '59,90', newPrice: '39,90', discount: '30% OFF', link: 'https://pay.hotmart.com/F103910167I' },
+  { id: '5', title: 'Gastroenterologia e Hepatologia', icon: 'restaurant_menu', topics: 78, oldPrice: '59,90', newPrice: '39,90', discount: '30% OFF', link: 'https://pay.hotmart.com/J104056637M' },
+  { id: '6', title: 'Ginecologia', icon: 'female', topics: 56, oldPrice: '59,90', newPrice: '39,90', discount: '30% OFF', link: 'https://pay.hotmart.com/H104094833I' },
+  { id: '7', title: 'Hematologia', icon: 'bloodtype', topics: 62, oldPrice: '59,90', newPrice: '39,90', discount: '30% OFF', link: 'https://pay.hotmart.com/L104180683A' },
+  { id: '8', title: 'Imunologia', icon: 'biotech', topics: 65, oldPrice: '59,90', newPrice: '39,90', discount: '30% OFF', link: 'https://pay.hotmart.com/N104252224G' },
+  { id: '9', title: 'Infectologia', icon: 'coronavirus', topics: 92, oldPrice: '59,90', newPrice: '39,90', discount: '30% OFF', link: 'https://pay.hotmart.com/Q103775241W' },
+  { id: '10', title: 'Nefrologia', icon: 'water_drop', topics: 87, oldPrice: '59,90', newPrice: '39,90', discount: '30% OFF' },
+  { id: '11', title: 'Neurologia', icon: 'psychology', topics: 74, oldPrice: '59,90', newPrice: '39,90', discount: '30% OFF' },
+  { id: '12', title: 'Obstetricia', icon: 'pregnant_woman', topics: 54, oldPrice: '59,90', newPrice: '39,90', discount: '30% OFF' },
+  { id: '13', title: 'Oncologia', icon: 'medication_liquid', topics: 75, oldPrice: '59,90', newPrice: '39,90', discount: '30% OFF' },
+  { id: '14', title: 'Pediatria', icon: 'child_care', topics: 87, oldPrice: '59,90', newPrice: '39,90', discount: '30% OFF' },
+  { id: '15', title: 'Pneumologia', icon: 'air', topics: 87, oldPrice: '59,90', newPrice: '39,90', discount: '30% OFF' },
+  { id: '16', title: 'Reumatologia', icon: 'accessibility_new', topics: 51, oldPrice: '59,90', newPrice: '39,90', discount: '30% OFF' },
+  { id: '17', title: 'Saúde Coletiva', icon: 'poll', topics: 95, oldPrice: '59,90', newPrice: '39,90', discount: '30% OFF' },
+  { id: '18', title: 'Urologia', icon: 'water_damage', topics: 65, oldPrice: '59,90', newPrice: '39,90', discount: '30% OFF' },
+  { id: '19', title: 'KIT COMPLETO DEPRIMEIRA!', icon: 'diamond', topics: '1300+', oldPrice: '1078,90', newPrice: '399,90', discount: '60% OFF' },
+];
+const sortedEbooks = [...ebooks].sort((a, b) => {
   if (a.id === '19') return -1;
   if (b.id === '19') return 1;
   return a.title.localeCompare(b.title);
@@ -47,7 +48,8 @@ const SummaryPage: React.FC<SummaryPageProps> = ({ onBack, onViewDetails }) => {
     if (link) {
       window.open(link, '_blank');
     } else {
-      alert('Este material estará disponível para compra em breve!');
+      // No action if it's "Em Breve"
+      return;
     }
   };
 
@@ -88,9 +90,17 @@ const SummaryPage: React.FC<SummaryPageProps> = ({ onBack, onViewDetails }) => {
                       <span className="material-icons-round">visibility</span>
                       Saiba Mais
                     </button>
-                    <button onClick={() => handlePurchase(kitCompleto.link)} className="bg-amber-500 hover:bg-amber-600 text-white px-8 py-4 rounded-2xl font-black text-lg shadow-glow-gold transition-all active:scale-95 flex items-center justify-center gap-2 uppercase tracking-tighter">
-                      <span className="material-icons-round">shopping_cart</span>
-                      Adquira Já
+                    <button 
+                      onClick={() => handlePurchase(kitCompleto.link)} 
+                      disabled={!kitCompleto.link}
+                      className={`px-8 py-4 rounded-2xl font-black text-lg transition-all active:scale-95 flex items-center justify-center gap-2 uppercase tracking-tighter ${
+                        kitCompleto.link 
+                          ? 'bg-amber-500 hover:bg-amber-600 text-white shadow-glow-gold' 
+                          : 'bg-slate-700 text-slate-400 cursor-not-allowed'
+                      }`}
+                    >
+                      <span className="material-icons-round">{kitCompleto.link ? 'shopping_cart' : 'timer'}</span>
+                      {kitCompleto.link ? 'Adquira Já' : 'Em Breve'}
                     </button>
                    </div>
                 </div>
@@ -100,7 +110,7 @@ const SummaryPage: React.FC<SummaryPageProps> = ({ onBack, onViewDetails }) => {
         )}
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-          {ebooks.filter(e => e.id !== '19').map((ebook) => (
+          {sortedEbooks.filter(e => e.id !== '19').map((ebook) => (
             <div key={ebook.id} className="bg-surface-light dark:bg-surface-dark border border-slate-100 dark:border-slate-800 rounded-3xl p-6 shadow-soft hover:shadow-xl transition-all duration-300 group flex flex-col justify-between">
               <div>
                 <div className="flex justify-between items-start mb-6">
@@ -127,9 +137,17 @@ const SummaryPage: React.FC<SummaryPageProps> = ({ onBack, onViewDetails }) => {
                     <span className="material-icons-round text-sm">visibility</span>
                     Saiba Mais
                   </button>
-                  <button onClick={() => handlePurchase(ebook.link)} className="w-full bg-primary hover:bg-primary-hover text-white py-3 rounded-xl font-black text-[10px] uppercase tracking-widest transition-all shadow-glow flex items-center justify-center gap-1.5">
-                    <span className="material-icons-round text-sm">shopping_cart</span>
-                    Adquira Já
+                  <button 
+                    onClick={() => handlePurchase(ebook.link)} 
+                    disabled={!ebook.link}
+                    className={`w-full py-3 rounded-xl font-black text-[10px] uppercase tracking-widest transition-all flex items-center justify-center gap-1.5 ${
+                      ebook.link 
+                        ? 'bg-primary hover:bg-primary-hover text-white shadow-glow' 
+                        : 'bg-slate-200 dark:bg-slate-800 text-slate-400 cursor-not-allowed'
+                    }`}
+                  >
+                    <span className="material-icons-round text-sm">{ebook.link ? 'shopping_cart' : 'timer'}</span>
+                    {ebook.link ? 'Adquira Já' : 'Em Breve'}
                   </button>
                 </div>
               </div>

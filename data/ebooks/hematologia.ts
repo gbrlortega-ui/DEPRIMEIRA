@@ -19,8 +19,9 @@ export const hematologiaData: EbookSalesContent = {
     'Critérios diagnósticos atualizados',
     'Foco total em questões de prova'
   ],
-  oldPrice: '99,90',
-  newPrice: '69,90',
+  oldPrice: '59,90',
+  newPrice: '39,90',
   discount: '30% OFF',
-  isAvailable: false
+  hotmartLink: 'https://pay.hotmart.com/L104180683A',
+  isAvailable: true
 };

@@ -19,8 +19,8 @@ export const urologiaData: EbookSalesContent = {
     'Protocolos de Screening de PSA',
     'Lançamento 2025'
   ],
-  oldPrice: '99,90',
-  newPrice: '69,90',
+  oldPrice: '59,90',
+  newPrice: '39,90',
   discount: '30% OFF',
   isAvailable: false
 };
